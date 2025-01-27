@@ -67,6 +67,7 @@
             ./patches/0001-Build-offline.patch
             ./patches/0002-Fix-shebangs.patch
             ./patches/0003-Build-fat-client-zip.patch
+            ./patches/0004-Exclude-Ears-and-Speedometer-from-server-pack.patch
           ];
 
           nativeBuildInputs = [nodejs zip];

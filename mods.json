@@ -1029,6 +1029,98 @@
     ]
   },
   {
+    "id": 6040434,
+    "gameId": 432,
+    "modId": 228702,
+    "isAvailable": true,
+    "displayName": "ProjectRed-1.20.1-4.20.0-core.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.0-core.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "5d511b15b3b10b0488661c68621db8a8bf780fea",
+        "algo": 1
+      },
+      {
+        "value": "36569f916762caca92caf085b56c8a4e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-12-31T18:28:55.84Z",
+    "fileLength": 806753,
+    "downloadCount": 19964,
+    "fileSizeOnDisk": 1661380,
+    "downloadUrl": "https://edge.forgecdn.net/files/6040/434/ProjectRed-1.20.1-4.20.0-core.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [
+      {
+        "modId": 242818,
+        "relationType": 3
+      },
+      {
+        "modId": 258426,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 631552572,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2961257136
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 880820089
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1161596206
+      },
+      {
+        "name": "data",
+        "fingerprint": 3180490785
+      },
+      {
+        "name": "mrtjp",
+        "fingerprint": 738493048
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 922645171
+      }
+    ]
+  },
+  {
     "id": 6000481,
     "gameId": 432,
     "modId": 229060,
@@ -2134,6 +2226,109 @@
     ]
   },
   {
+    "id": 5753868,
+    "gameId": 432,
+    "modId": 242818,
+    "isAvailable": true,
+    "displayName": "CodeChicken Lib 1.20.1-4.4.0.516",
+    "fileName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "f9b90ff58442b5967366fd90d24980a34540518d",
+        "algo": 1
+      },
+      {
+        "value": "5c2f4b34587c6596d1d50e5bf76ee448",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-09-25T01:36:02.507Z",
+    "fileLength": 1472390,
+    "downloadCount": 3521,
+    "fileSizeOnDisk": 3200860,
+    "downloadUrl": "https://edge.forgecdn.net/files/5753/868/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1091903728,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3130172409
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 3284994287
+      },
+      {
+        "name": "LICENSE",
+        "fingerprint": 2989649023
+      },
+      {
+        "name": "LICENSE.txt",
+        "fingerprint": 3678254399
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1954050926
+      },
+      {
+        "name": "codechicken",
+        "fingerprint": 711825559
+      },
+      {
+        "name": "data",
+        "fingerprint": 2872171214
+      },
+      {
+        "name": "mixins.codechickenlib.json",
+        "fingerprint": 3509414944
+      },
+      {
+        "name": "mixins.codechickenlib.refmap.json",
+        "fingerprint": 1623559565
+      },
+      {
+        "name": "net",
+        "fingerprint": 3007888273
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 427284745
+      }
+    ]
+  },
+  {
     "id": 5594847,
     "gameId": 432,
     "modId": 243121,
@@ -3231,6 +3426,101 @@
       {
         "name": "team",
         "fingerprint": 269533836
+      }
+    ]
+  },
+  {
+    "id": 5311521,
+    "gameId": 432,
+    "modId": 258426,
+    "isAvailable": true,
+    "displayName": "CB Multipart 1.20.1-3.3.0.146",
+    "fileName": "CBMultipart-1.20.1-3.3.0.146-universal.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "7eb4d3f7b9dc4b65cffd848f2949eb5d468dfc32",
+        "algo": 1
+      },
+      {
+        "value": "78e6e9d096945a6d6b803b872695541e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-05-03T01:27:44.357Z",
+    "fileLength": 527480,
+    "downloadCount": 1031611,
+    "downloadUrl": "https://edge.forgecdn.net/files/5311/521/CBMultipart-1.20.1-3.3.0.146-universal.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [
+      {
+        "modId": 242818,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 442261355,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 412174323
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 2270105595
+      },
+      {
+        "name": "assets",
+        "fingerprint": 699118931
+      },
+      {
+        "name": "codechicken",
+        "fingerprint": 583699089
+      },
+      {
+        "name": "data",
+        "fingerprint": 3073821734
+      },
+      {
+        "name": "mixins.cbmultipart.json",
+        "fingerprint": 1441794028
+      },
+      {
+        "name": "mixins.cbmultipart.refmap.json",
+        "fingerprint": 1030519297
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1855346333
       }
     ]
   },
@@ -5941,6 +6231,105 @@
     ]
   },
   {
+    "id": 5838779,
+    "gameId": 432,
+    "modId": 328085,
+    "isAvailable": true,
+    "displayName": "Create 1.20.1 0.5.1j",
+    "fileName": "create-1.20.1-0.5.1.j.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7",
+        "algo": 1
+      },
+      {
+        "value": "db945b2441efa1a136d3f86126a6f813",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-10-23T20:14:49.66Z",
+    "fileLength": 15583566,
+    "downloadCount": 23583,
+    "fileSizeOnDisk": 33255375,
+    "downloadUrl": "https://edge.forgecdn.net/files/5838/779/create-1.20.1-0.5.1.j.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 967226773,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 37074875
+      },
+      {
+        "name": "LICENSE_create-1.20.1",
+        "fingerprint": 1927476733
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1713239858
+      },
+      {
+        "name": "com",
+        "fingerprint": 606984560
+      },
+      {
+        "name": "create.mixins.json",
+        "fingerprint": 2525708098
+      },
+      {
+        "name": "create.refmap.json",
+        "fingerprint": 3460852135
+      },
+      {
+        "name": "data",
+        "fingerprint": 1830488128
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 1060038228
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2188070675
+      },
+      {
+        "name": "resourcepacks",
+        "fingerprint": 1049399074
+      }
+    ]
+  },
+  {
     "id": 4964550,
     "gameId": 432,
     "modId": 334853,
@@ -7979,6 +8368,96 @@
     ]
   },
   {
+    "id": 4452800,
+    "gameId": 432,
+    "modId": 412013,
+    "isAvailable": true,
+    "displayName": "[FORGE 1.19.4/20] Ears v1.4.6",
+    "fileName": "ears-forge-1.19.4-1.4.6.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "4080f9e4e6e2091d3bc1712370ab77d940615e6a",
+        "algo": 1
+      },
+      {
+        "value": "af5d9bcc6f33f861d5bc8a78a2de4d27",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-03-23T04:11:50.533Z",
+    "fileLength": 159534,
+    "downloadCount": 55675,
+    "downloadUrl": "https://edge.forgecdn.net/files/4452/800/ears-forge-1.19.4-1.4.6.jar",
+    "gameVersions": [
+      "1.19.4",
+      "1.20.1",
+      "Forge",
+      "1.20"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.19.4",
+        "gameVersionPadded": "0000000001.0000000019.0000000004",
+        "gameVersion": "1.19.4",
+        "gameVersionReleaseDate": "2023-03-09T00:00:00Z",
+        "gameVersionTypeId": 73407
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20",
+        "gameVersionPadded": "0000000001.0000000020",
+        "gameVersion": "1.20",
+        "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+        "gameVersionTypeId": 75125
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3256646768,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1062239386
+      },
+      {
+        "name": "com",
+        "fingerprint": 3314941875
+      },
+      {
+        "name": "ears-icon.png",
+        "fingerprint": 2505850761
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1584773576
+      },
+      {
+        "name": "ears.mixins.json",
+        "fingerprint": 1587436346
+      },
+      {
+        "name": "ears.refmap.json",
+        "fingerprint": 877629126
+      }
+    ]
+  },
+  {
     "id": 5655836,
     "gameId": 432,
     "modId": 416294,
@@ -9788,6 +10267,102 @@
     ]
   },
   {
+    "id": 6040440,
+    "gameId": 432,
+    "modId": 478939,
+    "isAvailable": true,
+    "displayName": "ProjectRed-1.20.1-4.20.0-transmission.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.0-transmission.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "faa51ff916d5337582c1bb94944605aba548f27c",
+        "algo": 1
+      },
+      {
+        "value": "33bf4e2122688623a5182bc3066f5bbd",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-12-31T18:29:03.41Z",
+    "fileLength": 461403,
+    "downloadCount": 18420,
+    "fileSizeOnDisk": 569437,
+    "downloadUrl": "https://edge.forgecdn.net/files/6040/440/ProjectRed-1.20.1-4.20.0-transmission.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [
+      {
+        "modId": 242818,
+        "relationType": 3
+      },
+      {
+        "modId": 228702,
+        "relationType": 3
+      },
+      {
+        "modId": 258426,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2875484945,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 892351726
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 366784370
+      },
+      {
+        "name": "assets",
+        "fingerprint": 632554990
+      },
+      {
+        "name": "data",
+        "fingerprint": 2723671667
+      },
+      {
+        "name": "mrtjp",
+        "fingerprint": 3301284587
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2603127198
+      }
+    ]
+  },
+  {
     "id": 5259004,
     "gameId": 432,
     "modId": 482265,
@@ -10072,6 +10647,96 @@
       {
         "name": "puzzleslib.refmap.json",
         "fingerprint": 3110408666
+      }
+    ]
+  },
+  {
+    "id": 5293982,
+    "gameId": 432,
+    "modId": 509285,
+    "isAvailable": true,
+    "displayName": "createdeco-2.0.2-1.20.1-forge.jar",
+    "fileName": "createdeco-2.0.2-1.20.1-forge.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "606650f31ca0a5eb64d4bbb8fbaecf357a3bdb43",
+        "algo": 1
+      },
+      {
+        "value": "9c86ef2ebb60aa617ac92c3ae1d3c545",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-04-26T21:12:12.26Z",
+    "fileLength": 3966138,
+    "downloadCount": 3376834,
+    "downloadUrl": "https://edge.forgecdn.net/files/5293/982/createdeco-2.0.2-1.20.1-forge.jar",
+    "gameVersions": [
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2619900862,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1794445822
+      },
+      {
+        "name": "data",
+        "fingerprint": 3367210548
+      },
+      {
+        "name": "createdeco-common.mixins.json",
+        "fingerprint": 2497645559
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2051802953
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 452882080
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2665174862
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 3835298504
+      },
+      {
+        "name": "createdeco.mixins.json",
+        "fingerprint": 1404716487
+      },
+      {
+        "name": "com",
+        "fingerprint": 3624684527
+      },
+      {
+        "name": "architectury_inject_createdeco_common_7ce755e8f5604eb09a0373bb284e0b53_9b7c52a16e4c5d19d2b1989519e6f5d163554d9bc69efbfa4ca25a466dd604e3createdeco2021201commondevjar",
+        "fingerprint": 1674690629
       }
     ]
   },
@@ -14371,6 +15036,118 @@
     ]
   },
   {
+    "id": 5840017,
+    "gameId": 432,
+    "modId": 688231,
+    "isAvailable": true,
+    "displayName": "Steam 'n' Rails 1.6.7 Forge 1.20.1",
+    "fileName": "Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "7449e9cbaae6a23a31127a3cf0886899c28639dc",
+        "algo": 1
+      },
+      {
+        "value": "32a83dba6630165e1415f9e78d4aaf2e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-10-23T21:20:27.887Z",
+    "fileLength": 9997801,
+    "downloadCount": 10523,
+    "fileSizeOnDisk": 18200720,
+    "downloadUrl": "https://edge.forgecdn.net/files/5840/17/Steam_Rails-1.6.7%2bforge-mc1.20.1.jar",
+    "gameVersions": [
+      "NeoForge",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [
+      {
+        "modId": 328085,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3897288819,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2986379204
+      },
+      {
+        "name": "LICENSE",
+        "fingerprint": 1136524626
+      },
+      {
+        "name": "Steam_Rails-common-refmap.json",
+        "fingerprint": 2641265574
+      },
+      {
+        "name": "Steam_Rails-forge-refmap.json",
+        "fingerprint": 850889734
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2294959676
+      },
+      {
+        "name": "com",
+        "fingerprint": 2225950212
+      },
+      {
+        "name": "data",
+        "fingerprint": 2574583222
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 3092930470
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 435948965
+      },
+      {
+        "name": "railways-common.mixins.json",
+        "fingerprint": 1877415294
+      },
+      {
+        "name": "railways.mixins.json",
+        "fingerprint": 2475342756
+      },
+      {
+        "name": "resourcepacks",
+        "fingerprint": 2116009822
+      }
+    ]
+  },
+  {
     "id": 5689932,
     "gameId": 432,
     "modId": 688367,
@@ -15720,6 +16497,76 @@
       {
         "name": "pack.mcmeta",
         "fingerprint": 3718590757
+      }
+    ]
+  },
+  {
+    "id": 4694780,
+    "gameId": 432,
+    "modId": 854813,
+    "isAvailable": true,
+    "displayName": "giacomos_speedometer-1.20.1-1.0.6.jar",
+    "fileName": "giacomos_speedometer-1.20.1-1.0.6.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "9aca741e1e20f1dc2b12daabd270d41232d6e3ec",
+        "algo": 1
+      },
+      {
+        "value": "247a72285ebe4e84608ddbabab26ca52",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-08-11T06:58:40.687Z",
+    "fileLength": 21857,
+    "downloadCount": 4150,
+    "downloadUrl": "https://edge.forgecdn.net/files/4694/780/giacomos_speedometer-1.20.1-1.0.6.jar",
+    "gameVersions": [
+      "Client",
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "Client",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+        "gameVersionTypeId": 75208
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2769009678,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1024556278
+      },
+      {
+        "name": "com",
+        "fingerprint": 3927983357
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2104144382
       }
     ]
   },
@@ -19926,6 +20773,93 @@
     ]
   },
   {
+    "id": 6069384,
+    "gameId": 432,
+    "modId": 1028108,
+    "isAvailable": true,
+    "displayName": "tacz-1.20.1-1.1.4-hotfix-release.jar",
+    "fileName": "tacz-1.20.1-1.1.4-hotfix-all.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "2d6680433e2782082a3dd6f2c7cff1e8f5d4c645",
+        "algo": 1
+      },
+      {
+        "value": "988148c4bf2235926a5c25d9cf24273c",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-01-09T15:40:10.49Z",
+    "fileLength": 39318868,
+    "downloadCount": 17559,
+    "fileSizeOnDisk": 58203010,
+    "downloadUrl": "https://edge.forgecdn.net/files/6069/384/tacz-1.20.1-1.1.4-hotfix-all.jar",
+    "gameVersions": [
+      "1.20.1",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 6069403,
+    "isServerPack": false,
+    "fileFingerprint": 580971685,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3942180721
+      },
+      {
+        "name": "com",
+        "fingerprint": 2023471484
+      },
+      {
+        "name": "assets",
+        "fingerprint": 444369534
+      },
+      {
+        "name": "data",
+        "fingerprint": 3942719570
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 3589858870
+      },
+      {
+        "name": "logo.png",
+        "fingerprint": 1502107950
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1419643524
+      },
+      {
+        "name": "tacz.mixins.json",
+        "fingerprint": 4203889589
+      },
+      {
+        "name": "tacz.refmap.json",
+        "fingerprint": 1076436358
+      }
+    ]
+  },
+  {
     "id": 5387025,
     "gameId": 432,
     "modId": 1028187,
@@ -20480,6 +21414,97 @@
       {
         "name": "pack.mcmeta",
         "fingerprint": 3304180014
+      }
+    ]
+  },
+  {
+    "id": 5825064,
+    "gameId": 432,
+    "modId": 1100654,
+    "isAvailable": true,
+    "displayName": "Squake Reforged 1.1",
+    "fileName": "squakereforged-1.1.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "c51e58dbe7095baa3dad4c9338acb1a470afa3d9",
+        "algo": 1
+      },
+      {
+        "value": "0a76a2cb1ae4ae89a30633ff191c34f2",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-10-19T16:35:47.413Z",
+    "fileLength": 31839,
+    "downloadCount": 22,
+    "fileSizeOnDisk": 58629,
+    "downloadUrl": "https://edge.forgecdn.net/files/5825/64/squakereforged-1.1.jar",
+    "gameVersions": [
+      "Client",
+      "1.20.1",
+      "Forge",
+      "Server"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "Client",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+        "gameVersionTypeId": 75208
+      },
+      {
+        "gameVersionName": "1.20.1",
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionTypeId": 75125
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "Server",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+        "gameVersionTypeId": 75208
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3730908268,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1829368179
+      },
+      {
+        "name": "assets",
+        "fingerprint": 270156274
+      },
+      {
+        "name": "derp",
+        "fingerprint": 71948947
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2344179865
+      },
+      {
+        "name": "squakereforged.mixins.json",
+        "fingerprint": 1201207141
+      },
+      {
+        "name": "squakereforged.refmap.json",
+        "fingerprint": 955749115
       }
     ]
   },

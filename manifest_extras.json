@@ -1,0 +1,73 @@
+{
+  "comment": "This file isn't intended to be parsed by tools other than ./lock_mods.sh",
+  "files": [
+    {
+      "description": "Create",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/create",
+      "fileID": 5838779,
+      "projectID": 328085
+    },
+    {
+      "description": "Create Deco",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/create-deco",
+      "fileID": 5293982,
+      "projectID": 509285
+    },
+    {
+      "description": "Create: Steam 'n' Rails",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails",
+      "fileID": 5840017,
+      "projectID": 688231
+    },
+
+    {
+      "description": "Project Red - Core",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/project-red-core",
+      "fileID": 6040434,
+      "projectID": 228702
+    },
+    {
+      "description": "Project Red - Transmission",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/project-red-transmission",
+      "fileID": 6040440,
+      "projectID": 478939
+    },
+    {
+      "description": "CodeChicken Lib",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8",
+      "fileID": 5753868,
+      "projectID": 242818
+    },
+    {
+      "description": "CB Multipart",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/cb-multipart",
+      "fileID": 5311521,
+      "projectID": 258426
+    },
+
+    {
+      "description": "Ears",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/ears",
+      "fileID": 4452800,
+      "projectID": 412013
+    },
+    {
+      "description": "Speedometer and more",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/speedometer-and-more",
+      "fileID": 4694780,
+      "projectID": 854813
+    },
+    {
+      "description": "Squake Reforged",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/squake-reforged",
+      "fileID": 5825064,
+      "projectID": 1100654
+    },
+    {
+      "description": "[TaCZ] Timeless and Classics Zero",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+      "fileID": 6069384,
+      "projectID": 1028108
+    }
+  ]
+}

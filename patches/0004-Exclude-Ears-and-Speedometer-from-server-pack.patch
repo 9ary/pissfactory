@@ -1,0 +1,25 @@
+From 52719d6801a4252a34fcf48c597f6ab55c79bd8a Mon Sep 17 00:00:00 2001
+From: novenary <novenary@kwak.zip>
+Date: Mon, 27 Jan 2025 23:02:40 +0200
+Subject: [PATCH 4/4] Exclude Ears and Speedometer from server pack
+
+---
+ tools/build/build.js | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/tools/build/build.js b/tools/build/build.js
+index afed5ef7..ac8d74bf 100755
+--- a/tools/build/build.js
++++ b/tools/build/build.js
+@@ -289,6 +289,8 @@ export const BuildServerTarget = new Juke.Target({
+         && !fillet.includes('embeddiumplus')
+         && !fillet.includes('citresewn')
+         && !fillet.includes('legendarytooltips')
++        && !fillet.includes('ears')
++        && !fillet.includes('speedometer')
+         && fillet.includes('.jar')
+       )
+     })
+-- 
+2.47.1
+
