@@ -79,6 +79,7 @@
               cp -r '${./overlay}/.' .
               mkdir -p dist/modcache
               cp -r --preserve=links '${packages.modcache}/.' dist/modcache
+              rm config-overrides/*/difficultylock.json5
             ''
             + (lib.optionalString (side == "server") ''
               rm dist/modcache/{ears-forge-*.jar,giacomos_speedometer-*.jar}
