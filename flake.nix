@@ -40,5 +40,15 @@
           };
         }) {};
     });
+
+    packages = forAllSystems ({pkgs, ...}: {
+      modcache = pkgs.linkFarmFromDrvs "modcache" (
+        builtins.map (mod:
+          pkgs.fetchurl {
+            url = mod.downloadUrl;
+            sha1 = (builtins.elemAt (builtins.filter (v: v.algo == 1) mod.hashes) 0).value;
+          }) (builtins.fromJSON (builtins.readFile ./mods.json))
+      );
+    });
   };
 }
