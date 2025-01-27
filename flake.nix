@@ -55,13 +55,15 @@
           }) (builtins.fromJSON (builtins.readFile ./mods.json))
       );
 
-      modpack = pkgs.callPackage ({
+      client = pkgs.callPackage ({
+        side ? "client",
         stdenvNoCC,
         nodejs,
         zip,
+        unzip,
       }:
         stdenvNoCC.mkDerivation (finalAttrs: {
-          name = "Monifactory";
+          name = "Monifactory-${side}";
           src = inputs.monifactory;
           patches = [
             ./patches/0001-Build-offline.patch
@@ -70,30 +72,34 @@
             ./patches/0004-Exclude-Ears-and-Speedometer-from-server-pack.patch
           ];
 
-          nativeBuildInputs = [nodejs zip];
+          nativeBuildInputs = [nodejs zip unzip];
 
           postPatch = ''
-            mkdir -p dist
             patchShebangs --build tools
             cp -r '${./overlay}/.' .
-            ln -s '${packages.modcache}' dist/modcache
+            mkdir -p dist/modcache
+            cp -r --preserve=links '${packages.modcache}/.' dist/modcache
           '';
           dontConfigure = true;
           buildPhase = ''
             runHook preBuild
             (
               cd tools/build
-              node build.js -c build-all
+              node build.js -c build-${side}
             )
             runHook postBuild
           '';
           installPhase = ''
             runHook preInstall
             mkdir -p "$out"
-            cp dist/{client,server}.zip "$out"
+            unzip dist/${side}.zip -d "$out"
             runHook postInstall
           '';
         })) {};
+
+      server = packages.client.override {side = "server";};
+
+      default = pkgs.linkFarmFromDrvs "Monifactory" [packages.client packages.server];
     });
   };
 }
