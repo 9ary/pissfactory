@@ -57,13 +57,14 @@
 
       client = pkgs.callPackage ({
         side ? "client",
+        difficulty ? "normal",
         stdenvNoCC,
         nodejs,
         zip,
         unzip,
       }:
         stdenvNoCC.mkDerivation (finalAttrs: {
-          name = "Monifactory-${side}";
+          name = "Monifactory-${side}-${difficulty}";
           src = inputs.monifactory;
 
           nativeBuildInputs = [nodejs zip unzip];
@@ -74,7 +75,7 @@
 
           postPatch =
             ''
-              patchShebangs --build tools
+              patchShebangs --build .
               cp -r '${./overlay}/.' .
               mkdir -p dist/modcache
               cp -r --preserve=links '${packages.modcache}/.' dist/modcache
@@ -101,13 +102,26 @@
               cp -Lr dist/modcache/. "$out/overrides/mods"
             '')
             + ''
+              (
+                srcroot=$PWD
+                cd "$out/overrides"
+                "$srcroot/pack-mode-switcher.sh" ${difficulty}
+              )
               runHook postInstall
             '';
         })) {};
-
       server = packages.client.override {side = "server";};
+      both = pkgs.linkFarmFromDrvs "Monifactory" [packages.client packages.server];
 
-      default = pkgs.linkFarmFromDrvs "Monifactory" [packages.client packages.server];
+      client-hardmode = packages.client.override {difficulty = "hardmode";};
+      server-hardmode = packages.server.override {difficulty = "hardmode";};
+      both-hardmode = pkgs.linkFarmFromDrvs "Monifactory-hardmode" [packages.client-hardmode packages.server-hardmode];
+
+      client-expert = packages.client.override {difficulty = "expert";};
+      server-expert = packages.server.override {difficulty = "expert";};
+      both-expert = pkgs.linkFarmFromDrvs "Monifactory-expert" [packages.client-expert packages.server-expert];
+
+      default = packages.both-hardmode;
     });
   };
 }
