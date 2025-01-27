@@ -17,6 +17,7 @@
         fn rec {
           inherit system;
           pkgs = inputs.nixpkgs.legacyPackages.${system};
+          packages = inputs.self.packages.${system};
         });
     systems = lib.systems.flakeExposed;
   in {
@@ -41,7 +42,11 @@
         }) {};
     });
 
-    packages = forAllSystems ({pkgs, ...}: {
+    packages = forAllSystems ({
+      pkgs,
+      packages,
+      ...
+    }: {
       modcache = pkgs.linkFarmFromDrvs "modcache" (
         builtins.map (mod:
           pkgs.fetchurl {
@@ -49,6 +54,43 @@
             sha1 = (builtins.elemAt (builtins.filter (v: v.algo == 1) mod.hashes) 0).value;
           }) (builtins.fromJSON (builtins.readFile ./mods.json))
       );
+
+      modpack = pkgs.callPackage ({
+        stdenvNoCC,
+        nodejs,
+        zip,
+      }:
+        stdenvNoCC.mkDerivation (finalAttrs: {
+          name = "Monifactory";
+          src = inputs.monifactory;
+          patches = [
+            ./patches/0001-Build-offline.patch
+            ./patches/0002-Fix-shebangs.patch
+          ];
+
+          nativeBuildInputs = [nodejs zip];
+
+          postPatch = ''
+            mkdir -p dist
+            patchShebangs --build tools
+            ln -s '${packages.modcache}' dist/modcache
+          '';
+          dontConfigure = true;
+          buildPhase = ''
+            runHook preBuild
+            (
+              cd tools/build
+              node build.js -c build-all
+            )
+            runHook postBuild
+          '';
+          installPhase = ''
+            runHook preInstall
+            mkdir -p "$out"
+            cp dist/{client,server}.zip "$out"
+            runHook postInstall
+          '';
+        })) {};
     });
   };
 }
