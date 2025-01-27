@@ -66,6 +66,7 @@
           patches = [
             ./patches/0001-Build-offline.patch
             ./patches/0002-Fix-shebangs.patch
+            ./patches/0003-Build-fat-client-zip.patch
           ];
 
           nativeBuildInputs = [nodejs zip];
@@ -73,6 +74,8 @@
           postPatch = ''
             mkdir -p dist
             patchShebangs --build tools
+            # Stub manifest for fat pack zip
+            cp '${./patches/manifest.json}' manifest.json
             ln -s '${packages.modcache}' dist/modcache
           '';
           dontConfigure = true;

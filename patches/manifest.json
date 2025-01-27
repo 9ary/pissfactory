@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.3.7",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "pissfactory",
+  "version": "rolling",
+  "author": "kwakkers",
+  "overrides": "overrides",
+  "files": []
+}
