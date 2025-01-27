@@ -75,8 +75,7 @@
           postPatch = ''
             mkdir -p dist
             patchShebangs --build tools
-            # Stub manifest for fat pack zip
-            cp '${./patches/manifest.json}' manifest.json
+            cp -r '${./overlay}/.' .
             ln -s '${packages.modcache}' dist/modcache
           '';
           dontConfigure = true;

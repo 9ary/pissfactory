@@ -1,0 +1,43 @@
+#This int value specifies the units of measure to use: 0=m/s, 1=km/h, 2=mph
+measurement_units = 0
+#This int value specifies the time format: 0=h24 (21:01), 1=h12 (09:01 PM)
+time_format = 0
+#If true the local date and time will be displayed.
+local_datetime_visible = false
+#If true the biome will be displayed.
+biome_visible = false
+#If true the position will be displayed.
+position_visible = false
+#If true the day-time will be displayed.
+time_visible = false
+#If true the speed will be displayed.
+speed_visible = true
+#If this is true and speed is visible the horizontal speed will be displayed.
+horizontal_speed_visible = true
+#If this is true and speed is visible the vertical speed will be displayed.
+vertical_speed_visible = true
+#If this is true and speed is visible the efficiency speed will be displayed: That is horizontal speed / vertical speed.
+efficiency_speed_visible = false
+#If true the facing direction will be displayed.
+facing_visible = false
+#If this is true and facing is visible the orizontal facing direction will be displayed.
+horizontal_facing_visible = false
+#If this is true and speed is visible the vertical facing direction will be displayed.
+vertical_facing_visible = false
+#Enable the display of compass target distance.
+compass_target_distance_visible = false
+#Enable the display of maps target distance.
+map_target_distance_visible = false
+#Map or compass slot item. This represents the index of the slot where the map or compass should be placed to obtain information about distance and direction. The default slot is the rightmost one, designated as slot 8. If the index is set to -1, the first map or compass in the player's inventory will be displayed.
+slot_index = 8
+#Show the overlay in spectator mode.
+show_in_spectator_mode = false
+#Horizontal position of the top-left corner of the overlay rectangle: 0 is on the left side of the screen.
+pos_x = 0
+#Vertical position of the top-left corner of the overlay rectangle: 0 is on the top side of the screen.
+pos_y = 20
+#Color of the overlay rectangle: RGB or RGBA format.
+background_color = "5050506F"
+#Color of the overlay font in RGB or RGBA format.
+foreground_color = "E0E0E0"
+
