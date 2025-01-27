@@ -65,21 +65,23 @@
         stdenvNoCC.mkDerivation (finalAttrs: {
           name = "Monifactory-${side}";
           src = inputs.monifactory;
-          patches = [
-            ./patches/0001-Build-offline.patch
-            ./patches/0002-Fix-shebangs.patch
-            ./patches/0003-Build-fat-client-zip.patch
-            ./patches/0004-Exclude-Ears-and-Speedometer-from-server-pack.patch
-          ];
 
           nativeBuildInputs = [nodejs zip unzip];
 
-          postPatch = ''
-            patchShebangs --build tools
-            cp -r '${./overlay}/.' .
-            mkdir -p dist/modcache
-            cp -r --preserve=links '${packages.modcache}/.' dist/modcache
-          '';
+          env = {
+            CFCORE_API_TOKEN = "dummy";
+          };
+
+          postPatch =
+            ''
+              patchShebangs --build tools
+              cp -r '${./overlay}/.' .
+              mkdir -p dist/modcache
+              cp -r --preserve=links '${packages.modcache}/.' dist/modcache
+            ''
+            + (lib.optionalString (side == "server") ''
+              rm dist/modcache/{ears-forge-*.jar,giacomos_speedometer-*.jar}
+            '');
           dontConfigure = true;
           buildPhase = ''
             runHook preBuild
@@ -89,12 +91,18 @@
             )
             runHook postBuild
           '';
-          installPhase = ''
-            runHook preInstall
-            mkdir -p "$out"
-            unzip dist/${side}.zip -d "$out"
-            runHook postInstall
-          '';
+          installPhase =
+            ''
+              runHook preInstall
+              mkdir -p "$out"
+              unzip dist/${side}.zip -d "$out"
+            ''
+            + (lib.optionalString (side == "client") ''
+              cp -Lr dist/modcache/. "$out/overrides/mods"
+            '')
+            + ''
+              runHook postInstall
+            '';
         })) {};
 
       server = packages.client.override {side = "server";};
