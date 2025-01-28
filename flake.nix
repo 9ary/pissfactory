@@ -32,10 +32,11 @@
         curl,
         jq,
         shellcheck,
+        python3,
       }:
         mkShell {
           name = "pissfactory";
-          packages = [curl jq shellcheck];
+          packages = [curl jq shellcheck python3];
           env = {
             MONIFACTORY_SRC = inputs.monifactory.outPath;
           };
@@ -87,12 +88,15 @@
         nodejs,
         zip,
         unzip,
+        jq,
+        packwiz,
+        python3,
       }:
         stdenvNoCC.mkDerivation (finalAttrs: {
           name = "Monifactory-${difficulty}";
           src = inputs.monifactory;
 
-          nativeBuildInputs = [nodejs zip unzip];
+          nativeBuildInputs = [nodejs zip unzip jq packwiz python3];
 
           env = {
             CFCORE_API_TOKEN = "dummy";
@@ -118,9 +122,19 @@
             unzip dist/client.zip -d "$out"
             (
               srcroot=$PWD
-              cd "$out/overrides"
+              cd "$out"
+              (shopt -s dotglob; mv overrides/* .)
+              rmdir overrides
               "$srcroot/pack-mode-switcher.sh" ${difficulty}
-              rm -r config-overrides
+              rm -r config-overrides manifest.json modlist.html
+
+              # `packwiz init` tries to go online so we have to do this
+              substitute '${./pack.toml.in}' pack.toml \
+                --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
+                --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
+              : > index.toml
+              python3 '${./gen_pw_mods.py}' '${./mods.json}'
+              packwiz refresh
             )
             runHook postInstall
           '';
