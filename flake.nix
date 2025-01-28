@@ -94,6 +94,7 @@
               srcroot=$PWD
               cd "$out/overrides"
               "$srcroot/pack-mode-switcher.sh" ${difficulty}
+              rm -r config-overrides
             )
             runHook postInstall
           '';
