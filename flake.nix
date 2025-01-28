@@ -55,8 +55,7 @@
           }) (builtins.fromJSON (builtins.readFile ./mods.json))
       );
 
-      client = pkgs.callPackage ({
-        side ? "client",
+      pack = pkgs.callPackage ({
         difficulty ? "normal",
         stdenvNoCC,
         nodejs,
@@ -64,7 +63,7 @@
         unzip,
       }:
         stdenvNoCC.mkDerivation (finalAttrs: {
-          name = "Monifactory-${side}-${difficulty}";
+          name = "Monifactory-${difficulty}";
           src = inputs.monifactory;
 
           nativeBuildInputs = [nodejs zip unzip];
@@ -73,56 +72,35 @@
             CFCORE_API_TOKEN = "dummy";
           };
 
-          postPatch =
-            ''
-              patchShebangs --build .
-              cp -r '${./overlay}/.' .
-              mkdir -p dist/modcache
-              cp -r --preserve=links '${packages.modcache}/.' dist/modcache
-              rm config-overrides/*/difficultylock.json5
-            ''
-            + (lib.optionalString (side == "server") ''
-              rm dist/modcache/{ears-forge-*.jar,giacomos_speedometer-*.jar}
-            '');
+          postPatch = ''
+            patchShebangs --build .
+            cp -r '${./overlay}/.' .
+            rm config-overrides/*/difficultylock.json5
+          '';
           dontConfigure = true;
           buildPhase = ''
             runHook preBuild
             (
               cd tools/build
-              node build.js -c build-${side}
+              node build.js -c build-client
             )
             runHook postBuild
           '';
-          installPhase =
-            ''
-              runHook preInstall
-              mkdir -p "$out"
-              unzip dist/${side}.zip -d "$out"
-            ''
-            + (lib.optionalString (side == "client") ''
-              cp -Lr dist/modcache/. "$out/overrides/mods"
-            '')
-            + ''
-              (
-                srcroot=$PWD
-                cd "$out/overrides"
-                "$srcroot/pack-mode-switcher.sh" ${difficulty}
-              )
-              runHook postInstall
-            '';
+          installPhase = ''
+            runHook preInstall
+            mkdir -p "$out"
+            unzip dist/client.zip -d "$out"
+            (
+              srcroot=$PWD
+              cd "$out/overrides"
+              "$srcroot/pack-mode-switcher.sh" ${difficulty}
+            )
+            runHook postInstall
+          '';
         })) {};
-      server = packages.client.override {side = "server";};
-      both = pkgs.linkFarmFromDrvs "Monifactory" [packages.client packages.server];
-
-      client-hardmode = packages.client.override {difficulty = "hardmode";};
-      server-hardmode = packages.server.override {difficulty = "hardmode";};
-      both-hardmode = pkgs.linkFarmFromDrvs "Monifactory-hardmode" [packages.client-hardmode packages.server-hardmode];
-
-      client-expert = packages.client.override {difficulty = "expert";};
-      server-expert = packages.server.override {difficulty = "expert";};
-      both-expert = pkgs.linkFarmFromDrvs "Monifactory-expert" [packages.client-expert packages.server-expert];
-
-      default = packages.both-hardmode;
+      pack-hardmode = packages.pack.override {difficulty = "hardmode";};
+      pack-expert = packages.pack.override {difficulty = "expert";};
+      default = packages.pack-hardmode;
     });
   };
 }
