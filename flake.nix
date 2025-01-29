@@ -47,39 +47,13 @@
       pkgs,
       packages,
       ...
-    }: let
-      inherit
-        (builtins)
-        all
-        elemAt
-        filter
-        fromJSON
-        map
-        match
-        readFile
-        ;
-      modJars = map (mod:
-        pkgs.fetchurl {
-          url = mod.downloadUrl;
-          sha1 = (elemAt (filter (v: v.algo == 1) mod.hashes) 0).value;
-        }) (fromJSON (readFile ./mods.json));
-    in {
-      modcache-client = pkgs.linkFarmFromDrvs "modcache-client" modJars;
-      modcache-server = pkgs.linkFarmFromDrvs "modcache-server" (
-        let
-          serverExcludes = [
-            "oculus-.*\\.jar"
-            "zume-.*\\.jar"
-            "watermedia-.*\\.jar"
-            "embeddium-.*\\.jar"
-            "embeddiumplus-.*\\.jar"
-            "citresewn-.*\\.jar"
-            "LegendaryTooltips-.*\\.jar"
-            "ears-.*\\.jar"
-            "giacomos_speedometer-.*\\.jar"
-          ];
-        in
-          filter (e: all (r: (match r e.name) == null) serverExcludes) modJars
+    }: {
+      modcache = pkgs.linkFarmFromDrvs "modcache" (
+        builtins.map (mod:
+          pkgs.fetchurl {
+            url = mod.downloadUrl;
+            sha1 = (builtins.elemAt (builtins.filter (v: v.algo == 1) mod.hashes) 0).value;
+          }) (builtins.fromJSON (builtins.readFile ./mods.json))
       );
 
       pack = pkgs.callPackage ({
