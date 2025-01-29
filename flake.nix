@@ -136,6 +136,7 @@
               python3 '${./gen_pw_mods.py}' '${./mods.json}'
               packwiz refresh
             )
+            (cd '${./bootstrap}'; zip -r "$out/pissfactory.zip" {,.}*)
             runHook postInstall
           '';
         })) {};
