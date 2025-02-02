@@ -34,6 +34,7 @@ side = "{side}"
 [download]
 url = "{mod["downloadUrl"]}"
 hash-format = "sha1"
-hash = "{hash}\""""
+hash = "{hash}"
+"""
     with open(f"mods/{mod["fileName"]}.pw.toml", "w") as f:
         f.write(pw)
