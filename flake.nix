@@ -59,6 +59,7 @@
 
         pack = callPackage ({
           difficulty ? "normal",
+          forgeServer,
           stdenvNoCC,
           nodejs,
           zip,
@@ -109,6 +110,9 @@
                   --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
                 : > index.toml
                 python3 '${./gen_pw_mods.py}' '${./mods.json}'
+                substitute '${./forge-installer.pw.toml.in}' forge-installer.pw.toml \
+                  --subst-var-by url ${lib.escapeShellArg forgeServer.src.url} \
+                  --subst-var-by hash ${lib.escapeShellArg forgeServer.src.outputHash}
                 packwiz refresh
               )
               (cd '${./bootstrap}'; zip -r "$out/pissfactory.zip" {,.}*)
@@ -135,7 +139,8 @@
 
             src = fetchurl {
               url = "https://maven.minecraftforge.net/net/minecraftforge/forge/${finalAttrs.version}/forge-${finalAttrs.version}-installer.jar";
-              hash = "sha256-79OgS8Z/VXLWtGxzQBAydF8VuFCv1gi+fDSjLEqBrlU=";
+              # Don't change the format!
+              sha256 = "efd3a04bc67f5572d6b46c73401032745f15b850afd608be7c34a32c4a81ae55";
             };
 
             dontUnpack = true;

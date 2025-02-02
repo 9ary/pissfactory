@@ -1,0 +1,8 @@
+name = "Minecraft Forge installer"
+filename = "forge-installer.jar"
+side = "server"
+
+[download]
+url = "@url@"
+hash-format = "sha256"
+hash = "@hash@"
