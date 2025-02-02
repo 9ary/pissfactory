@@ -154,6 +154,14 @@
             '';
             dontPatchShebangs = true;
           })) {};
+
+        unsup = callPackage ({fetchurl}:
+          fetchurl (let
+            version = "1.0-rc2";
+          in {
+            url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
+            hash = "sha256-h+SpjMvvpGAlHO1YY+mPqoyrvxoDX0CoKl+9jA3L9fw=";
+          })) {};
       }));
   };
 }
