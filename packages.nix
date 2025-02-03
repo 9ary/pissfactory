@@ -86,7 +86,7 @@ lib.makeScope newScope (
 
         postPatch = ''
           patchShebangs --build .
-          cp -r ${escapeStorePath ./overlay}/. .
+          cp -r ${escapeStorePath ./src_overlay}/. .
           rm config-overrides/*/difficultylock.json5
         '';
         dontConfigure = true;
@@ -111,12 +111,12 @@ lib.makeScope newScope (
             rm -r config-overrides manifest.json modlist.html
 
             # `packwiz init` tries to go online so we have to do this
-            substitute ${escapeStorePath ./pack.toml.in} pack.toml \
+            substitute ${escapeStorePath ./packwiz/pack.toml.in} pack.toml \
               --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
               --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
             : > index.toml
-            python3 ${escapeStorePath ./gen_pw_mods.py} ${escapeStorePath ./mods.json}
-            substitute ${escapeStorePath ./forge-installer.pw.toml.in} forge-installer.pw.toml \
+            python3 ${escapeStorePath ./packwiz/gen_pw_mods.py} ${escapeStorePath ./mods.json}
+            substitute ${escapeStorePath ./packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
               --subst-var-by url ${escapeShellArg forgeServer.src.url} \
               --subst-var-by hash ${escapeShellArg forgeServer.src.outputHash}
             packwiz refresh
