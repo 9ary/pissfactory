@@ -68,6 +68,9 @@ lib.makeScope newScope (
       stdenvNoCC.mkDerivation (finalAttrs: {
         name = "Monifactory-${difficulty}";
         src = inputs.monifactory;
+        patches = [
+          ./patches/0001-Generate-UUIDs-deterministically.patch
+        ];
 
         nativeBuildInputs = [nodejs zip unzip jq packwiz python3];
 
