@@ -11,7 +11,8 @@
 
   outputs = inputs: let
     inherit (inputs.nixpkgs) lib;
-    inherit (lib) genAttrs;
+    inherit (lib) escapeShellArg genAttrs stringLength substring;
+    escapeStorePath = p: escapeShellArg (substring 0 (stringLength p) p);
     forAllSystems = fn:
       genAttrs systems (system:
         fn rec {
@@ -80,7 +81,7 @@
 
             postPatch = ''
               patchShebangs --build .
-              cp -r '${./overlay}/.' .
+              cp -r ${escapeStorePath ./overlay}/. .
               rm config-overrides/*/difficultylock.json5
             '';
             dontConfigure = true;
@@ -105,17 +106,17 @@
                 rm -r config-overrides manifest.json modlist.html
 
                 # `packwiz init` tries to go online so we have to do this
-                substitute '${./pack.toml.in}' pack.toml \
+                substitute ${escapeStorePath ./pack.toml.in} pack.toml \
                   --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
                   --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
                 : > index.toml
-                python3 '${./gen_pw_mods.py}' '${./mods.json}'
-                substitute '${./forge-installer.pw.toml.in}' forge-installer.pw.toml \
-                  --subst-var-by url ${lib.escapeShellArg forgeServer.src.url} \
-                  --subst-var-by hash ${lib.escapeShellArg forgeServer.src.outputHash}
+                python3 ${escapeStorePath ./gen_pw_mods.py} ${escapeStorePath ./mods.json}
+                substitute ${escapeStorePath ./forge-installer.pw.toml.in} forge-installer.pw.toml \
+                  --subst-var-by url ${escapeShellArg forgeServer.src.url} \
+                  --subst-var-by hash ${escapeShellArg forgeServer.src.outputHash}
                 packwiz refresh
               )
-              (cd '${./bootstrap}'; zip -r "$out/pissfactory.zip" {,.}*)
+              (cd ${escapeStorePath ./bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
               runHook postInstall
             '';
           })) {};
@@ -171,8 +172,8 @@
           writeShellApplication {
             name = "pissfactory_server";
             text = ''
-              cp -f '${./bootstrap/minecraft/unsup.ini}' unsup.ini
-              java -jar '${unsup}' server
+              cp -f ${escapeStorePath ./bootstrap/minecraft/unsup.ini} unsup.ini
+              java -jar ${escapeStorePath unsup} server
 
               if [[ forge-installer.jar -nt forge-server/.timestamp ]]; then
                 rm -rf forge-server
