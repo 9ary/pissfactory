@@ -16,7 +16,7 @@ lib.makeScope newScope (
       stringLength
       substring
       ;
-    escapeStorePath = p: escapeShellArg (substring 0 (stringLength p) p);
+    escapeStorePath = p: escapeShellArg "${p}";
   in {
     lockMods = callPackage ({
       pack,
