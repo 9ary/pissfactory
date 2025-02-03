@@ -1,22 +1,5 @@
 {
   "nodes": {
-    "monifactory": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1736739761,
-        "narHash": "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=",
-        "owner": "ThePansmith",
-        "repo": "Monifactory",
-        "rev": "7f21baa7d1a345ed1cf19773f3b1f46f54539a34",
-        "type": "github"
-      },
-      "original": {
-        "owner": "ThePansmith",
-        "ref": "0.11.3",
-        "repo": "Monifactory",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1737885589,
@@ -35,7 +18,6 @@
     },
     "root": {
       "inputs": {
-        "monifactory": "monifactory",
         "nixpkgs": "nixpkgs"
       }
     }

@@ -3,10 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    monifactory = {
-      url = "github:ThePansmith/Monifactory/0.11.3";
-      flake = false;
-    };
   };
 
   outputs = inputs: let
@@ -45,6 +41,6 @@
     in
       {inherit nixpkgs;} // nixpkgs.pissfactory);
 
-    overlays.default = import ./overlay.nix inputs;
+    overlays.default = import ./overlay.nix;
   };
 }

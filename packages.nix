@@ -1,7 +1,6 @@
 {
   lib,
   newScope,
-  inputs,
 }:
 lib.makeScope newScope (
   self: let
@@ -20,6 +19,7 @@ lib.makeScope newScope (
     escapeStorePath = p: escapeShellArg (substring 0 (stringLength p) p);
   in {
     lockMods = callPackage ({
+      pack,
       writeShellApplication,
       curl,
       jq,
@@ -36,7 +36,7 @@ lib.makeScope newScope (
           curl 'https://api.curseforge.com/v1/mods/files' \
             --header "X-Api-Key: $CFCORE_API_TOKEN" \
             --header 'Content-Type: application/json' \
-            --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath inputs.monifactory.outPath}/manifest.json ${escapeStorePath ./manifest_extras.json})" \
+            --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath pack.src}/manifest.json ${escapeStorePath ./manifest_extras.json})" \
             | jq '.data | unique | sort_by(.modId) | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)"))' \
             > mods.json
         '';
@@ -58,6 +58,7 @@ lib.makeScope newScope (
       difficulty ? "normal",
       forgeServer,
       stdenvNoCC,
+      fetchFromGitHub,
       nodejs,
       zip,
       unzip,
@@ -67,7 +68,12 @@ lib.makeScope newScope (
     }:
       stdenvNoCC.mkDerivation (finalAttrs: {
         name = "Monifactory-${difficulty}";
-        src = inputs.monifactory;
+        src = fetchFromGitHub {
+          owner = "ThePansmith";
+          repo = "Monifactory";
+          rev = "0.11.3";
+          hash = "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=";
+        };
         patches = [
           ./patches/0001-Generate-UUIDs-deterministically.patch
         ];

@@ -1,6 +1,6 @@
-inputs: final: prev: let
+final: prev: let
   inherit (final) callPackage lib;
   inherit (lib) recurseIntoAttrs;
 in {
-  pissfactory = recurseIntoAttrs (callPackage ./packages.nix {inherit inputs;});
+  pissfactory = recurseIntoAttrs (callPackage ./packages.nix {});
 }
