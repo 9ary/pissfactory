@@ -126,7 +126,7 @@
         forgeServer = callPackage ({
           stdenvNoCC,
           fetchurl,
-          jdk17_headless,
+          jre17_minimal,
         }:
           stdenvNoCC.mkDerivation (finalAttrs: {
             pname = "forge-server";
@@ -135,7 +135,7 @@
             outputHashMode = "recursive";
             outputHash = "sha256-kZlxL54b/PZGdrxnN3U4NrgixRKN1eqwZ4TeRKvSpYw=";
 
-            nativeBuildInputs = [jdk17_headless];
+            nativeBuildInputs = [jre17_minimal];
 
             src = fetchurl {
               url = "https://maven.minecraftforge.net/net/minecraftforge/forge/${finalAttrs.version}/forge-${finalAttrs.version}-installer.jar";
@@ -165,7 +165,7 @@
 
         runServer = callPackage ({
           writeShellApplication,
-          jdk17_headless,
+          jre17_minimal,
           unsup,
         }:
           writeShellApplication {
@@ -185,7 +185,7 @@
               echo 'eula=true' > eula.txt
               ./forge-server/run.sh --nogui "$@"
             '';
-            runtimeInputs = [jdk17_headless];
+            runtimeInputs = [jre17_minimal];
           }) {};
       }));
   };
