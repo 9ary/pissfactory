@@ -15,6 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: DeterminateSystems/nix-installer-action@main
+      - name: Verify that mods.json is up to date
+        env:
+          CFCORE_API_TOKEN: ${{ secrets.CFCORE_API_TOKEN }}
+        run: |
+          nix run .#lockMods
+          git diff --exit-code
       - name: Run `nix build`
         run: nix build -L --show-trace .
       - name: Upload static files as artifact
