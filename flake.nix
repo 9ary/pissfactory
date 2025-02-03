@@ -38,27 +38,34 @@
         ${pkgs.alejandra}/bin/alejandra flake.nix
       '');
 
-    devShells = forAllSystems ({pkgs, ...}: {
-      default = pkgs.callPackage ({
-        mkShell,
-        curl,
-        jq,
-        shellcheck,
-        python3,
-      }:
-        mkShell {
-          name = "pissfactory";
-          packages = [curl jq shellcheck python3];
-          env = {
-            MONIFACTORY_SRC = inputs.monifactory.outPath;
-          };
-        }) {};
-    });
-
     packages = forAllSystems ({pkgs, ...}:
       makeScope pkgs.newScope (self: let
         inherit (self) callPackage;
       in {
+        lockMods = callPackage ({
+          writeShellApplication,
+          curl,
+          jq,
+        }:
+          writeShellApplication {
+            name = "lock_mods";
+            text = ''
+              if [[ -z "''${CFCORE_API_TOKEN+x}" ]]; then
+                # shellcheck disable=SC2016
+                printf '%s\n' 'Please set $CFCORE_API_TOKEN (https://console.curseforge.com/#/api-keys)'
+                exit 1
+              fi
+
+              curl 'https://api.curseforge.com/v1/mods/files' \
+                --header "X-Api-Key: $CFCORE_API_TOKEN" \
+                --header 'Content-Type: application/json' \
+                --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath inputs.monifactory.outPath}/manifest.json ${escapeStorePath ./manifest_extras.json})" \
+                | jq '.data | unique | sort_by(.modId) | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)"))' \
+                > mods.json
+            '';
+            runtimeInputs = [curl jq];
+          }) {};
+
         modcache = callPackage ({
           linkFarmFromDrvs,
           fetchurl,
