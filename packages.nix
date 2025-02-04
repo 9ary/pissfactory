@@ -67,11 +67,12 @@ lib.makeScope newScope (
       python3,
     }:
       stdenvNoCC.mkDerivation (finalAttrs: {
-        name = "Monifactory-${difficulty}";
+        pname = "Monifactory-${difficulty}";
+        version = "0.11.3";
         src = fetchFromGitHub {
           owner = "ThePansmith";
           repo = "Monifactory";
-          rev = "0.11.3";
+          rev = finalAttrs.version;
           hash = "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=";
         };
         patches = [
