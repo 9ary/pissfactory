@@ -21,7 +21,7 @@
       inherit (legacyPackages') nixpkgs;
     in
       nixpkgs.writeShellScriptBin "formatter" ''
-        ${nixpkgs.alejandra}/bin/alejandra .
+        ${nixpkgs.alejandra}/bin/alejandra --quiet "''${@-.}"
       '');
 
     packages = forAllSystems (system: let
