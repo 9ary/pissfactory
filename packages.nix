@@ -10,11 +10,14 @@ lib.makeScope newScope (
       elemAt
       escapeShellArg
       filter
-      fromJSON
       map
       readFile
       stringLength
       substring
+      ;
+    inherit
+      (lib.strings)
+      fromJSON
       ;
     escapeStorePath = p: escapeShellArg "${p}";
   in {
