@@ -129,10 +129,12 @@ lib.makeScope newScope (
     pack-hardmode = self.pack.override {difficulty = "hardmode";};
     pack-expert = self.pack.override {difficulty = "expert";};
 
+    jre = callPackage ./jre.nix {};
+
     forgeServer = callPackage ({
       stdenvNoCC,
       fetchurl,
-      jre17_minimal,
+      jre,
     }:
       stdenvNoCC.mkDerivation (finalAttrs: {
         pname = "forge-server";
@@ -141,7 +143,7 @@ lib.makeScope newScope (
         outputHashMode = "recursive";
         outputHash = "sha256-kZlxL54b/PZGdrxnN3U4NrgixRKN1eqwZ4TeRKvSpYw=";
 
-        nativeBuildInputs = [jre17_minimal];
+        nativeBuildInputs = [jre];
 
         src = fetchurl {
           url = "https://maven.minecraftforge.net/net/minecraftforge/forge/${finalAttrs.version}/forge-${finalAttrs.version}-installer.jar";
@@ -171,7 +173,7 @@ lib.makeScope newScope (
 
     runServer = callPackage ({
       writeShellApplication,
-      jre17_minimal,
+      jre,
       unsup,
     }:
       writeShellApplication {
@@ -191,7 +193,7 @@ lib.makeScope newScope (
           echo 'eula=true' > eula.txt
           ./forge-server/run.sh --nogui "$@"
         '';
-        runtimeInputs = [jre17_minimal];
+        runtimeInputs = [jre];
       }) {};
   }
 )
