@@ -228,6 +228,7 @@ lib.makeScope newScope (
           };
           ExposedPorts = {
             "25565/tcp" = {};
+            "25565/udp" = {};
           };
         };
         maxLayers = 120;
