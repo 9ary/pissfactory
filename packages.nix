@@ -176,6 +176,7 @@ lib.makeScope newScope (
 
     runServer = callPackage ({
       writeShellApplication,
+      coreutils,
       jre,
       unsup,
     }:
@@ -196,7 +197,7 @@ lib.makeScope newScope (
           echo 'eula=true' > eula.txt
           ./forge-server/run.sh --nogui "$@"
         '';
-        runtimeInputs = [jre];
+        runtimeInputs = [coreutils jre];
       }) {};
   }
 )
