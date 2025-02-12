@@ -195,9 +195,42 @@ lib.makeScope newScope (
           fi
 
           echo 'eula=true' > eula.txt
-          ./forge-server/run.sh --nogui "$@"
+          # shellcheck disable=SC1091
+          source ./forge-server/run.sh --nogui "$@"
         '';
         runtimeInputs = [coreutils jre];
+      }) {};
+
+    container = callPackage ({
+      nix2container,
+      runCommand,
+      runServer,
+    }: let
+      tmp = runCommand "tmp" {} ''
+        mkdir -p $out/tmp
+      '';
+    in
+      nix2container.buildImage {
+        name = "pissfactory_server";
+        copyToRoot = [tmp];
+        perms = [
+          {
+            path = tmp;
+            regex = ".*";
+            mode = "0777";
+          }
+        ];
+        config = rec {
+          entrypoint = ["${runServer}/bin/${runServer.name}"];
+          WorkingDir = "/var/lib/pissfactory";
+          Volumes = {
+            ${WorkingDir} = {};
+          };
+          ExposedPorts = {
+            "25565/tcp" = {};
+          };
+        };
+        maxLayers = 120;
       }) {};
   }
 )

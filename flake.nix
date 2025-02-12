@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nix2container = {
+      url = "github:nlewo/nix2container";
+      flake = false; # fuck the police
+    };
   };
 
   outputs = inputs: let
@@ -36,6 +40,11 @@
         inherit system;
         overlays = [
           self.overlays.default
+          (final: prev:
+            import inputs.nix2container {
+              pkgs = final;
+              inherit system;
+            })
         ];
       });
     in
