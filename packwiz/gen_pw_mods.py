@@ -21,6 +21,8 @@ server_excludes = [
         r"LegendaryTooltips-.*\.jar$",
         r"ears-.*\.jar$",
         r"giacomos_speedometer-.*\.jar$",
+        r"fancymenu_.*\.jar$",
+        r"drippyloadingscreen_.*\.jar$",
     ]
 ]
 
