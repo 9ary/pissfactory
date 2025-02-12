@@ -20,13 +20,37 @@
     forAllSystems = genAttrs systems;
     systems = lib.systems.flakeExposed;
   in {
+    devShells = forAllSystems (system: let
+      formatter' = self.formatter.${system};
+      legacyPackages' = self.legacyPackages.${system};
+      inherit (legacyPackages') nixpkgs;
+    in {
+      default = nixpkgs.callPackage ({
+        alejandra,
+        mkShellNoCC,
+        treefmt,
+      }:
+        mkShellNoCC {
+          nativeBuildInputs = [alejandra treefmt];
+        }) {};
+    });
+
     formatter = forAllSystems (system: let
       legacyPackages' = self.legacyPackages.${system};
       inherit (legacyPackages') nixpkgs;
     in
-      nixpkgs.writeShellScriptBin "formatter" ''
-        ${nixpkgs.alejandra}/bin/alejandra --quiet "''${@-.}"
-      '');
+      nixpkgs.callPackage ({
+        alejandra,
+        treefmt,
+        writeShellApplication,
+      }:
+        writeShellApplication {
+          name = "formatter";
+          text = ''
+            treefmt "''${@-.}"
+          '';
+          runtimeInputs = [alejandra treefmt];
+        }) {});
 
     packages = forAllSystems (system: let
       legacyPackages' = self.legacyPackages.${system};

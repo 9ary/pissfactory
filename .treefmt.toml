@@ -1,0 +1,9 @@
+formatters = [
+  "alejandra",
+]
+
+[formatter.alejandra]
+command = "alejandra"
+includes = ["*.nix"]
+options = []
+priority = 0
