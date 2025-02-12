@@ -23,8 +23,10 @@
         in
         setDefaultModuleLocation path (import path table);
       lib = inputs.by-name.libs.default;
+      pissfactoryLib = lib.extend table.rows.default.libOverlay;
       table = lib.filesystem.readNameBasedTableDirectory {
         rowFromFile."flake-module.nix" = table: { flakeModule = importModuleCell table; };
+        rowFromFile."lib-overlay.nix" = table: { libOverlay = importCell table; };
         rowFromFile."nixpkgs-overlay.nix" = table: { nixpkgsOverlay = importCell table; };
         rowFromFile."nixpkgs-package.nix" = table: { nixpkgsPackage = importCell table; };
         rowFromFile."nixpkgs-pissfactory-package.nix" = table: {
@@ -32,6 +34,7 @@
         };
         rowsPath = ./nix;
         specialColumns.input = inputs;
+        specialColumns.lib.default = pissfactoryLib;
       };
     in
     inputs.flake-parts.lib.mkFlake {

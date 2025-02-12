@@ -7,6 +7,10 @@ in
 {
   config.flake.flakeModules = columns.flakeModule;
   config.flake.overlays = columns.nixpkgsOverlay;
+  config.flake.libOverlays = columns.libOverlay;
+  config.flake.libs = lib.attrsets.mapAttrs (
+    libName: libOverlay: lib.extend libOverlay
+  ) rootConfig.flake.libOverlays;
   config.perSystem =
     {
       config,

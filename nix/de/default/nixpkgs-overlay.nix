@@ -8,4 +8,6 @@ finalPkgs: prevPkgs:
 let
   inherit (finalPkgs) callPackage;
 in
-mapNixpkgsPackages (name: nixpkgsPackage: callPackage nixpkgsPackage { })
+mapNixpkgsPackages (
+  name: nixpkgsPackage: callPackage nixpkgsPackage { attrPathForPackage = [ name ]; }
+)

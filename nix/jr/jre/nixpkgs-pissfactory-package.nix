@@ -1,9 +1,10 @@
 { ... }:
 {
-  stdenv,
+  callPackage,
   jdk21_headless,
   lib,
-  callPackage,
+  stdenv,
+  ...
 }:
 let
   jdk = jdk21_headless;
