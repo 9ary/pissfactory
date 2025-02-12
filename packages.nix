@@ -1,12 +1,9 @@
-{
-  lib,
-  newScope,
-}:
+{ lib, newScope }:
 lib.makeScope newScope (
-  self: let
+  self:
+  let
     inherit (self) callPackage;
-    inherit
-      (lib)
+    inherit (lib)
       elemAt
       escapeShellArg
       filter
@@ -15,18 +12,17 @@ lib.makeScope newScope (
       stringLength
       substring
       ;
-    inherit
-      (lib.strings)
-      fromJSON
-      ;
+    inherit (lib.strings) fromJSON;
     escapeStorePath = p: escapeShellArg "${p}";
-  in {
-    lockMods = callPackage ({
-      pack,
-      writeShellApplication,
-      curl,
-      jq,
-    }:
+  in
+  {
+    lockMods = callPackage (
+      {
+        pack,
+        writeShellApplication,
+        curl,
+        jq,
+      }:
       writeShellApplication {
         name = "lock_mods";
         text = ''
@@ -43,32 +39,39 @@ lib.makeScope newScope (
             | jq '.data | unique | sort_by(.modId) | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)")) | map(del(.downloadCount, .gameVersions, .sortableGameVersions))' \
             > mods.json
         '';
-        runtimeInputs = [curl jq];
-      }) {};
+        runtimeInputs = [
+          curl
+          jq
+        ];
+      }
+    ) { };
 
-    modcache = callPackage ({
-      linkFarmFromDrvs,
-      fetchurl,
-    }: (linkFarmFromDrvs "modcache" (
-      map (mod:
-        fetchurl {
-          url = mod.downloadUrl;
-          sha1 = (elemAt (filter (v: v.algo == 1) mod.hashes) 0).value;
-        }) (fromJSON (readFile ./mods.json))
-    ))) {};
+    modcache = callPackage (
+      { linkFarmFromDrvs, fetchurl }:
+      (linkFarmFromDrvs "modcache" (
+        map (
+          mod:
+          fetchurl {
+            url = mod.downloadUrl;
+            sha1 = (elemAt (filter (v: v.algo == 1) mod.hashes) 0).value;
+          }
+        ) (fromJSON (readFile ./mods.json))
+      ))
+    ) { };
 
-    pack = callPackage ({
-      difficulty ? "normal",
-      forgeServer,
-      stdenvNoCC,
-      fetchFromGitHub,
-      nodejs,
-      zip,
-      unzip,
-      jq,
-      packwiz,
-      python3,
-    }:
+    pack = callPackage (
+      {
+        difficulty ? "normal",
+        forgeServer,
+        stdenvNoCC,
+        fetchFromGitHub,
+        nodejs,
+        zip,
+        unzip,
+        jq,
+        packwiz,
+        python3,
+      }:
       stdenvNoCC.mkDerivation (finalAttrs: {
         pname = "Monifactory-${difficulty}";
         version = "0.11.3";
@@ -78,11 +81,16 @@ lib.makeScope newScope (
           rev = finalAttrs.version;
           hash = "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=";
         };
-        patches = [
-          ./patches/0001-Generate-UUIDs-deterministically.patch
-        ];
+        patches = [ ./patches/0001-Generate-UUIDs-deterministically.patch ];
 
-        nativeBuildInputs = [nodejs zip unzip jq packwiz python3];
+        nativeBuildInputs = [
+          nodejs
+          zip
+          unzip
+          jq
+          packwiz
+          python3
+        ];
 
         env = {
           CFCORE_API_TOKEN = "dummy";
@@ -128,17 +136,19 @@ lib.makeScope newScope (
           (cd ${escapeStorePath ./bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
           runHook postInstall
         '';
-      })) {};
-    pack-hardmode = self.pack.override {difficulty = "hardmode";};
-    pack-expert = self.pack.override {difficulty = "expert";};
+      })
+    ) { };
+    pack-hardmode = self.pack.override { difficulty = "hardmode"; };
+    pack-expert = self.pack.override { difficulty = "expert"; };
 
-    jre = callPackage ./jre.nix {};
+    jre = callPackage ./jre.nix { };
 
-    forgeServer = callPackage ({
-      stdenvNoCC,
-      fetchurl,
-      jre,
-    }:
+    forgeServer = callPackage (
+      {
+        stdenvNoCC,
+        fetchurl,
+        jre,
+      }:
       stdenvNoCC.mkDerivation (finalAttrs: {
         pname = "forge-server";
         version = "1.20.1-47.3.7";
@@ -146,7 +156,7 @@ lib.makeScope newScope (
         outputHashMode = "recursive";
         outputHash = "sha256-kZlxL54b/PZGdrxnN3U4NrgixRKN1eqwZ4TeRKvSpYw=";
 
-        nativeBuildInputs = [jre];
+        nativeBuildInputs = [ jre ];
 
         src = fetchurl {
           url = "https://maven.minecraftforge.net/net/minecraftforge/forge/${finalAttrs.version}/forge-${finalAttrs.version}-installer.jar";
@@ -164,22 +174,29 @@ lib.makeScope newScope (
           runHook postInstall
         '';
         dontPatchShebangs = true;
-      })) {};
+      })
+    ) { };
 
-    unsup = callPackage ({fetchurl}:
-      fetchurl (let
-        version = "1.0-rc2";
-      in {
-        url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
-        hash = "sha256-h+SpjMvvpGAlHO1YY+mPqoyrvxoDX0CoKl+9jA3L9fw=";
-      })) {};
+    unsup = callPackage (
+      { fetchurl }:
+      fetchurl (
+        let
+          version = "1.0-rc2";
+        in
+        {
+          url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
+          hash = "sha256-h+SpjMvvpGAlHO1YY+mPqoyrvxoDX0CoKl+9jA3L9fw=";
+        }
+      )
+    ) { };
 
-    runServer = callPackage ({
-      writeShellApplication,
-      coreutils,
-      jre,
-      unsup,
-    }:
+    runServer = callPackage (
+      {
+        writeShellApplication,
+        coreutils,
+        jre,
+        unsup,
+      }:
       writeShellApplication {
         name = "pissfactory_server";
         text = ''
@@ -198,21 +215,27 @@ lib.makeScope newScope (
           # shellcheck disable=SC1091
           source ./forge-server/run.sh --nogui "$@"
         '';
-        runtimeInputs = [coreutils jre];
-      }) {};
+        runtimeInputs = [
+          coreutils
+          jre
+        ];
+      }
+    ) { };
 
-    container = callPackage ({
-      nix2container,
-      runCommand,
-      runServer,
-    }: let
-      tmp = runCommand "tmp" {} ''
-        mkdir -p $out/tmp
-      '';
-    in
+    container = callPackage (
+      {
+        nix2container,
+        runCommand,
+        runServer,
+      }:
+      let
+        tmp = runCommand "tmp" { } ''
+          mkdir -p $out/tmp
+        '';
+      in
       nix2container.buildImage {
         name = "pissfactory_server";
-        copyToRoot = [tmp];
+        copyToRoot = [ tmp ];
         perms = [
           {
             path = tmp;
@@ -221,17 +244,18 @@ lib.makeScope newScope (
           }
         ];
         config = rec {
-          entrypoint = ["${runServer}/bin/${runServer.name}"];
+          entrypoint = [ "${runServer}/bin/${runServer.name}" ];
           WorkingDir = "/var/lib/pissfactory";
           Volumes = {
-            ${WorkingDir} = {};
+            ${WorkingDir} = { };
           };
           ExposedPorts = {
-            "25565/tcp" = {};
-            "25565/udp" = {};
+            "25565/tcp" = { };
+            "25565/udp" = { };
           };
         };
         maxLayers = 120;
-      }) {};
+      }
+    ) { };
   }
 )

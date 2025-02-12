@@ -1,9 +1,9 @@
 formatters = [
-  "alejandra",
+  "nixfmt",
 ]
 
-[formatter.alejandra]
-command = "alejandra"
+[formatter.nixfmt]
+command = "nixfmt"
 includes = ["*.nix"]
-options = []
+options = ["-v"]
 priority = 0
