@@ -1,0 +1,5 @@
+{
+	// Disable automatic backups
+	// The server runs on ZFS with automatic snapshots, so there is no need
+	"enabled": false
+}

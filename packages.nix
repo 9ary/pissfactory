@@ -211,6 +211,11 @@ lib.makeScope newScope (
             touch -r forge-installer.jar forge-server/.timestamp
           fi
 
+          if [[ -n "$PISSFACTORY_PRODUCTION_OVERLAY" ]]; then
+            printf '%s\n' "Declarative config overlay in use, copying $PISSFACTORY_PRODUCTION_OVERLAY over CWD!"
+            cp -r "$PISSFACTORY_PRODUCTION_OVERLAY"/. .
+          fi
+
           echo 'eula=true' > eula.txt
           # shellcheck disable=SC1091
           source ./forge-server/run.sh --nogui "$@"
@@ -246,6 +251,9 @@ lib.makeScope newScope (
         config = rec {
           entrypoint = [ "${runServer}/bin/${runServer.name}" ];
           WorkingDir = "/var/lib/pissfactory";
+          Env = [
+            "PISSFACTORY_PRODUCTION_OVERLAY=${./server_cfg}"
+          ];
           Volumes = {
             ${WorkingDir} = { };
           };
