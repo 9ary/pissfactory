@@ -707,6 +707,52 @@
     ]
   },
   {
+    "id": 4587490,
+    "gameId": 432,
+    "modId": 227657,
+    "isAvailable": true,
+    "displayName": "GlobalGameRules-1.20-8.0.0.11.jar",
+    "fileName": "GlobalGameRules-1.20-8.0.0.11.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e1ad2f5480453aed8059aeddd5964694116a9fc8",
+        "algo": 1
+      },
+      {
+        "value": "213ec471fd76e3821a0a1e296c28b0ba",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-06-14T22:20:18.553Z",
+    "fileLength": 18898,
+    "downloadUrl": "https://edge.forgecdn.net/files/4587/490/GlobalGameRules-1.20-8.0.0.11.jar",
+    "dependencies": [
+      {
+        "modId": 457570,
+        "relationType": 2
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 584890267,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3941622897
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2210226610
+      },
+      {
+        "name": "se",
+        "fingerprint": 4164608046
+      }
+    ]
+  },
+  {
     "id": 6040434,
     "gameId": 432,
     "modId": 228702,
