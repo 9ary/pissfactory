@@ -1,5 +1,45 @@
 {
   "nodes": {
+    "by-name": {
+      "inputs": {
+        "nixpkgs-lib": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1735780273,
+        "narHash": "sha256-3jKBWVsnGvxyHXKNzFUr8YdpgllQxsk/2KlGYqr+D4M=",
+        "owner": "bb010g",
+        "repo": "by-name.nix",
+        "rev": "3a9af2b7987365f291a9b2cc9fdef34d0e78d5ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bb010g",
+        "repo": "by-name.nix",
+        "type": "github"
+      }
+    },
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1738453229,
+        "narHash": "sha256-7H9XgNiGLKN1G1CgRh0vUL4AheZSYzPm+zmZ7vxbJdo=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "32ea77a06711b758da0ad9bd6a844c5740a87abd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
     "nix2container": {
       "flake": false,
       "locked": {
@@ -34,6 +74,8 @@
     },
     "root": {
       "inputs": {
+        "by-name": "by-name",
+        "flake-parts": "flake-parts",
         "nix2container": "nix2container",
         "nixpkgs": "nixpkgs"
       }

@@ -1,3 +1,9 @@
+{ columns, rows, ... }:
+let
+  mapNixpkgsPissfactoryPackages = f: lib.attrsets.mapAttrs f nixpkgsPissfactoryPackages;
+  nixpkgsPissfactoryPackages = columns.nixpkgsPissfactoryPackage;
+  lib = rows.by-name.input.libs.default;
+in
 { lib, newScope }:
 lib.makeScope newScope (
   self:
@@ -15,7 +21,10 @@ lib.makeScope newScope (
     inherit (lib.strings) fromJSON;
     escapeStorePath = p: escapeShellArg "${p}";
   in
-  {
+  mapNixpkgsPissfactoryPackages (
+    name: nixpkgsPissfactoryPackage: callPackage nixpkgsPissfactoryPackage { }
+  )
+  // {
     lockMods = callPackage (
       {
         pack,
@@ -35,7 +44,7 @@ lib.makeScope newScope (
           curl 'https://api.curseforge.com/v1/mods/files' \
             --header "X-Api-Key: $CFCORE_API_TOKEN" \
             --header 'Content-Type: application/json' \
-            --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath pack.src}/manifest.json ${escapeStorePath ./manifest_extras.json})" \
+            --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath pack.src}/manifest.json ${escapeStorePath ../../../manifest_extras.json})" \
             | jq '.data | unique | sort_by(.modId) | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)")) | map(del(.downloadCount, .gameVersions, .sortableGameVersions))' \
             > mods.json
         '';
@@ -55,7 +64,7 @@ lib.makeScope newScope (
             url = mod.downloadUrl;
             sha1 = (elemAt (filter (v: v.algo == 1) mod.hashes) 0).value;
           }
-        ) (fromJSON (readFile ./mods.json))
+        ) (fromJSON (readFile ../../../mods.json))
       ))
     ) { };
 
@@ -81,7 +90,7 @@ lib.makeScope newScope (
           rev = finalAttrs.version;
           hash = "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=";
         };
-        patches = [ ./patches/0001-Generate-UUIDs-deterministically.patch ];
+        patches = [ ../../../patches/0001-Generate-UUIDs-deterministically.patch ];
 
         nativeBuildInputs = [
           nodejs
@@ -98,7 +107,7 @@ lib.makeScope newScope (
 
         postPatch = ''
           patchShebangs --build .
-          cp -r ${escapeStorePath ./src_overlay}/. .
+          cp -r ${escapeStorePath ../../../src_overlay}/. .
           rm config-overrides/*/difficultylock.json5
         '';
         dontConfigure = true;
@@ -123,25 +132,23 @@ lib.makeScope newScope (
             rm -r config-overrides manifest.json modlist.html
 
             # `packwiz init` tries to go online so we have to do this
-            substitute ${escapeStorePath ./packwiz/pack.toml.in} pack.toml \
+            substitute ${escapeStorePath ../../../packwiz/pack.toml.in} pack.toml \
               --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
               --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
             : > index.toml
-            python3 ${escapeStorePath ./packwiz/gen_pw_mods.py} ${escapeStorePath ./mods.json}
-            substitute ${escapeStorePath ./packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
+            python3 ${escapeStorePath ../../../packwiz/gen_pw_mods.py} ${escapeStorePath ../../../mods.json}
+            substitute ${escapeStorePath ../../../packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
               --subst-var-by url ${escapeShellArg forgeServer.src.url} \
               --subst-var-by hash ${escapeShellArg forgeServer.src.outputHash}
             packwiz refresh
           )
-          (cd ${escapeStorePath ./bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
+          (cd ${escapeStorePath ../../../bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
           runHook postInstall
         '';
       })
     ) { };
     pack-hardmode = self.pack.override { difficulty = "hardmode"; };
     pack-expert = self.pack.override { difficulty = "expert"; };
-
-    jre = callPackage ./jre.nix { };
 
     forgeServer = callPackage (
       {
@@ -200,7 +207,7 @@ lib.makeScope newScope (
       writeShellApplication {
         name = "pissfactory_server";
         text = ''
-          cp -f ${escapeStorePath ./bootstrap/minecraft/unsup.ini} unsup.ini
+          cp -f ${escapeStorePath ../../../bootstrap/minecraft/unsup.ini} unsup.ini
           java -jar ${escapeStorePath unsup} server
 
           if [[ forge-installer.jar -nt forge-server/.timestamp ]]; then
@@ -252,7 +259,7 @@ lib.makeScope newScope (
           entrypoint = [ "${runServer}/bin/${runServer.name}" ];
           WorkingDir = "/var/lib/pissfactory";
           Env = [
-            "PISSFACTORY_PRODUCTION_OVERLAY=${./server_cfg}"
+            "PISSFACTORY_PRODUCTION_OVERLAY=${../../../server_cfg}"
           ];
           Volumes = {
             ${WorkingDir} = { };
