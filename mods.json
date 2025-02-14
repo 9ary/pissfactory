@@ -10919,6 +10919,121 @@
     ]
   },
   {
+    "id": 6052639,
+    "gameId": 432,
+    "modId": 850410,
+    "isAvailable": true,
+    "displayName": "Create: Estrogen 4.3.2+1.20.1 Forge",
+    "fileName": "Estrogen-4.3.2+1.20.1-forge.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "ddea573fe3e57f2fd24aa371ea167ef9b0bec8d3",
+        "algo": 1
+      },
+      {
+        "value": "1bb295e6432f925ffd16c02d0bc17a5c",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-01-04T14:00:04Z",
+    "fileLength": 27586630,
+    "fileSizeOnDisk": 28979068,
+    "downloadUrl": "https://edge.forgecdn.net/files/6052/639/Estrogen-4.3.2%2b1.20.1-forge.jar",
+    "dependencies": [
+      {
+        "modId": 328085,
+        "relationType": 3
+      },
+      {
+        "modId": 412013,
+        "relationType": 2
+      },
+      {
+        "modId": 309927,
+        "relationType": 3
+      },
+      {
+        "modId": 238222,
+        "relationType": 2
+      },
+      {
+        "modId": 570073,
+        "relationType": 3
+      },
+      {
+        "modId": 967091,
+        "relationType": 1
+      },
+      {
+        "modId": 704113,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 605437003,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2441155672
+      },
+      {
+        "name": "Estrogen-common-refmap.json",
+        "fingerprint": 4026338027
+      },
+      {
+        "name": "Estrogen-forge-refmap.json",
+        "fingerprint": 1552353078
+      },
+      {
+        "name": "architectury.common.json",
+        "fingerprint": 3721187390
+      },
+      {
+        "name": "architectury_inject_Estrogen_common_3cfc4402775b496ea0e6398a65ce4105_fce480611f3ab5376d93f8dbe87edaec0a503e74afa69420e752c664390c84bbEstrogen4321201devjar",
+        "fingerprint": 538190010
+      },
+      {
+        "name": "assets",
+        "fingerprint": 352410447
+      },
+      {
+        "name": "data",
+        "fingerprint": 488753175
+      },
+      {
+        "name": "dev",
+        "fingerprint": 1991829513
+      },
+      {
+        "name": "estrogen-common.mixins.json",
+        "fingerprint": 2107821676
+      },
+      {
+        "name": "estrogen.mixins.json",
+        "fingerprint": 1126087547
+      },
+      {
+        "name": "estrogen_background.png",
+        "fingerprint": 1744016781
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 328596993
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2079076297
+      },
+      {
+        "name": "resourcepacks",
+        "fingerprint": 419056029
+      }
+    ]
+  },
+  {
     "id": 4710223,
     "gameId": 432,
     "modId": 852668,
