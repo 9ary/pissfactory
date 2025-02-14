@@ -1,13 +1,15 @@
 {
   description = "lightly customized monifactory build for me and my friends";
 
-  inputs.by-name.inputs.nixpkgs-lib.follows = "nixpkgs";
-  inputs.by-name.url = "github:bb010g/by-name.nix";
-  inputs.flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
-  inputs.flake-parts.url = "github:hercules-ci/flake-parts";
-  inputs.nix2container.flake = false; # fuck the police
-  inputs.nix2container.url = "github:nlewo/nix2container";
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs = {
+    by-name.inputs.nixpkgs-lib.follows = "nixpkgs";
+    by-name.url = "github:bb010g/by-name.nix";
+    flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
+    flake-parts.url = "github:hercules-ci/flake-parts";
+    nix2container.flake = false; # fuck the police
+    nix2container.url = "github:nlewo/nix2container";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  };
 
   outputs =
     inputs:
