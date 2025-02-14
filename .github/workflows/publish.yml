@@ -2,8 +2,7 @@ name: Publish modpack
 
 on:
   push:
-    branches:
-      - trunk
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -30,6 +29,7 @@ jobs:
           path: result/
 
   deploy:
+    if: ${{ github.ref == 'refs/heads/trunk' }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
