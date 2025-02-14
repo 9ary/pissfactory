@@ -241,9 +241,16 @@ lib.makeScope newScope (
         runServer,
       }:
       let
-        tmp = runCommand "tmp" { } ''
-          mkdir -p $out/tmp
-        '';
+        tmp =
+          runCommand "tmp"
+            {
+              outputHash = "sha256-AVwrjJdGCmzJ8JlT6x69JkHlFlRvOJ4hcqNt10YNoAU=";
+              outputHashMode = "recursive";
+              preferLocalBuild = true;
+            }
+            ''
+              mkdir -p $out/tmp
+            '';
       in
       nix2container.buildImage {
         name = "pissfactory_server";
