@@ -30,13 +30,23 @@ jobs:
         run: |
           nix run .#lockMods
           git diff --exit-code
-      - name: Run `nix build`
+      - name: Build modpack
         run: nix build -L --show-trace .
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
           path: result/
+      - name: Build server container
+        run: |
+          nix build -L --show-trace .#container
+          nix run .#container.copyTo -- oci-archive:server.tar
+      - name: Upload container archive
+        id: container
+        uses: actions/upload-artifact@v4
+        with:
+          name: server
+          path: server.tar
 
   deploy:
     if: ${{ github.ref == 'refs/heads/trunk' }}
