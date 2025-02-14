@@ -53,7 +53,27 @@ in
         }
       ) { };
       config.packages.default = pkgs.pissfactory.pack-hardmode;
-      config.legacyPackages.nixpkgs = pkgs;
+      config.legacyPackages =
+        let
+          inherit (lib.lists) all;
+          inherit (lib.attrsets) attrNames attrValues intersectAttrs isDerivation removeAttrs;
+          pissfactoryLegacyPackages = removeAttrs pkgs.pissfactory [
+            "callPackage"
+            "newScope"
+            "override"
+            "overrideDerivation"
+            "overrideScope"
+            "packages"
+          ];
+          extraLegacyPackages = {
+            nixpkgs = pkgs;
+          };
+          overriddenPissfactoryLegacyPackages = intersectAttrs extraLegacyPackages pissfactoryLegacyPackages;
+          overriddenPissfactoryLegacyPackageNames = attrNames overriddenPissfactoryLegacyPackages;
+        in
+        assert all isDerivation (attrValues pissfactoryLegacyPackages);
+        assert overriddenPissfactoryLegacyPackageNames == [ ];
+        pissfactoryLegacyPackages // extraLegacyPackages;
     };
   config.systems = lib.systems.flakeExposed;
 }
