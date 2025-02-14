@@ -48,7 +48,7 @@ jobs:
           name: server
           path: server.tar
 
-  deploy:
+  deploy-pages:
     if: ${{ github.ref == 'refs/heads/trunk' }}
     needs: build
     runs-on: ubuntu-latest
@@ -62,3 +62,24 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  push-container:
+    if: ${{ github.ref == 'refs/heads/trunk' }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      id-token: write
+    steps:
+      - name: Download image artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: server
+      - name: Log in to registry
+        uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy image to registry
+        run: skopeo --insecure-policy copy oci-archive:server.tar docker://ghcr.io/catgirl-v/pissfactory_server:latest
