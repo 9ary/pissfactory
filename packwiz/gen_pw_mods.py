@@ -10,13 +10,7 @@ with open(sys.argv[1]) as f:
 
 os.makedirs("mods", exist_ok=True)
 
-client_excludes = [
-    re.compile(pattern) for pattern in [
-        r"GlobalGameRules-.*\.jar$",
-    ]
-]
-
-server_excludes = [
+client_only = [
     re.compile(pattern) for pattern in [
         r"oculus-.*\.jar$",
         r"zume-.*\.jar$",
@@ -32,12 +26,19 @@ server_excludes = [
     ]
 ]
 
+server_only = [
+    re.compile(pattern) for pattern in [
+        r"GlobalGameRules-.*\.jar$",
+    ]
+]
+
 for mod in mods:
-    side = "both"
-    if any(p.match(mod["fileName"]) for p in client_excludes):
-        side = "server"
-    if any(p.match(mod["fileName"]) for p in server_excludes):
+    if any(p.match(mod["fileName"]) for p in client_only):
         side = "client"
+    elif any(p.match(mod["fileName"]) for p in server_only):
+        side = "server"
+    else:
+        side = "both"
     hash = next(h["value"] for h in mod["hashes"] if h["algo"] == 1)
     pw = f"""name = "{mod["displayName"]}"
 filename = "{mod["fileName"]}"
