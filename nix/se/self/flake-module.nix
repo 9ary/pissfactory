@@ -56,7 +56,13 @@ in
       config.legacyPackages =
         let
           inherit (lib.lists) all;
-          inherit (lib.attrsets) attrNames attrValues intersectAttrs isDerivation removeAttrs;
+          inherit (lib.attrsets)
+            attrNames
+            attrValues
+            intersectAttrs
+            isDerivation
+            removeAttrs
+            ;
           pissfactoryLegacyPackages = removeAttrs pkgs.pissfactory [
             "callPackage"
             "newScope"
