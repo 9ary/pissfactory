@@ -753,45 +753,45 @@
     ]
   },
   {
-    "id": 6040434,
+    "id": 6107610,
     "gameId": 432,
     "modId": 228702,
     "isAvailable": true,
-    "displayName": "ProjectRed-1.20.1-4.20.0-core.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.0-core.jar",
-    "releaseType": 1,
+    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
+    "releaseType": 2,
     "fileStatus": 4,
     "hashes": [
       {
-        "value": "5d511b15b3b10b0488661c68621db8a8bf780fea",
+        "value": "d7c5190e1729deaf266dcc7274a7127fb43b9474",
         "algo": 1
       },
       {
-        "value": "36569f916762caca92caf085b56c8a4e",
+        "value": "9f8aec2476cf9d21bf156c724b0694f9",
         "algo": 2
       }
     ],
-    "fileDate": "2024-12-31T18:28:55.84Z",
-    "fileLength": 806753,
-    "fileSizeOnDisk": 1661380,
-    "downloadUrl": "https://edge.forgecdn.net/files/6040/434/ProjectRed-1.20.1-4.20.0-core.jar",
+    "fileDate": "2025-01-20T19:15:28.067Z",
+    "fileLength": 806864,
+    "fileSizeOnDisk": 1661856,
+    "downloadUrl": "https://edge.forgecdn.net/files/6107/610/ProjectRed-1.20.1-4.20.1-beta%2b4-core.jar",
     "dependencies": [
       {
-        "modId": 242818,
+        "modId": 258426,
         "relationType": 3
       },
       {
-        "modId": 258426,
+        "modId": 242818,
         "relationType": 3
       }
     ],
     "alternateFileId": 0,
     "isServerPack": false,
-    "fileFingerprint": 631552572,
+    "fileFingerprint": 626919414,
     "modules": [
       {
         "name": "META-INF",
-        "fingerprint": 2961257136
+        "fingerprint": 870648596
       },
       {
         "name": ".cache",
@@ -807,7 +807,7 @@
       },
       {
         "name": "mrtjp",
-        "fingerprint": 738493048
+        "fingerprint": 2668897101
       },
       {
         "name": "pack.mcmeta",
@@ -5665,39 +5665,40 @@
     ]
   },
   {
-    "id": 4452800,
+    "id": 6166552,
     "gameId": 432,
     "modId": 412013,
     "isAvailable": true,
-    "displayName": "[FORGE 1.19.4/20] Ears v1.4.6",
-    "fileName": "ears-forge-1.19.4-1.4.6.jar",
+    "displayName": "[FORGE 1.19.4/20.1] Ears v1.4.7",
+    "fileName": "ears-forge-1.19.4-1.4.7.jar",
     "releaseType": 2,
     "fileStatus": 4,
     "hashes": [
       {
-        "value": "4080f9e4e6e2091d3bc1712370ab77d940615e6a",
+        "value": "cbfdee60bbe65076fc0d0e293631aeb377c23e2a",
         "algo": 1
       },
       {
-        "value": "af5d9bcc6f33f861d5bc8a78a2de4d27",
+        "value": "1eb8315bf587b6862dd298743e328ba2",
         "algo": 2
       }
     ],
-    "fileDate": "2023-03-23T04:11:50.533Z",
-    "fileLength": 159534,
-    "downloadUrl": "https://edge.forgecdn.net/files/4452/800/ears-forge-1.19.4-1.4.6.jar",
+    "fileDate": "2025-02-07T04:59:18.96Z",
+    "fileLength": 160424,
+    "fileSizeOnDisk": 293773,
+    "downloadUrl": "https://edge.forgecdn.net/files/6166/552/ears-forge-1.19.4-1.4.7.jar",
     "dependencies": [],
     "alternateFileId": 0,
     "isServerPack": false,
-    "fileFingerprint": 3256646768,
+    "fileFingerprint": 2303816041,
     "modules": [
       {
         "name": "META-INF",
-        "fingerprint": 1062239386
+        "fingerprint": 1439927891
       },
       {
         "name": "com",
-        "fingerprint": 3314941875
+        "fingerprint": 3201343054
       },
       {
         "name": "ears-icon.png",
@@ -6952,49 +6953,49 @@
     ]
   },
   {
-    "id": 6040440,
+    "id": 6107617,
     "gameId": 432,
     "modId": 478939,
     "isAvailable": true,
-    "displayName": "ProjectRed-1.20.1-4.20.0-transmission.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.0-transmission.jar",
-    "releaseType": 1,
+    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
+    "releaseType": 2,
     "fileStatus": 4,
     "hashes": [
       {
-        "value": "faa51ff916d5337582c1bb94944605aba548f27c",
+        "value": "d0478356172e015c4827f068ee9727bd7d3600ff",
         "algo": 1
       },
       {
-        "value": "33bf4e2122688623a5182bc3066f5bbd",
+        "value": "4446564e59326062f8d76c2e4c4d4f1a",
         "algo": 2
       }
     ],
-    "fileDate": "2024-12-31T18:29:03.41Z",
-    "fileLength": 461403,
-    "fileSizeOnDisk": 569437,
-    "downloadUrl": "https://edge.forgecdn.net/files/6040/440/ProjectRed-1.20.1-4.20.0-transmission.jar",
+    "fileDate": "2025-01-20T19:15:33.173Z",
+    "fileLength": 461408,
+    "fileSizeOnDisk": 569451,
+    "downloadUrl": "https://edge.forgecdn.net/files/6107/617/ProjectRed-1.20.1-4.20.1-beta%2b4-transmission.jar",
     "dependencies": [
       {
         "modId": 242818,
         "relationType": 3
       },
       {
-        "modId": 228702,
+        "modId": 258426,
         "relationType": 3
       },
       {
-        "modId": 258426,
+        "modId": 228702,
         "relationType": 3
       }
     ],
     "alternateFileId": 0,
     "isServerPack": false,
-    "fileFingerprint": 2875484945,
+    "fileFingerprint": 438181763,
     "modules": [
       {
         "name": "META-INF",
-        "fingerprint": 892351726
+        "fingerprint": 949883050
       },
       {
         "name": ".cache",
