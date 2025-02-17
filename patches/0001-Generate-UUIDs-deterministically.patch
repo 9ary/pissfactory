@@ -1,4 +1,4 @@
-From 4ecde186d8688933d18d437c29e5873ab9062b48 Mon Sep 17 00:00:00 2001
+From 69705959bb21a8abe9175016c52968592bf513d7 Mon Sep 17 00:00:00 2001
 From: novenary <novenary@kwak.zip>
 Date: Mon, 3 Feb 2025 12:51:21 +0200
 Subject: [PATCH] Generate UUIDs deterministically
@@ -10,16 +10,17 @@ Subject: [PATCH] Generate UUIDs deterministically
  create mode 100644 tools/build/lib/uuid-1345.js
 
 diff --git a/tools/build/codegen/credits/target.js b/tools/build/codegen/credits/target.js
-index 74e29a9b..bcc08ea4 100644
+index 300ab8da..6a197da7 100644
 --- a/tools/build/codegen/credits/target.js
 +++ b/tools/build/codegen/credits/target.js
-@@ -1,12 +1,21 @@
- //@ts-check
- import Juke from '../../juke/index.js';
+@@ -1,13 +1,22 @@
+ // @ts-check
+ import Juke from 'juke-build';
  import fs from 'fs';
 -import { randomUUID } from 'crypto';
 +import { UUID } from '../../lib/uuid-1345.js';
  import { fileURLToPath } from 'url';
+ import z from 'zod';
  
  import { readDatafileJSON } from '../../lib/json_datafile.js';
  import { fillTemplateFile, fillTemplates } from '../fill_templates.js';

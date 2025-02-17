@@ -75,6 +75,7 @@ lib.makeScope newScope (
         stdenvNoCC,
         fetchFromGitHub,
         nodejs,
+        importNpmLock,
         zip,
         unzip,
         jq,
@@ -83,14 +84,18 @@ lib.makeScope newScope (
       }:
       stdenvNoCC.mkDerivation (finalAttrs: {
         pname = "Monifactory-${difficulty}";
-        version = "0.11.3";
+        version = "0.11.5";
         src = fetchFromGitHub {
           owner = "ThePansmith";
           repo = "Monifactory";
           rev = finalAttrs.version;
-          hash = "sha256-belpDJ1VYqQwMtFWSgJFc/TTSkAslOH/kKgFm27t6A0=";
+          hash = "sha256-ZcWO35/x012FO1cXe3XJ8pTxQpp2Sw4Emwtnec4da6w=";
         };
         patches = [ ../../../patches/0001-Generate-UUIDs-deterministically.patch ];
+
+        npmDeps = importNpmLock {
+          npmRoot = "${finalAttrs.src}/tools/build";
+        };
 
         nativeBuildInputs = [
           nodejs
@@ -109,13 +114,16 @@ lib.makeScope newScope (
           patchShebangs --build .
           cp -r ${escapeStorePath ../../../src_overlay}/. .
           rm config-overrides/*/difficultylock.json5
+          cp -r "$npmDeps"/. tools/build
         '';
         dontConfigure = true;
         buildPhase = ''
           runHook preBuild
           (
             cd tools/build
-            node build.js -c build-client
+            export HOME="$TMPDIR"
+            npm install
+            node . build-client
           )
           runHook postBuild
         '';
