@@ -72,6 +72,7 @@ lib.makeScope newScope (
       {
         difficulty ? "normal",
         forgeServer,
+        unsup,
         stdenvNoCC,
         fetchFromGitHub,
         nodejs,
@@ -142,7 +143,8 @@ lib.makeScope newScope (
             # `packwiz init` tries to go online so we have to do this
             substitute ${escapeStorePath ../../../packwiz/pack.toml.in} pack.toml \
               --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
-              --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")"
+              --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")" \
+              --subst-var-by unsup_version ${escapeShellArg unsup.version}
             : > index.toml
             python3 ${escapeStorePath ../../../packwiz/gen_pw_mods.py} ${escapeStorePath ../../../mods.json}
             substitute ${escapeStorePath ../../../packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
@@ -194,15 +196,17 @@ lib.makeScope newScope (
 
     unsup = callPackage (
       { fetchurl }:
-      fetchurl (
-        let
-          version = "1.0-rc2";
-        in
-        {
-          url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
-          hash = "sha256-h+SpjMvvpGAlHO1YY+mPqoyrvxoDX0CoKl+9jA3L9fw=";
-        }
-      )
+      let
+        manifest = fromJSON (readFile ../../../bootstrap/patches/com.unascribed.unsup.json);
+        inherit (manifest) version;
+      in
+      fetchurl {
+        url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
+        hash = "sha256-4c7c7ubHNhznwBLeocKBleGLlFKOOjNgH1ZSFZhWumc=";
+        passthru = {
+          inherit version;
+        };
+      }
     ) { };
 
     runServer = callPackage (

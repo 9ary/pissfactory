@@ -11,3 +11,4 @@ hash = "dummy"
 [versions]
 forge = "@forge_version@"
 minecraft = "@mc_version@"
+unsup = "@unsup_version@"
