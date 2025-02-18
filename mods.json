@@ -6317,6 +6317,60 @@
     ]
   },
   {
+    "id": 6015917,
+    "gameId": 432,
+    "modId": 443823,
+    "isAvailable": true,
+    "displayName": "[Forge] SkinRestorer 2.2.1",
+    "fileName": "skinrestorer-2.2.1+1.20-forge.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "58fde9bd16f3bd0f5b0704a5da2519c8162c2201",
+        "algo": 1
+      },
+      {
+        "value": "d696788800ebd681a85e7c7b200081ed",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-12-23T09:26:28.947Z",
+    "fileLength": 170123,
+    "fileSizeOnDisk": 288161,
+    "downloadUrl": "https://edge.forgecdn.net/files/6015/917/skinrestorer-2.2.1%2b1.20-forge.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1805464233,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 297888287
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1431687213
+      },
+      {
+        "name": "net",
+        "fingerprint": 2076228557
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 3454729259
+      },
+      {
+        "name": "skinrestorer.mixins.json",
+        "fingerprint": 323180057
+      },
+      {
+        "name": "skinrestorer.refmap.json",
+        "fingerprint": 1076344843
+      }
+    ]
+  },
+  {
     "id": 5840405,
     "gameId": 432,
     "modId": 444699,
