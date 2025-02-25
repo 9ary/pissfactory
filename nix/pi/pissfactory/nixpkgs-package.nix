@@ -75,6 +75,7 @@ lib.makeScope newScope (
         unsup,
         stdenvNoCC,
         fetchFromGitHub,
+        applyPatches,
         nodejs,
         importNpmLock,
         zip,
@@ -86,13 +87,16 @@ lib.makeScope newScope (
       stdenvNoCC.mkDerivation (finalAttrs: {
         pname = "Monifactory-${difficulty}";
         version = "0.11.5";
-        src = fetchFromGitHub {
-          owner = "ThePansmith";
-          repo = "Monifactory";
-          rev = finalAttrs.version;
-          hash = "sha256-ZcWO35/x012FO1cXe3XJ8pTxQpp2Sw4Emwtnec4da6w=";
+        # Patched source derivation allows patching npm lockfiles
+        src = applyPatches {
+          src = fetchFromGitHub {
+            owner = "ThePansmith";
+            repo = "Monifactory";
+            rev = finalAttrs.version;
+            hash = "sha256-ZcWO35/x012FO1cXe3XJ8pTxQpp2Sw4Emwtnec4da6w=";
+          };
+          patches = [ ../../../patches/0001-Generate-UUIDs-deterministically.patch ];
         };
-        patches = [ ../../../patches/0001-Generate-UUIDs-deterministically.patch ];
 
         npmDeps = importNpmLock {
           npmRoot = "${finalAttrs.src}/tools/build";
