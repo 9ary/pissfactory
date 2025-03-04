@@ -3359,6 +3359,87 @@
     ]
   },
   {
+    "id": 4600447,
+    "gameId": 432,
+    "modId": 303938,
+    "isAvailable": true,
+    "displayName": "customfov-forge-6.2.1+1.20.1.jar",
+    "fileName": "customfov-forge-6.2.1+1.20.1.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "5863cef0a132f4337ccbeb9acdf88ce3a942d5da",
+        "algo": 1
+      },
+      {
+        "value": "b58e82c82bb16190c8f163bb8fc2905f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-06-21T08:21:18.577Z",
+    "fileLength": 44686,
+    "downloadUrl": "https://edge.forgecdn.net/files/4600/447/customfov-forge-6.2.1%2b1.20.1.jar",
+    "dependencies": [],
+    "alternateFileId": 4600448,
+    "isServerPack": false,
+    "fileFingerprint": 540365619,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4042183167
+      },
+      {
+        "name": "CHANGELOG.md",
+        "fingerprint": 2866029466
+      },
+      {
+        "name": "COPYING",
+        "fingerprint": 2226923820
+      },
+      {
+        "name": "COPYING.LESSER",
+        "fingerprint": 1136524626
+      },
+      {
+        "name": "LICENSE",
+        "fingerprint": 1349637191
+      },
+      {
+        "name": "README.md",
+        "fingerprint": 1273206149
+      },
+      {
+        "name": "assets",
+        "fingerprint": 679812135
+      },
+      {
+        "name": "com",
+        "fingerprint": 111055802
+      },
+      {
+        "name": "customfov.forge.mixins.json",
+        "fingerprint": 2283421722
+      },
+      {
+        "name": "customfov.mixins.json",
+        "fingerprint": 4286786019
+      },
+      {
+        "name": "customfov.refmap.json",
+        "fingerprint": 1091237209
+      },
+      {
+        "name": "customfov_icon.png",
+        "fingerprint": 2706246876
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2568064947
+      }
+    ]
+  },
+  {
     "id": 4966125,
     "gameId": 432,
     "modId": 306770,
@@ -13924,6 +14005,56 @@
       {
         "name": "squakereforged.refmap.json",
         "fingerprint": 955749115
+      }
+    ]
+  },
+  {
+    "id": 6235713,
+    "gameId": 432,
+    "modId": 1138130,
+    "isAvailable": true,
+    "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
+    "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e2162553deb2fb1f8b2473e5c8adb060f30a39d4",
+        "algo": 1
+      },
+      {
+        "value": "98625444e30b0d20b9b34f7024fe6925",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-02-25T18:26:49.267Z",
+    "fileLength": 9073,
+    "fileSizeOnDisk": 16439,
+    "downloadUrl": "https://edge.forgecdn.net/files/6235/713/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 52341251,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4280258589
+      },
+      {
+        "name": "com",
+        "fingerprint": 1128650927
+      },
+      {
+        "name": "corpsecurioscompat.mixins.json",
+        "fingerprint": 4155596940
+      },
+      {
+        "name": "corpsecurioscompat.refmap.json",
+        "fingerprint": 1493072104
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 3793120929
       }
     ]
   },

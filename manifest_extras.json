@@ -2,6 +2,19 @@
   "comment": "This file isn't intended to be parsed by tools other than ./lock_mods.sh",
   "files": [
     {
+      "description": "Corpse x Curios API Compat",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat",
+      "fileID": 6235713,
+      "projectID": 1138130
+    },
+    {
+      "description": "Custom FoV",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/custom-fov",
+      "fileID": 4600447,
+      "projectID": 303938
+    },
+
+    {
       "description": "Create",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/create",
       "fileID": 5838779,
