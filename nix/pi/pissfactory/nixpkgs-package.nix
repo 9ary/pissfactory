@@ -117,7 +117,7 @@ lib.makeScope newScope (
 
         postPatch = ''
           patchShebangs --build .
-          cp -r ${escapeStorePath ../../../src_overlay}/. .
+          cp -r --no-preserve=mode ${escapeStorePath ../../../src_overlay}/. .
           rm config-overrides/*/difficultylock.json5
           cp -r "$npmDeps"/. tools/build
         '';
