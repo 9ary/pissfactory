@@ -13874,36 +13874,36 @@
     ]
   },
   {
-    "id": 5825064,
+    "id": 5763195,
     "gameId": 432,
     "modId": 1100654,
     "isAvailable": true,
-    "displayName": "Squake Reforged 1.1",
-    "fileName": "squakereforged-1.1.jar",
+    "displayName": "Squake Reforged 1.0",
+    "fileName": "squakereforged-1.0-SNAPSHOT.jar",
     "releaseType": 1,
     "fileStatus": 4,
     "hashes": [
       {
-        "value": "c51e58dbe7095baa3dad4c9338acb1a470afa3d9",
+        "value": "db4000458e8a4865e8827849ab0c9a97d73bad03",
         "algo": 1
       },
       {
-        "value": "0a76a2cb1ae4ae89a30633ff191c34f2",
+        "value": "7ff9ec3fb31e6f5bdb579256afe8b7fb",
         "algo": 2
       }
     ],
-    "fileDate": "2024-10-19T16:35:47.413Z",
-    "fileLength": 31839,
-    "fileSizeOnDisk": 58629,
-    "downloadUrl": "https://edge.forgecdn.net/files/5825/64/squakereforged-1.1.jar",
+    "fileDate": "2024-09-28T00:28:41.553Z",
+    "fileLength": 31140,
+    "fileSizeOnDisk": 57626,
+    "downloadUrl": "https://edge.forgecdn.net/files/5763/195/squakereforged-1.0-SNAPSHOT.jar",
     "dependencies": [],
     "alternateFileId": 0,
     "isServerPack": false,
-    "fileFingerprint": 3730908268,
+    "fileFingerprint": 4266191321,
     "modules": [
       {
         "name": "META-INF",
-        "fingerprint": 1829368179
+        "fingerprint": 4011955551
       },
       {
         "name": "assets",
@@ -13911,7 +13911,7 @@
       },
       {
         "name": "derp",
-        "fingerprint": 71948947
+        "fingerprint": 1648796733
       },
       {
         "name": "pack.mcmeta",
