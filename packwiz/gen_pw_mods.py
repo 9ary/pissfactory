@@ -23,6 +23,7 @@ client_only = [
         r"giacomos_speedometer-.*\.jar$",
         r"fancymenu_.*\.jar$",
         r"drippyloadingscreen_.*\.jar$",
+        r"customfov-.*\.jar$",
     ]
 ]
 
