@@ -3,11 +3,9 @@
     "id": 5789363,
     "gameId": 432,
     "modId": 32274,
-    "isAvailable": true,
     "displayName": "journeymap-1.20.1-5.10.3-forge",
     "fileName": "journeymap-1.20.1-5.10.3-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d0bbe7c23049892b154b6417904dd027fb53a37a",
@@ -98,11 +96,9 @@
     "id": 5927256,
     "gameId": 432,
     "modId": 59613,
-    "isAvailable": true,
     "displayName": "endertanks-forge-1.20.1-1.4.jar",
     "fileName": "endertanks-forge-1.20.1-1.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d76b36e7f0208e9495d412e4142c272930820b9a",
@@ -165,11 +161,9 @@
     "id": 5338457,
     "gameId": 432,
     "modId": 60089,
-    "isAvailable": true,
     "displayName": "[1.20.1 Forge] Mouse Tweaks 2.25.1",
     "fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d751153e722a4e014691c83f39f5b07c6ec5333c",
@@ -222,11 +216,9 @@
     "id": 6035212,
     "gameId": 432,
     "modId": 64578,
-    "isAvailable": true,
     "displayName": "Ender IO - 6.2.7-beta",
     "fileName": "EnderIO-1.20.1-6.2.7-beta-all.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8f2743fab6f73b14176eb8fe62072ac4273901e3",
@@ -309,11 +301,9 @@
     "id": 5374122,
     "gameId": 432,
     "modId": 69162,
-    "isAvailable": true,
     "displayName": "cofh_core-1.20.1-11.0.2.56.jar",
     "fileName": "cofh_core-1.20.1-11.0.2.56.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "6f7c0056fece31bf393df450d79482810ed444af",
@@ -375,11 +365,9 @@
     "id": 5372749,
     "gameId": 432,
     "modId": 69163,
-    "isAvailable": true,
     "displayName": "thermal_expansion-1.20.1-11.0.1.29.jar",
     "fileName": "thermal_expansion-1.20.1-11.0.1.29.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c79fe5b922653d109cdcee45f4bca24c86daf6c0",
@@ -437,11 +425,9 @@
     "id": 5372745,
     "gameId": 432,
     "modId": 70631,
-    "isAvailable": true,
     "displayName": "redstone_arsenal-1.20.1-8.0.1.24.jar",
     "fileName": "redstone_arsenal-1.20.1-8.0.1.24.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8d008954747ad6633b85f3ccfa0523807a400e8b",
@@ -495,11 +481,9 @@
     "id": 5934222,
     "gameId": 432,
     "modId": 71738,
-    "isAvailable": true,
     "displayName": "shetiphiancore-forge-1.20.1-1.4.jar",
     "fileName": "shetiphiancore-forge-1.20.1-1.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "410b5b74c1373ae16ce62d304f3d9c34df9e3aef",
@@ -557,11 +541,9 @@
     "id": 5443583,
     "gameId": 432,
     "modId": 222880,
-    "isAvailable": true,
     "displayName": "thermal_foundation-1.20.1-11.0.6.70.jar",
     "fileName": "thermal_foundation-1.20.1-11.0.6.70.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f",
@@ -623,11 +605,9 @@
     "id": 6014947,
     "gameId": 432,
     "modId": 223794,
-    "isAvailable": true,
     "displayName": "AE2 15.3.2-beta [NEOFORGE]",
     "fileName": "appliedenergistics2-forge-15.3.2-beta.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "32e8e3f67229b0433c3779e09bd7a2c9e3a8fb84",
@@ -710,11 +690,9 @@
     "id": 4587490,
     "gameId": 432,
     "modId": 227657,
-    "isAvailable": true,
     "displayName": "GlobalGameRules-1.20-8.0.0.11.jar",
     "fileName": "GlobalGameRules-1.20-8.0.0.11.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e1ad2f5480453aed8059aeddd5964694116a9fc8",
@@ -756,11 +734,9 @@
     "id": 6107610,
     "gameId": 432,
     "modId": 228702,
-    "isAvailable": true,
     "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
     "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d7c5190e1729deaf266dcc7274a7127fb43b9474",
@@ -819,11 +795,9 @@
     "id": 6000481,
     "gameId": 432,
     "modId": 229060,
-    "isAvailable": true,
     "displayName": "[1.20.1 Forge] v 1.0.3",
     "fileName": "iChunUtil-1.20.1-Forge-1.0.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "6e7f110cb4ef9c22bf557cd54248546548d56c66",
@@ -889,11 +863,9 @@
     "id": 5375681,
     "gameId": 432,
     "modId": 230976,
-    "isAvailable": true,
     "displayName": "FastLeafDecay-32.jar",
     "fileName": "FastLeafDecay-32.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7",
@@ -930,11 +902,9 @@
     "id": 5203366,
     "gameId": 432,
     "modId": 231095,
-    "isAvailable": true,
     "displayName": "chisels-and-bits-forge-1.4.148.jar",
     "fileName": "chisels-and-bits-forge-1.4.148.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bff153dc16b26a0d4f0e8ccc27b2e0fc2dc89355",
@@ -999,11 +969,9 @@
     "id": 5477586,
     "gameId": 432,
     "modId": 231275,
-    "isAvailable": true,
     "displayName": "[1.20.1 Forge] v 1.5.0",
     "fileName": "Ding-1.20.1-Forge-1.5.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "15272a231088077e566f383f51eb408d12c23308",
@@ -1061,11 +1029,9 @@
     "id": 4635878,
     "gameId": 432,
     "modId": 232131,
-    "isAvailable": true,
     "displayName": "defaultoptions-forge-1.20-18.0.1.jar",
     "fileName": "defaultoptions-forge-1.20-18.0.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d19f874852def4ef73b32caf3f218e6423d51677",
@@ -1127,11 +1093,9 @@
     "id": 4578262,
     "gameId": 432,
     "modId": 233019,
-    "isAvailable": true,
     "displayName": "AI-Improvements-1.20.1-0.5.2.jar",
     "fileName": "AI-Improvements-1.20-0.5.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8",
@@ -1168,11 +1132,9 @@
     "id": 5623639,
     "gameId": 432,
     "modId": 233071,
-    "isAvailable": true,
     "displayName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
     "fileName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "68f0872bde448a1134c4f54946d227160ac0af93",
@@ -1235,11 +1197,9 @@
     "id": 4600191,
     "gameId": 432,
     "modId": 237307,
-    "isAvailable": true,
     "displayName": "cosmeticarmorreworked-1.20.1-v1a.jar",
     "fileName": "cosmeticarmorreworked-1.20.1-v1a.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea",
@@ -1284,11 +1244,9 @@
     "id": 5159498,
     "gameId": 432,
     "modId": 237664,
-    "isAvailable": true,
     "displayName": "ironfurnaces-1.20.1-4.1.6.jar",
     "fileName": "ironfurnaces-1.20.1-4.1.6.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ce28ca1679c9c353b8e4391b45499f16b19b6648",
@@ -1337,11 +1295,9 @@
     "id": 5853326,
     "gameId": 432,
     "modId": 238086,
-    "isAvailable": true,
     "displayName": "KubeJS Forge 2001.6.5-build.16",
     "fileName": "kubejs-forge-2001.6.5-build.16.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66",
@@ -1428,11 +1384,9 @@
     "id": 6075247,
     "gameId": 432,
     "modId": 238222,
-    "isAvailable": true,
     "displayName": "15.20.0.106 for Forge 1.20.1",
     "fileName": "jei-1.20.1-forge-15.20.0.106.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "77928d15d797663846cba44de8f79e4e4c5fdbb7",
@@ -1478,11 +1432,9 @@
     "id": 5838485,
     "gameId": 432,
     "modId": 238372,
-    "isAvailable": true,
     "displayName": "Neat-1.20.1-41-FORGE.jar",
     "fileName": "Neat-1.20.1-41-FORGE.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "32fe1c807ac0c6aed8045260934f1ba6dc491361",
@@ -1536,11 +1488,9 @@
     "id": 5753868,
     "gameId": 432,
     "modId": 242818,
-    "isAvailable": true,
     "displayName": "CodeChicken Lib 1.20.1-4.4.0.516",
     "fileName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f9b90ff58442b5967366fd90d24980a34540518d",
@@ -1610,11 +1560,9 @@
     "id": 5594847,
     "gameId": 432,
     "modId": 243121,
-    "isAvailable": true,
     "displayName": "Quark-4.0-460.jar",
     "fileName": "Quark-4.0-460.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3aef3c60a7f77e17c630df05cbb9da72d274b683",
@@ -1688,11 +1636,9 @@
     "id": 5841750,
     "gameId": 432,
     "modId": 245755,
-    "isAvailable": true,
     "displayName": "waystones-forge-1.20-14.1.6.jar",
     "fileName": "waystones-forge-1.20-14.1.6.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "39fd81849da768e5a1ea5331856b6e5d74e3fcdd",
@@ -1763,11 +1709,9 @@
     "id": 5303143,
     "gameId": 432,
     "modId": 246974,
-    "isAvailable": true,
     "displayName": "[1.20.1] Solar Flux Reborn - 20.1.6",
     "fileName": "SolarFluxReborn-1.20.1-20.1.6.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "1b67912887e92eecf1f36c8555c97083bd14efb5",
@@ -1841,11 +1785,9 @@
     "id": 6060833,
     "gameId": 432,
     "modId": 247401,
-    "isAvailable": true,
     "displayName": "[1.20.1] HammerLib - 20.1.41",
     "fileName": "HammerLib-1.20.1-20.1.41.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ccce5d234d054c1839a1025bcbb7c0021aa1be21",
@@ -1903,11 +1845,9 @@
     "id": 4770828,
     "gameId": 432,
     "modId": 248787,
-    "isAvailable": true,
     "displayName": "appleskin-forge-mc1.20.1-2.5.1.jar",
     "fileName": "appleskin-forge-mc1.20.1-2.5.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "81919356f84eab14258db98924b66c3c38e372b1",
@@ -1952,11 +1892,9 @@
     "id": 4646682,
     "gameId": 432,
     "modId": 250398,
-    "isAvailable": true,
     "displayName": "Controlling-forge-1.20.1-12.0.2.jar",
     "fileName": "Controlling-forge-1.20.1-12.0.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
@@ -2022,11 +1960,9 @@
     "id": 4837768,
     "gameId": 432,
     "modId": 250832,
-    "isAvailable": true,
     "displayName": "elevatorid-1.20.1-lex-1.9.jar",
     "fileName": "elevatorid-1.20.1-lex-1.9.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "04f3ee97d8881f4dd6b4e2c8c5ba4e1785e2f2c7",
@@ -2075,11 +2011,9 @@
     "id": 4751740,
     "gameId": 432,
     "modId": 251407,
-    "isAvailable": true,
     "displayName": "clienttweaks-forge-1.20-11.1.0.jar",
     "fileName": "clienttweaks-forge-1.20-11.1.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8a117dbbb376360c34d6ba56ce03ce2837bbccc2",
@@ -2141,11 +2075,9 @@
     "id": 4712189,
     "gameId": 432,
     "modId": 252848,
-    "isAvailable": true,
     "displayName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
     "fileName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "31ae930cdbb34e8e05e1954cfb2fee3a3813e850",
@@ -2190,11 +2122,9 @@
     "id": 5849456,
     "gameId": 432,
     "modId": 254268,
-    "isAvailable": true,
     "displayName": "torchmaster-20.1.9",
     "fileName": "torchmaster-20.1.9.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758",
@@ -2240,11 +2170,9 @@
     "id": 5278538,
     "gameId": 432,
     "modId": 256717,
-    "isAvailable": true,
     "displayName": "Clumps-forge-1.20.1-12.0.0.4.jar",
     "fileName": "Clumps-forge-1.20.1-12.0.0.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "97cc669f68dbe812cb77cc3631339334fc28b877",
@@ -2293,11 +2221,9 @@
     "id": 6048918,
     "gameId": 432,
     "modId": 257814,
-    "isAvailable": true,
     "displayName": "CreativeCore_FORGE_v2.12.28_mc1.20.1.jar",
     "fileName": "CreativeCore_FORGE_v2.12.28_mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "1df4be91a66108003d71c1e5118b34327da83f57",
@@ -2355,11 +2281,9 @@
     "id": 5311521,
     "gameId": 432,
     "modId": 258426,
-    "isAvailable": true,
     "displayName": "CB Multipart 1.20.1-3.3.0.146",
     "fileName": "CBMultipart-1.20.1-3.3.0.146-universal.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7eb4d3f7b9dc4b65cffd848f2949eb5d468dfc32",
@@ -2421,11 +2345,9 @@
     "id": 5929061,
     "gameId": 432,
     "modId": 260262,
-    "isAvailable": true,
     "displayName": "ToolBelt-1.20.1-1.20.02.jar",
     "fileName": "ToolBelt-1.20.1-1.20.02.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92",
@@ -2483,11 +2405,9 @@
     "id": 5884329,
     "gameId": 432,
     "modId": 269024,
-    "isAvailable": true,
     "displayName": "LostCities - 1.20-7.3.5",
     "fileName": "lostcities-1.20-7.3.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b2eea98efde5a824816af54d86d8a422991ee76b",
@@ -2538,11 +2458,9 @@
     "id": 5478647,
     "gameId": 432,
     "modId": 271009,
-    "isAvailable": true,
     "displayName": "forgivingvoid-forge-1.20-10.0.1.jar",
     "fileName": "forgivingvoid-forge-1.20-10.0.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b69b60d7b940891f5646d4e9a596d25f9b75cc3f",
@@ -2604,11 +2522,9 @@
     "id": 4711316,
     "gameId": 432,
     "modId": 271740,
-    "isAvailable": true,
     "displayName": "ToastControl-1.20.1-8.0.3.jar",
     "fileName": "ToastControl-1.20.1-8.0.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e9ef48672f01b076ea3b8c7c5e6a139c2491a67c",
@@ -2658,11 +2574,9 @@
     "id": 5857370,
     "gameId": 432,
     "modId": 272335,
-    "isAvailable": true,
     "displayName": "Cucumber-1.20.1-7.0.13.jar",
     "fileName": "Cucumber-1.20.1-7.0.13.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e2987306d878745a1ea926bdee07f8d320bfa848",
@@ -2720,11 +2634,9 @@
     "id": 4586784,
     "gameId": 432,
     "modId": 280294,
-    "isAvailable": true,
     "displayName": "FpsReducer2-forge-1.20-2.5.jar",
     "fileName": "FpsReducer2-forge-1.20-2.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d7d5af20faa2bd7012aa2d34b5804324aa273092",
@@ -2777,11 +2689,9 @@
     "id": 4598450,
     "gameId": 432,
     "modId": 282313,
-    "isAvailable": true,
     "displayName": "TipTheScales-forge-1.20.1-9.0.0.1.jar",
     "fileName": "TipTheScales-forge-1.20.1-9.0.0.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "fce3cbb3b72fa2b805b4097d4d63d9b8fb896a9e",
@@ -2834,11 +2744,9 @@
     "id": 5414631,
     "gameId": 432,
     "modId": 283644,
-    "isAvailable": true,
     "displayName": "Placebo-1.20.1-8.6.2.jar",
     "fileName": "Placebo-1.20.1-8.6.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "dacfb5429e4a7902203e417c78aab6e0d5087255",
@@ -2891,11 +2799,9 @@
     "id": 6033946,
     "gameId": 432,
     "modId": 284497,
-    "isAvailable": true,
     "displayName": "IronJetpacks-1.20.1-7.0.8.jar",
     "fileName": "IronJetpacks-1.20.1-7.0.8.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "0d96294d46cf1f96b691fa80c6e5bfe42eb444dc",
@@ -2946,11 +2852,9 @@
     "id": 5468426,
     "gameId": 432,
     "modId": 287342,
-    "isAvailable": true,
     "displayName": "titanium-1.20.1-3.8.32.jar",
     "fileName": "titanium-1.20.1-3.8.32.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "4672c64a8019e81a4a6c8239f20661d5edbd5da1",
@@ -3007,11 +2911,9 @@
     "id": 5816794,
     "gameId": 432,
     "modId": 289412,
-    "isAvailable": true,
     "displayName": "ftb-quests-forge-2001.4.9.jar",
     "fileName": "ftb-quests-forge-2001.4.9.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8304908d8a236cd3ba4ebbf758d40f70868e71bc",
@@ -3078,11 +2980,9 @@
     "id": 5372751,
     "gameId": 432,
     "modId": 291737,
-    "isAvailable": true,
     "displayName": "thermal_innovation-1.20.1-11.0.1.23.jar",
     "fileName": "thermal_innovation-1.20.1-11.0.1.23.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5c6881416ff4fb116d05f4a48acf12b30f10af82",
@@ -3140,11 +3040,9 @@
     "id": 5074609,
     "gameId": 432,
     "modId": 291936,
-    "isAvailable": true,
     "displayName": "findme-3.2.1-forge.jar",
     "fileName": "findme-3.2.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c5f81bfb1ac556bf0eb197aecd0f1fe3b5469ce0",
@@ -3202,11 +3100,9 @@
     "id": 4646817,
     "gameId": 432,
     "modId": 296996,
-    "isAvailable": true,
     "displayName": "rebind_narrator-forge-1.20.1-2.0.2.jar",
     "fileName": "rebind_narrator-forge-1.20.1-2.0.2.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7f11b4a6aa81b26085857215e18b4ca8e6f2e749",
@@ -3255,11 +3151,9 @@
     "id": 5144161,
     "gameId": 432,
     "modId": 298187,
-    "isAvailable": true,
     "displayName": "BuildingGadgets2-1.0.7",
     "fileName": "buildinggadgets2-1.0.7.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "466c8cf2a45d878a224a77525b254b044aba3bd2",
@@ -3308,11 +3202,9 @@
     "id": 5181098,
     "gameId": 432,
     "modId": 299540,
-    "isAvailable": true,
     "displayName": "FastFurnace-1.20.1-8.0.2.jar",
     "fileName": "FastFurnace-1.20.1-8.0.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61",
@@ -3362,11 +3254,9 @@
     "id": 4600447,
     "gameId": 432,
     "modId": 303938,
-    "isAvailable": true,
     "displayName": "customfov-forge-6.2.1+1.20.1.jar",
     "fileName": "customfov-forge-6.2.1+1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5863cef0a132f4337ccbeb9acdf88ce3a942d5da",
@@ -3443,11 +3333,9 @@
     "id": 4966125,
     "gameId": 432,
     "modId": 306770,
-    "isAvailable": true,
     "displayName": "Patchouli-1.20.1-84-FORGE.jar",
     "fileName": "Patchouli-1.20.1-84-FORGE.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b6b7267f3669c10c167d5d375d0274d40e3eb756",
@@ -3504,11 +3392,9 @@
     "id": 5955879,
     "gameId": 432,
     "modId": 308240,
-    "isAvailable": true,
     "displayName": "cherishedworlds-forge-6.1.7+1.20.1.jar",
     "fileName": "cherishedworlds-forge-6.1.7+1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d3eb588c64691c9da83460e3b2e783401d337a34",
@@ -3582,11 +3468,9 @@
     "id": 6028185,
     "gameId": 432,
     "modId": 308380,
-    "isAvailable": true,
     "displayName": "1.20.1-3.4.9.29",
     "fileName": "PackagedAuto-1.20.1-3.4.9.29.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e223ac365f65564290b49a48e70381dd79a64dfb",
@@ -3641,11 +3525,9 @@
     "id": 5937417,
     "gameId": 432,
     "modId": 309516,
-    "isAvailable": true,
     "displayName": "Bountiful-6.0.4+1.20.1-forge.jar",
     "fileName": "Bountiful-6.0.4+1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3627112f17aeef9018d98883a2469e7f90afc3c4",
@@ -3704,11 +3586,9 @@
     "id": 4838266,
     "gameId": 432,
     "modId": 309674,
-    "isAvailable": true,
     "displayName": "item-filters-forge-2001.1.0-build.59.jar",
     "fileName": "item-filters-forge-2001.1.0-build.59.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "55a7f032c59489eca96069a7841601de2ff97590",
@@ -3770,11 +3650,9 @@
     "id": 6058834,
     "gameId": 432,
     "modId": 309927,
-    "isAvailable": true,
     "displayName": "curios-forge-5.11.1+1.20.1.jar",
     "fileName": "curios-forge-5.11.1+1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "73c11645c983180f0b0de7c0325caeba28a056d7",
@@ -3844,11 +3722,9 @@
     "id": 5956390,
     "gameId": 432,
     "modId": 314906,
-    "isAvailable": true,
     "displayName": "ftb-chunks-forge-2001.3.4.jar",
     "fileName": "ftb-chunks-forge-2001.3.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "546d1ac90d42626d080502b79e8821c5086797a5",
@@ -3923,11 +3799,9 @@
     "id": 5985511,
     "gameId": 432,
     "modId": 316582,
-    "isAvailable": true,
     "displayName": "[FORGE][1.20.1] Corpse 1.20.1-1.0.19",
     "fileName": "corpse-forge-1.20.1-1.0.19.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "db1348bf38522cdac460cf203b9b72d66cf742d9",
@@ -3982,11 +3856,9 @@
     "id": 4770683,
     "gameId": 432,
     "modId": 318551,
-    "isAvailable": true,
     "displayName": "craftingstation-1.20.1-1.jar",
     "fileName": "craftingstation-1.20.1-1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "56b186b8037b307a7fd3b55dfde6ad4bb618231f",
@@ -4035,11 +3907,9 @@
     "id": 5740987,
     "gameId": 432,
     "modId": 319466,
-    "isAvailable": true,
     "displayName": "TelePastries-1.20.1-0.8.4.jar",
     "fileName": "TelePastries-1.20.1-0.8.4.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "11b167c70aa94c1937546a2108d96d13ed56118b",
@@ -4089,11 +3959,9 @@
     "id": 5524615,
     "gameId": 432,
     "modId": 321996,
-    "isAvailable": true,
     "displayName": "[NeoForge] Traveller's Boots v2.1.2 for MC 1.20.1",
     "fileName": "TravellersBootsReloaded-1.20.1-2.1.2-neoforge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f32b169349f03b63520504fcc5799b9c8d50b297",
@@ -4159,11 +4027,9 @@
     "id": 6039028,
     "gameId": 432,
     "modId": 322861,
-    "isAvailable": true,
     "displayName": "1.20.1-3.4.0.14",
     "fileName": "PackagedExCrafting-1.20.1-3.4.0.14.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "9d563e32048b0d352e7e3b6f7b1f89a83d2ed490",
@@ -4226,11 +4092,9 @@
     "id": 5876199,
     "gameId": 432,
     "modId": 324717,
-    "isAvailable": true,
     "displayName": "[Forge 1.20.1] 11.12.2",
     "fileName": "Jade-1.20.1-Forge-11.12.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "364c39334b7f7c842eecc839de2730a2899e580b",
@@ -4289,11 +4153,9 @@
     "id": 5470032,
     "gameId": 432,
     "modId": 326652,
-    "isAvailable": true,
     "displayName": "cupboard-1.20.1-2.7.jar",
     "fileName": "cupboard-1.20.1-2.7.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "204bc8aa83e8a685f64311b72d55505ab2eca867",
@@ -4338,11 +4200,9 @@
     "id": 5838779,
     "gameId": 432,
     "modId": 328085,
-    "isAvailable": true,
     "displayName": "Create 1.20.1 0.5.1j",
     "fileName": "create-1.20.1-0.5.1.j.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7",
@@ -4408,11 +4268,9 @@
     "id": 4964550,
     "gameId": 432,
     "modId": 334853,
-    "isAvailable": true,
     "displayName": "SimpleDiscordRichPresence Forge 4.0.3+mc1.20.1",
     "fileName": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4",
@@ -4482,11 +4340,9 @@
     "id": 5840216,
     "gameId": 432,
     "modId": 342584,
-    "isAvailable": true,
     "displayName": "[Fabric/Forge/Neo] 1.20.1-7.87 | Collective",
     "fileName": "collective-1.20.1-7.87.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "6b30430c4737fddf0ee1913a198bcce0f5230a21",
@@ -4560,11 +4416,9 @@
     "id": 5729105,
     "gameId": 432,
     "modId": 348521,
-    "isAvailable": true,
     "displayName": "[Forge 1.20(.1)] v11.1.136",
     "fileName": "cloth-config-11.1.136-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c65d07748acc57ceb45d53b3964368b84f34d54f",
@@ -4618,11 +4472,9 @@
     "id": 5430042,
     "gameId": 432,
     "modId": 349447,
-    "isAvailable": true,
     "displayName": "ensorcellation-1.20.1-5.0.2.24.jar",
     "fileName": "ensorcellation-1.20.1-5.0.2.24.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e0a018f61c2302c377b26ef3f7c5bd6e8a7303b8",
@@ -4675,11 +4527,9 @@
     "id": 5402061,
     "gameId": 432,
     "modId": 351264,
-    "isAvailable": true,
     "displayName": "Kotlin for Forge 4.11.0",
     "fileName": "kotlinforforge-4.11.0-all.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
@@ -4724,11 +4574,9 @@
     "id": 5060170,
     "gameId": 432,
     "modId": 354428,
-    "isAvailable": true,
     "displayName": "nomowanderer-1.20.1_1.6.4.jar",
     "fileName": "nomowanderer-1.20.1_1.6.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5413f310abbb7e5936accb635bcc1323867af305",
@@ -4773,11 +4621,9 @@
     "id": 5976109,
     "gameId": 432,
     "modId": 361276,
-    "isAvailable": true,
     "displayName": "lootr-forge-1.20-0.7.35.90.jar",
     "fileName": "lootr-forge-1.20-0.7.35.90.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "919a1e75d8fac3081743c9dcbe6679a28c867ec9",
@@ -4835,11 +4681,9 @@
     "id": 4738952,
     "gameId": 432,
     "modId": 361579,
-    "isAvailable": true,
     "displayName": "1.10.53 (Forge 1.20.1)",
     "fileName": "spark-1.10.53-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "231fb325368c0660954f47bfb03493f5246fa4d1",
@@ -4892,11 +4736,9 @@
     "id": 5498979,
     "gameId": 432,
     "modId": 363363,
-    "isAvailable": true,
     "displayName": "Extreme sound muffler 3.48 - Forge 1.20.1",
     "fileName": "ExtremeSoundMuffler-3.48-forge-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "14987b083e123e885cc356aef156ddb4560bba1d",
@@ -4949,11 +4791,9 @@
     "id": 5927268,
     "gameId": 432,
     "modId": 363535,
-    "isAvailable": true,
     "displayName": "enderchests-forge-1.20.1-1.3.jar",
     "fileName": "enderchests-forge-1.20.1-1.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "345e0e63d063a632d340c5b9d259e6d517dc989d",
@@ -5008,11 +4848,9 @@
     "id": 5823943,
     "gameId": 432,
     "modId": 367706,
-    "isAvailable": true,
     "displayName": "[Forge] v3.3.2 MC 1.20.1",
     "fileName": "fancymenu_forge_3.3.2_MC_1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bed01849853308ec9ed23c9a0b493adc93f1ef2e",
@@ -5083,11 +4921,9 @@
     "id": 4803995,
     "gameId": 432,
     "modId": 370890,
-    "isAvailable": true,
     "displayName": "JAVD-Forge-5.0.1+mc1.20.1.jar",
     "fileName": "JAVD-Forge-5.0.1+mc1.20.1.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "a1973dc568d8f1b40cdd5a48906e59d108e2662e",
@@ -5145,11 +4981,9 @@
     "id": 4796884,
     "gameId": 432,
     "modId": 373014,
-    "isAvailable": true,
     "displayName": "DefaultWorldType-1.20.1-4.0.4.jar",
     "fileName": "DefaultWorldType-1.20.1-4.0.4.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "0b6e6f8c7a7c8433280486d841450aa6df0fbee4",
@@ -5194,11 +5028,9 @@
     "id": 5995253,
     "gameId": 432,
     "modId": 388800,
-    "isAvailable": true,
     "displayName": "polymorph-forge-0.49.8+1.20.1.jar",
     "fileName": "polymorph-forge-0.49.8+1.20.1.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "60be345312d425fc1cff5af7ae1acd46d941dc62",
@@ -5280,11 +5112,9 @@
     "id": 5572725,
     "gameId": 432,
     "modId": 390886,
-    "isAvailable": true,
     "displayName": "[Fabric/Forge/Neo] 1.20.1-4.6 | Difficulty Lock",
     "fileName": "difficultylock-1.20.1-4.6.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "dfdab1661292c47f86706333d67ecf65eaffad63",
@@ -5350,11 +5180,9 @@
     "id": 4712179,
     "gameId": 432,
     "modId": 394535,
-    "isAvailable": true,
     "displayName": "Trash Cans 1.0.18b for Forge 1.20",
     "fileName": "trashcans-1.0.18b-forge-mc1.20.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "4bc991b861a981921d06b731368239ce6ea571d3",
@@ -5424,11 +5252,9 @@
     "id": 4684054,
     "gameId": 432,
     "modId": 399558,
-    "isAvailable": true,
     "displayName": "constructionwand-1.20.1-2.11.jar",
     "fileName": "constructionwand-1.20.1-2.11.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a",
@@ -5481,11 +5307,9 @@
     "id": 6016763,
     "gameId": 432,
     "modId": 404465,
-    "isAvailable": true,
     "displayName": "ftb-library-forge-2001.2.7.jar",
     "fileName": "ftb-library-forge-2001.2.7.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3a8836959ab3dd2a10afba192f174050efb37bc0",
@@ -5560,11 +5384,9 @@
     "id": 5267190,
     "gameId": 432,
     "modId": 404468,
-    "isAvailable": true,
     "displayName": "ftb-teams-forge-2001.3.0.jar",
     "fileName": "ftb-teams-forge-2001.3.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bb5a1f3ac9d44c5e9b319768e7166e877879aaaa",
@@ -5622,11 +5444,9 @@
     "id": 5028413,
     "gameId": 432,
     "modId": 410295,
-    "isAvailable": true,
     "displayName": "[Forge] v1.8.0 MC 1.20-1.20.1",
     "fileName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "2019d821bed9071daabed43979433a5473ceee49",
@@ -5675,11 +5495,9 @@
     "id": 4896152,
     "gameId": 432,
     "modId": 410811,
-    "isAvailable": true,
     "displayName": "ftb-essentials-forge-2001.2.2.jar",
     "fileName": "ftb-essentials-forge-2001.2.2.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e9f668ea8fa12215b1db9d505af8feb617d66e5a",
@@ -5749,11 +5567,9 @@
     "id": 6166552,
     "gameId": 432,
     "modId": 412013,
-    "isAvailable": true,
     "displayName": "[FORGE 1.19.4/20.1] Ears v1.4.7",
     "fileName": "ears-forge-1.19.4-1.4.7.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "cbfdee60bbe65076fc0d0e293631aeb377c23e2a",
@@ -5803,11 +5619,9 @@
     "id": 5655836,
     "gameId": 432,
     "modId": 416294,
-    "isAvailable": true,
     "displayName": "Rhino Forge 2001.2.3-build.6",
     "fileName": "rhino-forge-2001.2.3-build.6.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "0c91c1710d7338f139b7cb3465f00590e210139e",
@@ -5865,11 +5679,9 @@
     "id": 5137938,
     "gameId": 432,
     "modId": 419699,
-    "isAvailable": true,
     "displayName": "[Forge 1.20(.1)] v9.2.14",
     "fileName": "architectury-9.2.14-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "a52918a500ff421180a1cbd1a0cabee712134ec4",
@@ -5934,11 +5746,9 @@
     "id": 5002992,
     "gameId": 432,
     "modId": 421694,
-    "isAvailable": true,
     "displayName": "kubejs-thermal Forge 2001.1.10-build.2",
     "fileName": "kubejs-thermal-2001.1.10-build.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bace9e49302c3ef2a23b4522ea37b9c78ccf8770",
@@ -6000,11 +5810,9 @@
     "id": 6078400,
     "gameId": 432,
     "modId": 422301,
-    "isAvailable": true,
     "displayName": "sophisticatedbackpacks-1.20.1-3.22.1.1167.jar",
     "fileName": "sophisticatedbackpacks-1.20.1-3.22.1.1167.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5725ea9d0d32ce14e08b8f2d8896c071d35e4ac1",
@@ -6071,11 +5879,9 @@
     "id": 4863339,
     "gameId": 432,
     "modId": 426386,
-    "isAvailable": true,
     "displayName": "Shrink-1.20.1-1.4.5.jar",
     "fileName": "Shrink-1.20.1-1.4.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f14fb093062f193d758cd90acffae0ce1c461dc2",
@@ -6132,11 +5938,9 @@
     "id": 4810975,
     "gameId": 432,
     "modId": 429235,
-    "isAvailable": true,
     "displayName": "ferritecore-6.0.1-forge.jar",
     "fileName": "ferritecore-6.0.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
@@ -6221,11 +6025,9 @@
     "id": 4715408,
     "gameId": 432,
     "modId": 438332,
-    "isAvailable": true,
     "displayName": "SuperMartijn642's Config Library 1.1.8 for Forge 1.20",
     "fileName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f80f9eed728966adcfbcc848633e789645057281",
@@ -6266,11 +6068,9 @@
     "id": 5629578,
     "gameId": 432,
     "modId": 441647,
-    "isAvailable": true,
     "displayName": "FramedBlocks-9.3.1.jar",
     "fileName": "FramedBlocks-9.3.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e7b729e64c7b1c7a5cdb8a7de4f9a0be50ad4a79",
@@ -6332,11 +6132,9 @@
     "id": 5035999,
     "gameId": 432,
     "modId": 442354,
-    "isAvailable": true,
     "displayName": "Not Enough Crashes 4.4.7+1.20.1 Forge",
     "fileName": "notenoughcrashes-4.4.7+1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "0cd0d0f49762dcaf3716e72c5e159ed9645ce468",
@@ -6401,11 +6199,9 @@
     "id": 5840405,
     "gameId": 432,
     "modId": 444699,
-    "isAvailable": true,
     "displayName": "configuration-forge-1.20.1-3.1.0.jar",
     "fileName": "configuration-forge-1.20.1-3.1.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8757a9f1d47f48463765d1d202cdadc41c84f6b0",
@@ -6459,11 +6255,9 @@
     "id": 5672088,
     "gameId": 432,
     "modId": 448233,
-    "isAvailable": true,
     "displayName": "1.7.0-1.20.1 - Forge",
     "fileName": "entityculling-forge-1.7.0-mc1.20.1.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d2edb93aefdc1b104a8ef975e72c53796b752293",
@@ -6529,11 +6323,9 @@
     "id": 6034718,
     "gameId": 432,
     "modId": 454372,
-    "isAvailable": true,
     "displayName": "SuperMartijn642's Core Lib 1.1.18 for Forge 1.20.1",
     "fileName": "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d37e1148b512c67cee704635b4f07d1f9ea8c31c",
@@ -6595,11 +6387,9 @@
     "id": 4654401,
     "gameId": 432,
     "modId": 455585,
-    "isAvailable": true,
     "displayName": "Kambrik-6.1.1+1.20.1-forge.jar",
     "fileName": "Kambrik-6.1.1+1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "48cdc22a0f6698c9059f437538e5546f74900541",
@@ -6653,11 +6443,9 @@
     "id": 5813138,
     "gameId": 432,
     "modId": 456956,
-    "isAvailable": true,
     "displayName": "[Forge] Chipped 3.0.7",
     "fileName": "chipped-forge-1.20.1-3.0.7.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "25ee2a0846059d8f21d28b94b7e0229b60cb5499",
@@ -6728,11 +6516,9 @@
     "id": 5180900,
     "gameId": 432,
     "modId": 457570,
-    "isAvailable": true,
     "displayName": "Configured 2.2.3",
     "fileName": "configured-forge-1.20.1-2.2.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "065c2d287a52f52fc8d33d780192325ee6f4b6ae",
@@ -6798,11 +6584,9 @@
     "id": 4620430,
     "gameId": 432,
     "modId": 459522,
-    "isAvailable": true,
     "displayName": "climbladdersfast-4.0-1.20.1-forge",
     "fileName": "climbladdersfast-4.0-1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "47c03c101c3e4385813bc03533a49aa2b579315c",
@@ -6872,11 +6656,9 @@
     "id": 5217955,
     "gameId": 432,
     "modId": 459929,
-    "isAvailable": true,
     "displayName": "ae2wtlib-15.2.3-forge.jar",
     "fileName": "ae2wtlib-15.2.3-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "9a35bc25ba2daade63db76ff4012eb68b0392b08",
@@ -6933,11 +6715,9 @@
     "id": 6050417,
     "gameId": 432,
     "modId": 470193,
-    "isAvailable": true,
     "displayName": "connectivity-1.20.1-6.5.jar",
     "fileName": "connectivity-1.20.1-6.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "17e7e57e7c5974bffddadd36c234979859d18ad0",
@@ -6983,11 +6763,9 @@
     "id": 4711435,
     "gameId": 432,
     "modId": 475117,
-    "isAvailable": true,
     "displayName": "FastSuite-1.20.1-5.0.1.jar",
     "fileName": "FastSuite-1.20.1-5.0.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c418caa1eea74e9f05b4a20862ebc665019250c8",
@@ -7037,11 +6815,9 @@
     "id": 6107617,
     "gameId": 432,
     "modId": 478939,
-    "isAvailable": true,
     "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
     "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d0478356172e015c4827f068ee9727bd7d3600ff",
@@ -7104,11 +6880,9 @@
     "id": 5259004,
     "gameId": 432,
     "modId": 482265,
-    "isAvailable": true,
     "displayName": "trofers-forge-5.0.2.jar",
     "fileName": "trofers-forge-5.0.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8f2dab2c7c716bf9ec3e1860c92c287d57f25618",
@@ -7182,11 +6956,9 @@
     "id": 4587408,
     "gameId": 432,
     "modId": 486778,
-    "isAvailable": true,
     "displayName": "fixexperiencebug-1.20-46.2.2.jar",
     "fileName": "fixexperiencebug-1.20-46.2.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8de09b075088c64e8108cac8aa0117a8c3086b5b",
@@ -7223,11 +6995,9 @@
     "id": 5904750,
     "gameId": 432,
     "modId": 495476,
-    "isAvailable": true,
     "displayName": "[FORGE] [1.20.1] PuzzlesLib-v8.1.25",
     "fileName": "PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "89f824435c168d5156cd6aa9e90281bb72dc335c",
@@ -7297,11 +7067,9 @@
     "id": 5293982,
     "gameId": 432,
     "modId": 509285,
-    "isAvailable": true,
     "displayName": "createdeco-2.0.2-1.20.1-forge.jar",
     "fileName": "createdeco-2.0.2-1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "606650f31ca0a5eb64d4bbb8fbaecf357a3bdb43",
@@ -7366,11 +7134,9 @@
     "id": 5294260,
     "gameId": 432,
     "modId": 510656,
-    "isAvailable": true,
     "displayName": "Wireless Chargers 1.0.9a for Forge 1.20",
     "fileName": "wirelesschargers-1.0.9a-forge-mc1.20.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e3f1efc1260c67c77eadb105a4ee36403becbdb5",
@@ -7436,11 +7202,9 @@
     "id": 5796441,
     "gameId": 432,
     "modId": 511770,
-    "isAvailable": true,
     "displayName": "[Forge] v3.0.9 MC 1.20.1",
     "fileName": "drippyloadingscreen_forge_3.0.9_MC_1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b3d5cf518445c0f567b3dc6de8cede6bc3c2a283",
@@ -7511,11 +7275,9 @@
     "id": 5838149,
     "gameId": 432,
     "modId": 520110,
-    "isAvailable": true,
     "displayName": "Iceberg-1.20.1-forge-1.1.25.jar",
     "fileName": "Iceberg-1.20.1-forge-1.1.25.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d551ff55814cfb01403b812459ee5a02b020d87b",
@@ -7565,11 +7327,9 @@
     "id": 5510356,
     "gameId": 432,
     "modId": 525447,
-    "isAvailable": true,
     "displayName": "[Forge] v1.20.1-0.14-48",
     "fileName": "jmi-forge-1.20.1-0.14-48.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f2be323d589b953eaa303f8b74913831a5a9b77b",
@@ -7631,11 +7391,9 @@
     "id": 4955753,
     "gameId": 432,
     "modId": 530816,
-    "isAvailable": true,
     "displayName": "1.8.0",
     "fileName": "no-telemetry-1.8.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "238b8ebc95100368951e0ff5ef2b16a1406e32f2",
@@ -7696,11 +7454,9 @@
     "id": 6077684,
     "gameId": 432,
     "modId": 531761,
-    "isAvailable": true,
     "displayName": "balm-forge-1.20.1-7.3.11-all.jar",
     "fileName": "balm-forge-1.20.1-7.3.11-all.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "55e98bd34d43210f492d3aababe6583db96e3077",
@@ -7758,11 +7514,9 @@
     "id": 4662781,
     "gameId": 432,
     "modId": 532127,
-    "isAvailable": true,
     "displayName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
     "fileName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7d83a56572d333ea352706872f565b8b8537085c",
@@ -7828,11 +7582,9 @@
     "id": 6015618,
     "gameId": 432,
     "modId": 538092,
-    "isAvailable": true,
     "displayName": "[Forge 1.20.1] v1.5.0",
     "fileName": "betterp2p-1.5.0-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "528ccd37ba0dad755e875601bb3326bdeb0f3d4a",
@@ -7907,11 +7659,9 @@
     "id": 4627738,
     "gameId": 432,
     "modId": 550678,
-    "isAvailable": true,
     "displayName": "toofast-1.20-0.4.3.5.jar",
     "fileName": "toofast-1.20-0.4.3.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "a6163b39827b483fb2976c916d99fce6cbf247a9",
@@ -7956,11 +7706,9 @@
     "id": 5723247,
     "gameId": 432,
     "modId": 551520,
-    "isAvailable": true,
     "displayName": "betterfpsdist-1.20.1-6.0.jar",
     "fileName": "betterfpsdist-1.20.1-6.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "8e4fe2cd85c08c24ab363b47a63d1c872fc3cc1e",
@@ -8015,11 +7763,9 @@
     "id": 5895036,
     "gameId": 432,
     "modId": 552574,
-    "isAvailable": true,
     "displayName": "HostileNeuralNetworks-1.20.1-5.3.3.jar",
     "fileName": "HostileNeuralNetworks-1.20.1-5.3.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ec0c77124e7e29c6d642410e3b7b3652a866aff5",
@@ -8082,11 +7828,9 @@
     "id": 5650296,
     "gameId": 432,
     "modId": 556861,
-    "isAvailable": true,
     "displayName": "functionalstorage-1.20.1-1.2.12.jar",
     "fileName": "functionalstorage-1.20.1-1.2.12.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5e1c98a440f93eac4269a2ab3ac86912eab825bb",
@@ -8141,11 +7885,9 @@
     "id": 5091889,
     "gameId": 432,
     "modId": 565833,
-    "isAvailable": true,
     "displayName": "grassslabs-1.3.jar",
     "fileName": "output.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "30fbe36062df585ce3370f942a78c1edbb425daf",
@@ -8198,11 +7940,9 @@
     "id": 5706069,
     "gameId": 432,
     "modId": 570017,
-    "isAvailable": true,
     "displayName": "Radium 0.12.4 for 1.20.1",
     "fileName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
@@ -8260,11 +8000,9 @@
     "id": 5659871,
     "gameId": 432,
     "modId": 570073,
-    "isAvailable": true,
     "displayName": "[Forge] Resourceful Lib 2.1.29",
     "fileName": "resourcefullib-forge-1.20.1-2.1.29.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
@@ -8306,11 +8044,9 @@
     "id": 5404565,
     "gameId": 432,
     "modId": 570630,
-    "isAvailable": true,
     "displayName": "LootJS-Forge-1.20.1-2.12.0",
     "fileName": "lootjs-forge-1.20.1-2.12.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5e0d8b4d398780946f295b31b7b65bf201d7dcc7",
@@ -8380,11 +8116,9 @@
     "id": 5922792,
     "gameId": 432,
     "modId": 574123,
-    "isAvailable": true,
     "displayName": "DarkModeEverywhere-1.20.1-1.2.3.jar",
     "fileName": "DarkModeEverywhere-1.20.1-1.2.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c7993cf29452cac87508ec4b3c124ad53ff95f6f",
@@ -8434,11 +8168,9 @@
     "id": 5350440,
     "gameId": 432,
     "modId": 576589,
-    "isAvailable": true,
     "displayName": "0.3.143 [Forge/NeoForge]",
     "fileName": "polylib-forge-2000.0.3-build.143.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bf49919adc9e9109196762ff20030f823790e2db",
@@ -8499,11 +8231,9 @@
     "id": 5429170,
     "gameId": 432,
     "modId": 577850,
-    "isAvailable": true,
     "displayName": "crafting-on-a-stick-1.20.1-1.1.5.jar",
     "fileName": "crafting-on-a-stick-1.20.1-1.1.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5531e149477b9e540684a296fb196238bf1d85e8",
@@ -8556,11 +8286,9 @@
     "id": 6075448,
     "gameId": 432,
     "modId": 580555,
-    "isAvailable": true,
     "displayName": "emi-1.1.19+1.20.1+forge",
     "fileName": "emi-1.1.19+1.20.1+forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c5a7df35be2b8a04eb8f305646e9d7f209dc65ba",
@@ -8618,11 +8346,9 @@
     "id": 6020952,
     "gameId": 432,
     "modId": 581495,
-    "isAvailable": true,
     "displayName": "Oculus mc1.20.1-1.8.0",
     "fileName": "oculus-mc1.20.1-1.8.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "984f774e71790deaec674c7587bd24e0711871b2",
@@ -8756,11 +8482,9 @@
     "id": 6070477,
     "gameId": 432,
     "modId": 582327,
-    "isAvailable": true,
     "displayName": "smoothchunk-1.20.1-3.9.jar",
     "fileName": "smoothchunk-1.20.1-3.9.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e87f9312a68472690141660667978ab1d06eede8",
@@ -8811,11 +8535,9 @@
     "id": 5693124,
     "gameId": 432,
     "modId": 583345,
-    "isAvailable": true,
     "displayName": "[Forge 1.20.1] 5.3.1",
     "fileName": "JadeAddons-1.20.1-Forge-5.3.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "140a393ae43519bcb9018a7e00c300f930d659dc",
@@ -8870,11 +8592,9 @@
     "id": 4784395,
     "gameId": 432,
     "modId": 615134,
-    "isAvailable": true,
     "displayName": "[Forge] 0.4.3",
     "fileName": "badpackets-forge-0.4.3.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e",
@@ -8923,11 +8643,9 @@
     "id": 6077068,
     "gameId": 432,
     "modId": 618298,
-    "isAvailable": true,
     "displayName": "sophisticatedcore-1.20.1-1.1.2.834.jar",
     "fileName": "sophisticatedcore-1.20.1-1.1.2.834.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d9dc5fa6678bfe9886820d312af31b925404dced",
@@ -8973,11 +8691,9 @@
     "id": 6078405,
     "gameId": 432,
     "modId": 619320,
-    "isAvailable": true,
     "displayName": "sophisticatedstorage-1.20.1-1.1.4.1021.jar",
     "fileName": "sophisticatedstorage-1.20.1-1.1.4.1021.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "618a2b29ae41b3b66ba0aba0da6621588c295d93",
@@ -9040,11 +8756,9 @@
     "id": 5881252,
     "gameId": 432,
     "modId": 622112,
-    "isAvailable": true,
     "displayName": "2.4.5 (Forge 1.20.1)",
     "fileName": "megacells-forge-2.4.5-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "534f34f2d634f969e8897e04aab84da5eb9d9df4",
@@ -9143,11 +8857,9 @@
     "id": 4834403,
     "gameId": 432,
     "modId": 622737,
-    "isAvailable": true,
     "displayName": "1.0.23 [Forge/NeoForge]",
     "fileName": "ftbbackups2-forge-1.20-1.0.23.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "4b100de40338247a3fbf4d1fd1846257c5338189",
@@ -9213,11 +8925,9 @@
     "id": 4583425,
     "gameId": 432,
     "modId": 623560,
-    "isAvailable": true,
     "displayName": "Log-Begone-Forge-1.20.1-1.0.8.jar",
     "fileName": "Log-Begone-Forge-1.20.1-1.0.8.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3b9f1c7fea5e0bdbc6f06429e147bd0a7c08663d",
@@ -9262,11 +8972,9 @@
     "id": 5927130,
     "gameId": 432,
     "modId": 626676,
-    "isAvailable": true,
     "displayName": "LDLib 1.20.1-1.0.33.b-forge",
     "fileName": "ldlib-forge-1.20.1-1.0.33.b.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3a15e25a0faeb841e94d708807babbf8926daf2d",
@@ -9336,11 +9044,9 @@
     "id": 4654671,
     "gameId": 432,
     "modId": 628663,
-    "isAvailable": true,
     "displayName": "nonetherportal-1.20.1-1.0.jar",
     "fileName": "nonetherportal-1.20.1-1.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "772155ead7f8aab06a3404c31377f26e3867f1f3",
@@ -9377,11 +9083,9 @@
     "id": 5016280,
     "gameId": 432,
     "modId": 633412,
-    "isAvailable": true,
     "displayName": "Smooth Boot (Reloaded) 0.0.4 for MC 1.20.1",
     "fileName": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "3fd79132dba444bd109b5de4ad75dee06a48e130",
@@ -9447,11 +9151,9 @@
     "id": 5517426,
     "gameId": 432,
     "modId": 633823,
-    "isAvailable": true,
     "displayName": "AlmostUnified-Forge-1.20.1-0.9.4",
     "fileName": "almostunified-forge-1.20.1-0.9.4.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b04a865b4ffb3c07357435d414205af0101eef62",
@@ -9521,11 +9223,9 @@
     "id": 4610474,
     "gameId": 432,
     "modId": 634062,
-    "isAvailable": true,
     "displayName": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
     "fileName": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "069396e689ae887d065c8d61b7945e685fbcc65b",
@@ -9582,11 +9282,9 @@
     "id": 5914893,
     "gameId": 432,
     "modId": 635042,
-    "isAvailable": true,
     "displayName": "[Forge] Ad Astra 1.15.19",
     "fileName": "ad_astra-forge-1.20.1-1.15.19.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ff0103224186be21463a784767459554debc1f33",
@@ -9685,11 +9383,9 @@
     "id": 4680832,
     "gameId": 432,
     "modId": 635427,
-    "isAvailable": true,
     "displayName": "YeetusExperimentus Forge 2.3.1+mc1.20.1",
     "fileName": "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "6efdaf5d213f779e51aa84631a5f06a306351e75",
@@ -9738,11 +9434,9 @@
     "id": 4650325,
     "gameId": 432,
     "modId": 638111,
-    "isAvailable": true,
     "displayName": "Prism-1.20.1-forge-1.0.5.jar",
     "fileName": "Prism-1.20.1-forge-1.0.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bcb4bbb1052f49ed4fe6e7d5d7f91f68d45c3fe3",
@@ -9795,11 +9489,9 @@
     "id": 5308267,
     "gameId": 432,
     "modId": 666198,
-    "isAvailable": true,
     "displayName": "MoreJS-Forge-1.20.1-0.10.0",
     "fileName": "morejs-forge-1.20.1-0.10.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "fd67b55b6ccc00c38ab31403152f8be230c041da",
@@ -9861,11 +9553,9 @@
     "id": 5200949,
     "gameId": 432,
     "modId": 676136,
-    "isAvailable": true,
     "displayName": "modelfix-1.15.jar",
     "fileName": "modelfix-1.15.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84",
@@ -9918,11 +9608,9 @@
     "id": 5760210,
     "gameId": 432,
     "modId": 681783,
-    "isAvailable": true,
     "displayName": "emi_loot-0.7.4+1.20.1+forge.jar",
     "fileName": "emi_loot-0.7.4+1.20.1+forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "07ae3bd3fe084f0a895cbeaec625a9d8e66a3812",
@@ -9993,11 +9681,9 @@
     "id": 5156621,
     "gameId": 432,
     "modId": 682567,
-    "isAvailable": true,
     "displayName": "[FORGE] [1.20.1] EasyAnvils-v8.0.2",
     "fileName": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d44a8b549b27713a92d59148729bf374ff3e25f0",
@@ -10075,11 +9761,9 @@
     "id": 5959896,
     "gameId": 432,
     "modId": 686911,
-    "isAvailable": true,
     "displayName": "ImmediatelyFast 1.3.3",
     "fileName": "ImmediatelyFast-Forge-1.3.3+1.20.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f3a9a180b6cb062bc6604fe2ec27e11b38c990e5",
@@ -10153,11 +9837,9 @@
     "id": 5840017,
     "gameId": 432,
     "modId": 688231,
-    "isAvailable": true,
     "displayName": "Steam 'n' Rails 1.6.7 Forge 1.20.1",
     "fileName": "Steam_Rails-1.6.7+forge-mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7449e9cbaae6a23a31127a3cf0886899c28639dc",
@@ -10236,11 +9918,9 @@
     "id": 5689932,
     "gameId": 432,
     "modId": 688367,
-    "isAvailable": true,
     "displayName": "MERequester-Forge-1.20.1-1.1.5",
     "fileName": "merequester-forge-1.20.1-1.1.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "24e6611df470afd957eafd16c43890b7214e3da9",
@@ -10311,11 +9991,9 @@
     "id": 5188994,
     "gameId": 432,
     "modId": 693382,
-    "isAvailable": true,
     "displayName": "systeams-1.20.1-1.7.1.jar",
     "fileName": "systeams-1.20.1-1.7.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "04987026896b7dd1e7917f3314b70db14b81f4e0",
@@ -10393,11 +10071,9 @@
     "id": 5907303,
     "gameId": 432,
     "modId": 694231,
-    "isAvailable": true,
     "displayName": "xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar",
     "fileName": "xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "adac636516fe155d7e8b2f8ba686bc2541724e3f",
@@ -10443,11 +10119,9 @@
     "id": 5486070,
     "gameId": 432,
     "modId": 704113,
-    "isAvailable": true,
     "displayName": "[Forge/NeoForge] Botarium 2.3.4",
     "fileName": "botarium-forge-1.20.1-2.3.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b",
@@ -10484,11 +10158,9 @@
     "id": 5020441,
     "gameId": 432,
     "modId": 714059,
-    "isAvailable": true,
     "displayName": "[Forge] Resourceful Config 2.1.2",
     "fileName": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "46825dc0adc36c4b19591bb99f7d856bc2953749",
@@ -10529,11 +10201,9 @@
     "id": 5642039,
     "gameId": 432,
     "modId": 715567,
-    "isAvailable": true,
     "displayName": "AntiBlocksReChiseled v0.4.4 - Forge - 1.20.1",
     "fileName": "antiblocksrechiseled-0.4.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f8795d47fd4da393bc14f87f5ae86282d1a42c5a",
@@ -10596,11 +10266,9 @@
     "id": 4742680,
     "gameId": 432,
     "modId": 738663,
-    "isAvailable": true,
     "displayName": "nerb-1.20.1-0.3-FORGE.jar",
     "fileName": "nerb-1.20.1-0.3-FORGE.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "eff45ae52235847c7fd2e65c381cdfc866d1da41",
@@ -10653,11 +10321,9 @@
     "id": 5549521,
     "gameId": 432,
     "modId": 776293,
-    "isAvailable": true,
     "displayName": "1.7.2 (Forge 1.20.1)",
     "fileName": "fulleng-forge-1.7.2-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b508f7ccd4195f6d34fb1cba9aa3399fc455998a",
@@ -10723,11 +10389,9 @@
     "id": 6025611,
     "gameId": 432,
     "modId": 790626,
-    "isAvailable": true,
     "displayName": "modernfix-forge-5.20.0+mc1.20.1.jar",
     "fileName": "modernfix-forge-5.20.0+mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "89077671ba67dbf454d59bc9863e9548a5543fef",
@@ -10793,11 +10457,9 @@
     "id": 6000961,
     "gameId": 432,
     "modId": 834607,
-    "isAvailable": true,
     "displayName": "WATERFrAMES/Forge/mc1.20.1/v2.1.9",
     "fileName": "waterframes-FORGE-mc1.20.1-v2.1.9.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "80a7475b04948f126ceb5718eff24fe67d1e5ac7",
@@ -10868,11 +10530,9 @@
     "id": 6045292,
     "gameId": 432,
     "modId": 840010,
-    "isAvailable": true,
     "displayName": "NuclearCraft-1.20.1-1.1.5.jar",
     "fileName": "NuclearCraft-1.20.1-1.1.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ba733edf159b9ed0bc1ba0f9700d5cba84274565",
@@ -10934,11 +10594,9 @@
     "id": 4917082,
     "gameId": 432,
     "modId": 840788,
-    "isAvailable": true,
     "displayName": "CullLessLeaves-Reforged-1.20.1-1.0.5",
     "fileName": "CullLessLeaves-Reforged-1.20.1-1.0.5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "71b1603071461e036a3ba2aaeeb52cc10fa3d348",
@@ -11000,11 +10658,9 @@
     "id": 5176879,
     "gameId": 432,
     "modId": 841890,
-    "isAvailable": true,
     "displayName": "[Forge] Athena 3.1.2",
     "fileName": "athena-forge-1.20.1-3.1.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "2acee24454af859988a691f0506271a465f68f7b",
@@ -11061,11 +10717,9 @@
     "id": 6052639,
     "gameId": 432,
     "modId": 850410,
-    "isAvailable": true,
     "displayName": "Create: Estrogen 4.3.2+1.20.1 Forge",
     "fileName": "Estrogen-4.3.2+1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ddea573fe3e57f2fd24aa371ea167ef9b0bec8d3",
@@ -11176,11 +10830,9 @@
     "id": 4710223,
     "gameId": 432,
     "modId": 852668,
-    "isAvailable": true,
     "displayName": "[FORGE] [1.20.1] HangGlider-v8.0.1",
     "fileName": "HangGlider-v8.0.1-1.20.1-Forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e4a5deeb545db6853ae4d668d0751228e641fc61",
@@ -11258,11 +10910,9 @@
     "id": 4694780,
     "gameId": 432,
     "modId": 854813,
-    "isAvailable": true,
     "displayName": "giacomos_speedometer-1.20.1-1.0.6.jar",
     "fileName": "giacomos_speedometer-1.20.1-1.0.6.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "9aca741e1e20f1dc2b12daabd270d41232d6e3ec",
@@ -11299,11 +10949,9 @@
     "id": 5284015,
     "gameId": 432,
     "modId": 858542,
-    "isAvailable": true,
     "displayName": "Searchables-forge-1.20.1-1.0.3.jar",
     "fileName": "Searchables-forge-1.20.1-1.0.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
@@ -11360,11 +11008,9 @@
     "id": 6079412,
     "gameId": 432,
     "modId": 869524,
-    "isAvailable": true,
     "displayName": "WM/2.1.13",
     "fileName": "watermedia-2.1.13.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "26a2e45e3a9dc5cfcf9abd39d99c314bb712323a",
@@ -11434,11 +11080,9 @@
     "id": 4848244,
     "gameId": 432,
     "modId": 870210,
-    "isAvailable": true,
     "displayName": "Trenzalore Forge 3.3.10+mc1.20.1",
     "fileName": "trenzalore-forge-3.3.10+mc1.20.1-all.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7295788df92b75b49affb11d13f9fcf0385017fc",
@@ -11483,11 +11127,9 @@
     "id": 4884976,
     "gameId": 432,
     "modId": 882495,
-    "isAvailable": true,
     "displayName": "gpumemleakfix-1.20.1-1.8.jar",
     "fileName": "gpumemleakfix-1.20.1-1.8.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "54301c2db5467e0f9f5c504887436f358335331f",
@@ -11532,11 +11174,9 @@
     "id": 6046020,
     "gameId": 432,
     "modId": 889915,
-    "isAvailable": true,
     "displayName": "ftb-xmod-compat-forge-2.1.2.jar",
     "fileName": "ftb-xmod-compat-forge-2.1.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "68e497eadb936bf9e92591f9c2e34288a52b01f4",
@@ -11627,11 +11267,9 @@
     "id": 6081505,
     "gameId": 432,
     "modId": 890405,
-    "isAvailable": true,
     "displayName": "GregTechCEu 1.20.1-1.6.3",
     "fileName": "gtceu-1.20.1-1.6.3.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "76218dc7c7f3adcdb250dd2304f16b8a99032443",
@@ -11718,11 +11356,9 @@
     "id": 5867594,
     "gameId": 432,
     "modId": 892005,
-    "isAvailable": true,
     "displayName": "ExtendedAE-1.20-1.2.1-forge.jar",
     "fileName": "ExtendedAE-1.20-1.2.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "34ab7c4e6ae304539d06e0c85eaf50de2292e235",
@@ -11797,11 +11433,9 @@
     "id": 4801662,
     "gameId": 432,
     "modId": 904974,
-    "isAvailable": true,
     "displayName": "better_angel_ring-1.20.1-1.0.2.jar",
     "fileName": "better_angel_ring-1.20.1-1.0.2.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "abee07cc2beb239776c69007b3fff7510e6b46c0",
@@ -11855,11 +11489,9 @@
     "id": 5086758,
     "gameId": 432,
     "modId": 905450,
-    "isAvailable": true,
     "displayName": "bocchium-1.20.1-0.0.3.jar",
     "fileName": "bocchium-1.20.1-0.0.3.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "4c74bafb892028c3ec006bd694836e42695b77a0",
@@ -11908,11 +11540,9 @@
     "id": 5681725,
     "gameId": 432,
     "modId": 908741,
-    "isAvailable": true,
     "displayName": "[1.20.1] Embeddium 0.3.31",
     "fileName": "embeddium-0.3.31+mc1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
@@ -11994,11 +11624,9 @@
     "id": 5768736,
     "gameId": 432,
     "modId": 910379,
-    "isAvailable": true,
     "displayName": "KubeJS-EnderIO-Forge-1.20.1-0.6.0",
     "fileName": "kubejs_enderio-forge-1.20.1-0.6.0.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "04641986612defee1fffb9e3174935a8ffcc3d1c",
@@ -12061,11 +11689,9 @@
     "id": 4744757,
     "gameId": 432,
     "modId": 911145,
-    "isAvailable": true,
     "displayName": "CapeJS 1.0.0-1.20.1-forge",
     "fileName": "CapeJS-1.0.0-1.20.1-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "584ff1b8cec33f0382a0482760a1a12cb5120a62",
@@ -12131,11 +11757,9 @@
     "id": 4774651,
     "gameId": 432,
     "modId": 912099,
-    "isAvailable": true,
     "displayName": "citresewn-1.20.1-5.jar",
     "fileName": "citresewn-1.20.1-5.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "496393d1fc170bafccd6016cd5d93ab52b4a101c",
@@ -12192,11 +11816,9 @@
     "id": 5827323,
     "gameId": 432,
     "modId": 912282,
-    "isAvailable": true,
     "displayName": "Snad-1.20.1-(Neo)Forge-3.0.1.jar",
     "fileName": "Snad-1.20.1-(Neo)Forge-3.0.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "728d12dc57625a6d0ce129168d549a222c9618a4",
@@ -12250,11 +11872,9 @@
     "id": 4793728,
     "gameId": 432,
     "modId": 921022,
-    "isAvailable": true,
     "displayName": "WWOO-2.0.0",
     "fileName": "WWOO-FABRIC+FORGE+QUILT-2.0.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "a1241d62fbf021013a8bd54d838245a044facfaf",
@@ -12303,11 +11923,9 @@
     "id": 5861244,
     "gameId": 432,
     "modId": 927564,
-    "isAvailable": true,
     "displayName": "1.1.4",
     "fileName": "zume-1.1.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
@@ -12382,11 +12000,9 @@
     "id": 5650506,
     "gameId": 432,
     "modId": 930207,
-    "isAvailable": true,
     "displayName": "2.3.0 (1.20-1.20.1)",
     "fileName": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808",
@@ -12444,11 +12060,9 @@
     "id": 5436746,
     "gameId": 432,
     "modId": 931925,
-    "isAvailable": true,
     "displayName": "Embeddium++/1.20.1/v1.2.13",
     "fileName": "embeddiumplus-1.20.1-v1.2.13.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d922515ae0f16af2afdddfd72243a4890a2c7ad8",
@@ -12510,11 +12124,9 @@
     "id": 5109692,
     "gameId": 432,
     "modId": 938643,
-    "isAvailable": true,
     "displayName": "[Forge] v1.0.3 MC 1.20.1-1.20.4",
     "fileName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e0942d396a70c09038e6c2e5e1da6505178249b8",
@@ -12567,11 +12179,9 @@
     "id": 5528635,
     "gameId": 432,
     "modId": 938916,
-    "isAvailable": true,
     "displayName": "1.2.1",
     "fileName": "ChippedExpress-universal.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "eab1022a795c493685cda5917ce1b556c385005c",
@@ -12629,11 +12239,9 @@
     "id": 5961397,
     "gameId": 432,
     "modId": 949555,
-    "isAvailable": true,
     "displayName": "2.2.1 (1.20.1)",
     "fileName": "BadOptimizations-2.2.1-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5f7a3dcc4ecb52a028ea4ee2010f81465544319e",
@@ -12703,11 +12311,9 @@
     "id": 5226922,
     "gameId": 432,
     "modId": 957920,
-    "isAvailable": true,
     "displayName": "Glodium-1.20-1.5-forge.jar",
     "fileName": "Glodium-1.20-1.5-forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "c7534db3248adfcf39a6158b423dfc9bfc99a378",
@@ -12744,11 +12350,9 @@
     "id": 5597406,
     "gameId": 432,
     "modId": 968868,
-    "isAvailable": true,
     "displayName": "Zeta-1.0-24.jar",
     "fileName": "Zeta-1.0-24.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e261d5550bb66cd6802597b1b33462470e3b8dae",
@@ -12805,11 +12409,9 @@
     "id": 5844298,
     "gameId": 432,
     "modId": 971089,
-    "isAvailable": true,
     "displayName": "Chisel Chipped Integration 1.1.4 1.20.1",
     "fileName": "chisel_chipped_integration-v1.1.4-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "13d8e0e326b8495b294c0eaa76f62f24fcc3f703",
@@ -12872,11 +12474,9 @@
     "id": 5939627,
     "gameId": 432,
     "modId": 976858,
-    "isAvailable": true,
     "displayName": "invtweaks-1.20.1-1.2.0.jar",
     "fileName": "invtweaks-1.20.1-1.2.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "d0a419f3b026b4949ed178119befbcf734deb6eb",
@@ -12927,11 +12527,9 @@
     "id": 5902895,
     "gameId": 432,
     "modId": 984851,
-    "isAvailable": true,
     "displayName": "ulvcovm-0.2.0.jar",
     "fileName": "ulvcovm-0.2.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "5910ca2e23b42fed093c6f64710a9605302618c5",
@@ -12977,11 +12575,9 @@
     "id": 5736786,
     "gameId": 432,
     "modId": 984988,
-    "isAvailable": true,
     "displayName": "framing_templates-1.0.1b.jar",
     "fileName": "framing_templates-1.0.1b.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "2cc36171e40afa17ebb78078d0e0a5a16ab4b997",
@@ -13044,11 +12640,9 @@
     "id": 5203482,
     "gameId": 432,
     "modId": 990542,
-    "isAvailable": true,
     "displayName": "0.1.2",
     "fileName": "steamdynamo-0.1.2.jar",
     "releaseType": 3,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "92f0ee2cbdd6801889b8664d3fa4a71d86175083",
@@ -13093,11 +12687,9 @@
     "id": 6061547,
     "gameId": 432,
     "modId": 1005914,
-    "isAvailable": true,
     "displayName": "fzzy_config-0.6.0+1.20.1+forge",
     "fileName": "fzzy_config-0.6.0+1.20.1+forge.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "843dfce61f91071f11a8f7ae9909e33cd60bd180",
@@ -13156,11 +12748,9 @@
     "id": 6011591,
     "gameId": 432,
     "modId": 1008510,
-    "isAvailable": true,
     "displayName": "Steam Additions 1.4",
     "fileName": "steamadditions-1.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "874cf1129f3bd7e8c535f74733f3ff52381357f8",
@@ -13210,11 +12800,9 @@
     "id": 5319777,
     "gameId": 432,
     "modId": 1012779,
-    "isAvailable": true,
     "displayName": "Gregtech Drawers 1.1",
     "fileName": "rubberdrawers-1.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "b3eca3bc499047092431573caf6de3c7701f9302",
@@ -13268,11 +12856,9 @@
     "id": 5323943,
     "gameId": 432,
     "modId": 1015036,
-    "isAvailable": true,
     "displayName": "Thermal Drawers 1.0",
     "fileName": "thermaldrawers-1.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "df5b80deb20e76874b47ee8e8f33701390942273",
@@ -13317,11 +12903,9 @@
     "id": 5551155,
     "gameId": 432,
     "modId": 1016115,
-    "isAvailable": true,
     "displayName": "watercollector-1.20.1-1.1.0.jar",
     "fileName": "watercollector-1.20.1-1.1.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "34eeff6961edcf596e90ed6e40b74b6d1101c1a5",
@@ -13370,11 +12954,9 @@
     "id": 5613251,
     "gameId": 432,
     "modId": 1017786,
-    "isAvailable": true,
     "displayName": "ExtendedCrafting 6.1.5u",
     "fileName": "ExtendedCrafting-1.20.1-6.1.5u.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "10ceb7bd999c46e03816aacc6dd313c5e68b6bd1",
@@ -13419,11 +13001,9 @@
     "id": 6014535,
     "gameId": 432,
     "modId": 1028068,
-    "isAvailable": true,
     "displayName": "mae2-1.5.0-beta.a.jar",
     "fileName": "mae2-1.5.0-beta.a.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "f2ee530f25e5b50a85f513568a54f455a30ec321",
@@ -13486,11 +13066,9 @@
     "id": 6069384,
     "gameId": 432,
     "modId": 1028108,
-    "isAvailable": true,
     "displayName": "tacz-1.20.1-1.1.4-hotfix-release.jar",
     "fileName": "tacz-1.20.1-1.1.4-hotfix-all.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "2d6680433e2782082a3dd6f2c7cff1e8f5d4c645",
@@ -13552,11 +13130,9 @@
     "id": 5387025,
     "gameId": 432,
     "modId": 1028187,
-    "isAvailable": true,
     "displayName": "Redstone Clock v1.0.0",
     "fileName": "redstoneclock-1.0.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e325a43456340b1f8b94d4c0f27ff990598bc029",
@@ -13609,11 +13185,9 @@
     "id": 5846811,
     "gameId": 432,
     "modId": 1028872,
-    "isAvailable": true,
     "displayName": "1.20.1-1.0.0.3",
     "fileName": "PackagedExExCrafting-1.20.1-1.0.0.3.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "1294277ad00b95a91b5193f98ec317da11ca7ec6",
@@ -13680,11 +13254,9 @@
     "id": 5526802,
     "gameId": 432,
     "modId": 1059350,
-    "isAvailable": true,
     "displayName": "[Forge 1.20.1] v0.1.0",
     "fileName": "custom-item-despawn-duration-forge-0.1.0-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "da35c88e45eaaa8a74b954f4f8215fd8f7dbf889",
@@ -13737,11 +13309,9 @@
     "id": 5947280,
     "gameId": 432,
     "modId": 1086241,
-    "isAvailable": true,
     "displayName": "ae2ct-1.20.1-1.0.4.jar",
     "fileName": "ae2ct-1.20.1-1.0.4.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "db63bf968ab7c7d023454fa081b059e40cb63631",
@@ -13791,11 +13361,9 @@
     "id": 5936734,
     "gameId": 432,
     "modId": 1091339,
-    "isAvailable": true,
     "displayName": "alltheleaks-0.1.0-beta+1.20.1-forge.jar",
     "fileName": "alltheleaks-0.1.0-beta+1.20.1-forge.jar",
     "releaseType": 2,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "cdffeccce5b083242eb735a7e338aa30a665a429",
@@ -13845,11 +13413,9 @@
     "id": 6013322,
     "gameId": 432,
     "modId": 1096531,
-    "isAvailable": true,
     "displayName": "1.8.1-1.20.1",
     "fileName": "rehooked-1.8.1-1.20.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "1b9990601b09c529ddd499563b1255cf7147cac1",
@@ -13904,11 +13470,9 @@
     "id": 5763195,
     "gameId": 432,
     "modId": 1100654,
-    "isAvailable": true,
     "displayName": "Squake Reforged 1.0",
     "fileName": "squakereforged-1.0-SNAPSHOT.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "db4000458e8a4865e8827849ab0c9a97d73bad03",
@@ -13958,11 +13522,9 @@
     "id": 6235713,
     "gameId": 432,
     "modId": 1138130,
-    "isAvailable": true,
     "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
     "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "e2162553deb2fb1f8b2473e5c8adb060f30a39d4",
@@ -14008,11 +13570,9 @@
     "id": 5967957,
     "gameId": 432,
     "modId": 1154384,
-    "isAvailable": true,
     "displayName": "FunctionalStorageColor-1.20.1-1.0.0",
     "fileName": "FunctionalStorageColor-1.20.1-1.0.0.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "152595e77b58669a66aeea2888e2f704c9987b0a",
@@ -14067,11 +13627,9 @@
     "id": 6137551,
     "gameId": 432,
     "modId": 1168178,
-    "isAvailable": true,
     "displayName": "LaserIO UEL - 1.3.1",
     "fileName": "laserio-uel-1.3.1.jar",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "cf5cdb48fa1afa535a1aadaf8194deae11f3fc3c",
@@ -14150,11 +13708,9 @@
     "id": 6127958,
     "gameId": 432,
     "modId": 1187672,
-    "isAvailable": true,
     "displayName": "EIO Texture Backport 1.0",
     "fileName": "EIO Texture Backport.zip",
     "releaseType": 1,
-    "fileStatus": 4,
     "hashes": [
       {
         "value": "22e8dc100705a795c08335dcddad2874c2444b97",
