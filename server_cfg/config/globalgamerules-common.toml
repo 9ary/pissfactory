@@ -109,7 +109,7 @@
 		#Whether patrols can spawn.
 		do_patrol_spawning = true
 		#Whether wandering traders can spawn.
-		do_trader_spawning = false
+		do_trader_spawning = true
 		#Whether wardens can spawn.
 		do_warden_spawning = true
 
