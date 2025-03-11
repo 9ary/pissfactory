@@ -3853,57 +3853,6 @@
     ]
   },
   {
-    "id": 4770683,
-    "gameId": 432,
-    "modId": 318551,
-    "displayName": "craftingstation-1.20.1-1.jar",
-    "fileName": "craftingstation-1.20.1-1.jar",
-    "releaseType": 1,
-    "hashes": [
-      {
-        "value": "56b186b8037b307a7fd3b55dfde6ad4bb618231f",
-        "algo": 1
-      },
-      {
-        "value": "af103a4fa936fe73f2f49b2a084e0591",
-        "algo": 2
-      }
-    ],
-    "fileDate": "2023-09-27T01:28:20.783Z",
-    "fileLength": 74790,
-    "downloadUrl": "https://edge.forgecdn.net/files/4770/683/craftingstation-1.20.1-1.jar",
-    "dependencies": [],
-    "alternateFileId": 0,
-    "isServerPack": false,
-    "fileFingerprint": 2957462607,
-    "modules": [
-      {
-        "name": "META-INF",
-        "fingerprint": 4236345024
-      },
-      {
-        "name": "tfar",
-        "fingerprint": 2798891131
-      },
-      {
-        "name": ".cache",
-        "fingerprint": 1555027895
-      },
-      {
-        "name": "assets",
-        "fingerprint": 2166066899
-      },
-      {
-        "name": "data",
-        "fingerprint": 2422496586
-      },
-      {
-        "name": "pack.mcmeta",
-        "fingerprint": 4228854570
-      }
-    ]
-  },
-  {
     "id": 5740987,
     "gameId": 432,
     "modId": 319466,
@@ -12304,6 +12253,58 @@
       {
         "name": "pack.mcmeta",
         "fingerprint": 929453382
+      }
+    ]
+  },
+  {
+    "id": 5707266,
+    "gameId": 432,
+    "modId": 956084,
+    "displayName": "craftingstation-1.20.1-1.2.3.jar",
+    "fileName": "craftingstation-1.20.1-1.2.3.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "58d1fabd2c04438f9a3a6a7bbc77398783a72e18",
+        "algo": 1
+      },
+      {
+        "value": "35b63a1afc365c1d8ca1f86cd678df60",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-09-09T16:27:46.247Z",
+    "fileLength": 87408,
+    "fileSizeOnDisk": 172300,
+    "downloadUrl": "https://edge.forgecdn.net/files/5707/266/craftingstation-1.20.1-1.2.3.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2677585611,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2469107044
+      },
+      {
+        "name": "tfar",
+        "fingerprint": 3579197126
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 1555027895
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2514759671
+      },
+      {
+        "name": "data",
+        "fingerprint": 2422496586
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 4228854570
       }
     ]
   },
