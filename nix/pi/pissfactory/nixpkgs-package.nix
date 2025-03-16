@@ -234,7 +234,7 @@ lib.makeScope newScope (
             touch -r forge-installer.jar forge-server/.timestamp
           fi
 
-          if [[ -n "$PISSFACTORY_PRODUCTION_OVERLAY" ]]; then
+          if [[ -n "''${PISSFACTORY_PRODUCTION_OVERLAY-}" ]]; then
             printf '%s\n' "Declarative config overlay in use, copying $PISSFACTORY_PRODUCTION_OVERLAY over CWD!"
             cp -r "$PISSFACTORY_PRODUCTION_OVERLAY"/. .
           fi
