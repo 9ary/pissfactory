@@ -7,7 +7,8 @@ if (Platform.isLoaded("estrogen")) {
         // Fix uncraftable recipes and those removed by Create compat
         event.shapeless("estrogen:moth_elytra", ["minecraft:elytra", "estrogen:moth_fuzz"])
         event.replaceInput({ id: "estrogen:estrogen_chip_cookie" }, "create:wheat_flour", "gtceu:wheat_dust")
-        // TODO: ":3"
+        // ":3"
+        event.remove({ output: "estrogen:uwu" }) // TODO: add gregged recipe
 
         // Fluids
         // TODO
