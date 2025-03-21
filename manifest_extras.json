@@ -46,10 +46,22 @@
       "projectID": 228702
     },
     {
+      "description": "Project Red - Integration",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/project-red-integration",
+      "fileID": 6107616,
+      "projectID": 229045
+    },
+    {
       "description": "Project Red - Transmission",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/project-red-transmission",
       "fileID": 6107617,
       "projectID": 478939
+    },
+    {
+      "description": "Project Red - Fabrication",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/project-red-fabrication",
+      "fileID": 6107614,
+      "projectID": 230111
     },
     {
       "description": "CodeChicken Lib",

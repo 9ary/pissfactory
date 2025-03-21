@@ -792,6 +792,71 @@
     ]
   },
   {
+    "id": 6107616,
+    "gameId": 432,
+    "modId": 229045,
+    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
+    "releaseType": 2,
+    "hashes": [
+      {
+        "value": "ccfb284290046d1e97734fe189ad0d9e2a42780d",
+        "algo": 1
+      },
+      {
+        "value": "0c6ea6a998d1239da3d728bba191e599",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-01-20T19:15:32.283Z",
+    "fileLength": 3539764,
+    "fileSizeOnDisk": 19851955,
+    "downloadUrl": "https://edge.forgecdn.net/files/6107/616/ProjectRed-1.20.1-4.20.1-beta%2b4-integration.jar",
+    "dependencies": [
+      {
+        "modId": 242818,
+        "relationType": 3
+      },
+      {
+        "modId": 228702,
+        "relationType": 3
+      },
+      {
+        "modId": 258426,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3291396833,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2288547999
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 3905420675
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3944837705
+      },
+      {
+        "name": "data",
+        "fingerprint": 2098837540
+      },
+      {
+        "name": "mrtjp",
+        "fingerprint": 2329199876
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1085576350
+      }
+    ]
+  },
+  {
     "id": 6000481,
     "gameId": 432,
     "modId": 229060,
@@ -856,6 +921,79 @@
       {
         "name": "themes.zip",
         "fingerprint": 203911827
+      }
+    ]
+  },
+  {
+    "id": 6107614,
+    "gameId": 432,
+    "modId": 230111,
+    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
+    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
+    "releaseType": 2,
+    "hashes": [
+      {
+        "value": "7f5526dc7d8c8556f8ec58317f3dd1c872ef9d70",
+        "algo": 1
+      },
+      {
+        "value": "6e0d3dfbd94e5d27824571498f1cb194",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-01-20T19:15:30.593Z",
+    "fileLength": 764187,
+    "fileSizeOnDisk": 1654796,
+    "downloadUrl": "https://edge.forgecdn.net/files/6107/614/ProjectRed-1.20.1-4.20.1-beta%2b4-fabrication.jar",
+    "dependencies": [
+      {
+        "modId": 478939,
+        "relationType": 3
+      },
+      {
+        "modId": 242818,
+        "relationType": 3
+      },
+      {
+        "modId": 258426,
+        "relationType": 3
+      },
+      {
+        "modId": 229045,
+        "relationType": 3
+      },
+      {
+        "modId": 228702,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 911683238,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3456014035
+      },
+      {
+        "name": ".cache",
+        "fingerprint": 3517378
+      },
+      {
+        "name": "assets",
+        "fingerprint": 353204126
+      },
+      {
+        "name": "data",
+        "fingerprint": 2785719364
+      },
+      {
+        "name": "mrtjp",
+        "fingerprint": 2761607704
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 3289767484
       }
     ]
   },
