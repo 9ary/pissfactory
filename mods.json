@@ -7131,6 +7131,71 @@
     ]
   },
   {
+    "id": 5643037,
+    "gameId": 432,
+    "modId": 509575,
+    "displayName": "4.4.2 (forge)",
+    "fileName": "observable-4.4.2.jar",
+    "releaseType": 2,
+    "hashes": [
+      {
+        "value": "c8a0ae25512d0cedef478df411c87e43703ae237",
+        "algo": 1
+      },
+      {
+        "value": "2cfd5a688bfb9574b914e07444071f03",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-08-19T06:49:09.183Z",
+    "fileLength": 470536,
+    "fileSizeOnDisk": 969496,
+    "downloadUrl": "https://edge.forgecdn.net/files/5643/37/observable-4.4.2.jar",
+    "dependencies": [
+      {
+        "modId": 351264,
+        "relationType": 3
+      },
+      {
+        "modId": 419699,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 225211616,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2387365814
+      },
+      {
+        "name": "architectury_inject_observable_common_c8310553cd434184b345f636dfec89e7_3cef3dc5d0166e39b0809e1a51b00cc45383d57947d9e6f837d9ee5d274b8d09observable442devjar",
+        "fingerprint": 3508426693
+      },
+      {
+        "name": "assets",
+        "fingerprint": 664602847
+      },
+      {
+        "name": "observable-common-refmap.json",
+        "fingerprint": 3112508947
+      },
+      {
+        "name": "observable.common.json",
+        "fingerprint": 3579292053
+      },
+      {
+        "name": "observable",
+        "fingerprint": 3716976953
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1722327479
+      }
+    ]
+  },
+  {
     "id": 5294260,
     "gameId": 432,
     "modId": 510656,
