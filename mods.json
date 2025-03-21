@@ -7656,6 +7656,53 @@
     ]
   },
   {
+    "id": 4721662,
+    "gameId": 432,
+    "modId": 548115,
+    "displayName": "[1.20 Forge] Alternate Current 1.7.0",
+    "fileName": "alternate_current-mc1.20-1.7.0.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "02def44a2c416459ee5daecbe1caa6d78571e205",
+        "algo": 1
+      },
+      {
+        "value": "43d4d8efddfa77a80aa7b1ae1a04ab48",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-08-25T14:54:29.603Z",
+    "fileLength": 36703,
+    "downloadUrl": "https://edge.forgecdn.net/files/4721/662/alternate_current-mc1.20-1.7.0.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3174366965,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1677391423
+      },
+      {
+        "name": "alternate-current.mixins.json",
+        "fingerprint": 2364499694
+      },
+      {
+        "name": "alternate",
+        "fingerprint": 3278582212
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 1819287746
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 997426088
+      }
+    ]
+  },
+  {
     "id": 4627738,
     "gameId": 432,
     "modId": 550678,
@@ -9758,6 +9805,86 @@
     ]
   },
   {
+    "id": 4612371,
+    "gameId": 432,
+    "modId": 682568,
+    "displayName": "[FORGE] [1.20.1] PortableHole-v8.0.0",
+    "fileName": "PortableHole-v8.0.0-1.20.1-Forge.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "0ada7638153d3915046c01cdd793638bdec96a11",
+        "algo": 1
+      },
+      {
+        "value": "88f659f6ffb66f4e28a6648bd106bdb2",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-06-27T15:58:12.717Z",
+    "fileLength": 105708,
+    "downloadUrl": "https://edge.forgecdn.net/files/4612/371/PortableHole-v8.0.0-1.20.1-Forge.jar",
+    "dependencies": [
+      {
+        "modId": 495476,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1654633830,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3674757249
+      },
+      {
+        "name": "CHANGELOG.md",
+        "fingerprint": 4213415335
+      },
+      {
+        "name": "LICENSE-ASSETS.md",
+        "fingerprint": 1447192261
+      },
+      {
+        "name": "LICENSE.md",
+        "fingerprint": 2980605036
+      },
+      {
+        "name": "assets",
+        "fingerprint": 65524673
+      },
+      {
+        "name": "data",
+        "fingerprint": 570123566
+      },
+      {
+        "name": "fuzs",
+        "fingerprint": 1026417427
+      },
+      {
+        "name": "mod_banner.png",
+        "fingerprint": 670130042
+      },
+      {
+        "name": "mod_logo.png",
+        "fingerprint": 1108949185
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2638861094
+      },
+      {
+        "name": "portablehole.common.mixins.json",
+        "fingerprint": 2340575396
+      },
+      {
+        "name": "portablehole.refmap.json",
+        "fingerprint": 3122711168
+      }
+    ]
+  },
+  {
     "id": 5959896,
     "gameId": 432,
     "modId": 686911,
@@ -10450,6 +10577,108 @@
       {
         "name": "pack.mcmeta",
         "fingerprint": 88923539
+      }
+    ]
+  },
+  {
+    "id": 5372761,
+    "gameId": 432,
+    "modId": 826695,
+    "displayName": "capable_cauldrons-1.20.1-1.2.1.7.jar",
+    "fileName": "capable_cauldrons-1.20.1-1.2.1.7.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "780c14578b78632693442ad8156f6e9fd2b63630",
+        "algo": 1
+      },
+      {
+        "value": "252e74e29da14953c0bf7ee77208f5ac",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-05-26T06:08:49.887Z",
+    "fileLength": 31632,
+    "downloadUrl": "https://edge.forgecdn.net/files/5372/761/capable_cauldrons-1.20.1-1.2.1.7.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2961097068,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2293374752
+      },
+      {
+        "name": "cofh",
+        "fingerprint": 553256308
+      },
+      {
+        "name": "logo.png",
+        "fingerprint": 1002392932
+      },
+      {
+        "name": "mixins.capablecauldrons.json",
+        "fingerprint": 2109235927
+      },
+      {
+        "name": "mixins.capablecauldrons.refmap.json",
+        "fingerprint": 2266725422
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1308970414
+      }
+    ]
+  },
+  {
+    "id": 4970677,
+    "gameId": 432,
+    "modId": 826696,
+    "displayName": "capable_composters-1.20.1-1.2.0.3.jar",
+    "fileName": "capable_composters-1.20.1-1.2.0.3.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "bb4eb7e0f65d8d8754e5d5b1139d82514647d4f4",
+        "algo": 1
+      },
+      {
+        "value": "8c995db009e34fc65fdd7bf08f281db8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2023-12-20T08:29:14.057Z",
+    "fileLength": 29457,
+    "downloadUrl": "https://edge.forgecdn.net/files/4970/677/capable_composters-1.20.1-1.2.0.3.jar",
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 248462809,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 834827095
+      },
+      {
+        "name": "cofh",
+        "fingerprint": 3099418749
+      },
+      {
+        "name": "logo.png",
+        "fingerprint": 1677524598
+      },
+      {
+        "name": "mixins.capablecomposters.json",
+        "fingerprint": 2769687770
+      },
+      {
+        "name": "mixins.capablecomposters.refmap.json",
+        "fingerprint": 115654991
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 492099984
       }
     ]
   },

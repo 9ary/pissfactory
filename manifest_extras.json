@@ -65,6 +65,24 @@
     },
 
     {
+      "description": "Alternate Current",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/alternate-current",
+      "fileID": 4721662,
+      "projectID": 548115
+    },
+    {
+      "description": "Capable Cauldrons",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/capable-cauldrons",
+      "fileID": 5372761,
+      "projectID": 826695
+    },
+    {
+      "description": "Capable Composters",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/capable-composters",
+      "fileID": 4970677,
+      "projectID": 826696
+    },
+    {
       "description": "Ears",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/ears",
       "fileID": 6166552,
@@ -75,6 +93,12 @@
       "URL": "https://www.curseforge.com/minecraft/mc-mods/global-gamerules",
       "fileID": 4587490,
       "projectID": 227657
+    },
+    {
+      "description": "Portable Hole",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/portable-hole",
+      "fileID": 4612371,
+      "projectID": 682568
     },
     {
       "description": "Speedometer and more",
