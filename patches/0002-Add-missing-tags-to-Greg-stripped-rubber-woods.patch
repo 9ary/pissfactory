@@ -1,0 +1,26 @@
+From 8f665f41cfc98819d04d63e4bd0147f6a43121fa Mon Sep 17 00:00:00 2001
+From: novenary <novenary@kwak.zip>
+Date: Fri, 21 Mar 2025 02:19:51 +0200
+Subject: [PATCH 2/2] Add missing tags to Greg stripped rubber woods
+
+---
+ kubejs/server_scripts/fixes_tweaks/unification/tags.js | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/kubejs/server_scripts/fixes_tweaks/unification/tags.js b/kubejs/server_scripts/fixes_tweaks/unification/tags.js
+index 325d51fb..3b5f7168 100644
+--- a/kubejs/server_scripts/fixes_tweaks/unification/tags.js
++++ b/kubejs/server_scripts/fixes_tweaks/unification/tags.js
+@@ -29,6 +29,9 @@ const unifyChisel = (event) => {
+ }
+ 
+ ServerEvents.tags('item', event => {
++    event.add('forge:stripped_logs', 'gtceu:stripped_rubber_log')
++    event.add('forge:stripped_wood', 'gtceu:stripped_rubber_wood')
++
+     event.add('ae2:all_fluix', 'gtceu:fluix_gem')
+     event.add('ae2:all_certus_quartz', 'gtceu:charged_certus_quartz_gem')
+     event.add('forge:gems/certus_quartz', 'gtceu:charged_certus_quartz_gem')
+-- 
+2.47.2
+

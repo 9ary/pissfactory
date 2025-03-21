@@ -95,7 +95,10 @@ lib.makeScope newScope (
             rev = finalAttrs.version;
             hash = "sha256-ZcWO35/x012FO1cXe3XJ8pTxQpp2Sw4Emwtnec4da6w=";
           };
-          patches = [ ../../../patches/0001-Generate-UUIDs-deterministically.patch ];
+          patches = [
+            ../../../patches/0001-Generate-UUIDs-deterministically.patch
+            ../../../patches/0002-Add-missing-tags-to-Greg-stripped-rubber-woods.patch
+          ];
         };
 
         npmDeps = importNpmLock {
