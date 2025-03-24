@@ -209,7 +209,7 @@ lib.makeScope newScope (
       in
       fetchurl {
         url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
-        hash = "sha256-vF3liWHWLryhou0KtNlayVFUsAhEJBEsVrfMSCybVgs=";
+        hash = "sha256-DU0DKqzfuE6p4whFkSbQcHJJGvfA75eDg3jnzsHGlnI=";
         passthru = {
           inherit version;
         };
