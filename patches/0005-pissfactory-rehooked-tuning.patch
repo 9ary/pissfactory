@@ -1,0 +1,124 @@
+From 6a8dd47d52117b880c1dd0357d71eb1b88ed8a1f Mon Sep 17 00:00:00 2001
+From: Dusk Banks <me@bb010g.com>
+Date: Fri, 21 Mar 2025 02:19:58 -0700
+Subject: [PATCH 5/5] [pissfactory] rehooked tuning
+
+---
+ defaultconfigs/rehooked-server.toml | 105 ++++++++++++++++++++++++++++
+ 1 file changed, 105 insertions(+)
+ create mode 100644 defaultconfigs/rehooked-server.toml
+
+diff --git a/defaultconfigs/rehooked-server.toml b/defaultconfigs/rehooked-server.toml
+new file mode 100644
+index 00000000..7c0b57a6
+--- /dev/null
++++ b/defaultconfigs/rehooked-server.toml
+@@ -0,0 +1,105 @@
++
++[hook_stats]
++
++	#Wood Hook Stats
++	[hook_stats.wood]
++		#The number of hooks
++		#Range: > 1
++		count = 1
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 16.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 12.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 6.0
++		#Should the hook provide creative flight or not
++		creativeFlight = false
++
++	#Iron Hook Stats
++	[hook_stats.iron]
++		#The number of hooks
++		#Range: > 1
++		count = 2
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 32.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 24.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 12.0
++		#Should the hook provide creative flight or not
++		creativeFlight = false
++
++	#Diamond Hook Stats
++	[hook_stats.diamond]
++		#The number of hooks
++		#Range: > 1
++		count = 4
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 64.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 48.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 24.0
++		#Should the hook provide creative flight or not
++		creativeFlight = false
++
++	#Red Hook Stats
++	[hook_stats.red]
++		#The number of hooks
++		#Range: > 1
++		count = 3
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 96.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 8.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 6.0
++		#Should the hook provide creative flight or not
++		creativeFlight = true
++
++	#Blaze Hook Stats
++	[hook_stats.blaze]
++		#The number of hooks
++		#Range: > 1
++		count = 2
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 64.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 1920.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 36.0
++		#Should the hook provide creative flight or not
++		creativeFlight = false
++
++	#Ender Hook Stats
++	[hook_stats.ender]
++		#The number of hooks
++		#Range: > 1
++		count = 2
++		#The hooks range
++		#Range: 1.0 ~ 1.7976931348623157E308
++		range = 96.0
++		#The hooks shooting speed
++		#Range: 0.1 ~ 1.7976931348623157E308
++		travelSpeed = 1920.0
++		#How fast the hook pulls the player
++		#Range: 0.1 ~ 1.7976931348623157E308
++		pullSpeed = 48.0
++		#Should the hook provide creative flight or not
++		creativeFlight = false
++
+-- 
+2.47.2
+
