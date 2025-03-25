@@ -21,6 +21,7 @@ client_only = [
         r"LegendaryTooltips-.*\.jar$",
         r"BoccHUD-.*\.jar$",
         r"MaFgLib-.*\.jar$",
+        r"Tweakerge-.*\.jar$",
         r"ears-.*\.jar$",
         r"fancymenu_.*\.jar$",
         r"drippyloadingscreen_.*\.jar$",

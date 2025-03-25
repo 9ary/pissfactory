@@ -12325,6 +12325,71 @@
     ]
   },
   {
+    "id": 5633999,
+    "gameId": 432,
+    "modId": 915857,
+    "displayName": "0.1.5-mc1.20.1",
+    "fileName": "Tweakerge-0.1.5-mc1.20.1.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "6b0eaf253e42e90836a2e934c318488b9ff59a24",
+        "algo": 1
+      },
+      {
+        "value": "c0780fc1d0d3d1d329353cd6668397aa",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-08-16T04:30:44.673Z",
+    "fileLength": 345589,
+    "fileSizeOnDisk": 752087,
+    "downloadUrl": "https://edge.forgecdn.net/files/5633/999/Tweakerge-0.1.5-mc1.20.1.jar",
+    "dependencies": [
+      {
+        "modId": 910766,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 5634000,
+    "isServerPack": false,
+    "fileFingerprint": 3306278416,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3046967689
+      },
+      {
+        "name": "Tweakerge-refmap.json",
+        "fingerprint": 1039313053
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2261032556
+      },
+      {
+        "name": "fi",
+        "fingerprint": 188015613
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 465999707
+      },
+      {
+        "name": "org",
+        "fingerprint": 1490754780
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2287114326
+      },
+      {
+        "name": "tweakerge.mixins.json",
+        "fingerprint": 699900631
+      }
+    ]
+  },
+  {
     "id": 5492423,
     "gameId": 432,
     "modId": 916504,
