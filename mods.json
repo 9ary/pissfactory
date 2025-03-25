@@ -14290,6 +14290,63 @@
     ]
   },
   {
+    "id": 6122719,
+    "gameId": 432,
+    "modId": 1172594,
+    "displayName": "keybindbundles-1.20.1-1.0.0.jar",
+    "fileName": "keybindbundles-1.20.1-1.0.0.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "979ae085a0fe75f90222a6e063d98ac9aa37cbf1",
+        "algo": 1
+      },
+      {
+        "value": "1dc4385cd3a5843d3fca65ccebc707cc",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-01-25T10:53:28.62Z",
+    "fileLength": 270879,
+    "fileSizeOnDisk": 365844,
+    "downloadUrl": "https://edge.forgecdn.net/files/6122/719/keybindbundles-1.20.1-1.0.0.jar",
+    "dependencies": [
+      {
+        "modId": 250398,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4193577110,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3388967625
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1258100673
+      },
+      {
+        "name": "com",
+        "fingerprint": 4240949279
+      },
+      {
+        "name": "keybindbundles.mixins.json",
+        "fingerprint": 995826692
+      },
+      {
+        "name": "keybindbundles.mixins.refmap.json",
+        "fingerprint": 3985545519
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 860754596
+      }
+    ]
+  },
+  {
     "id": 6127958,
     "gameId": 432,
     "modId": 1187672,
