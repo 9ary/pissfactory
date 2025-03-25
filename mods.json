@@ -11339,45 +11339,6 @@
     ]
   },
   {
-    "id": 4694780,
-    "gameId": 432,
-    "modId": 854813,
-    "displayName": "giacomos_speedometer-1.20.1-1.0.6.jar",
-    "fileName": "giacomos_speedometer-1.20.1-1.0.6.jar",
-    "releaseType": 1,
-    "hashes": [
-      {
-        "value": "9aca741e1e20f1dc2b12daabd270d41232d6e3ec",
-        "algo": 1
-      },
-      {
-        "value": "247a72285ebe4e84608ddbabab26ca52",
-        "algo": 2
-      }
-    ],
-    "fileDate": "2023-08-11T06:58:40.687Z",
-    "fileLength": 21857,
-    "downloadUrl": "https://edge.forgecdn.net/files/4694/780/giacomos_speedometer-1.20.1-1.0.6.jar",
-    "dependencies": [],
-    "alternateFileId": 0,
-    "isServerPack": false,
-    "fileFingerprint": 2769009678,
-    "modules": [
-      {
-        "name": "META-INF",
-        "fingerprint": 1024556278
-      },
-      {
-        "name": "com",
-        "fingerprint": 3927983357
-      },
-      {
-        "name": "pack.mcmeta",
-        "fingerprint": 2104144382
-      }
-    ]
-  },
-  {
     "id": 5284015,
     "gameId": 432,
     "modId": 858542,
@@ -12118,6 +12079,69 @@
     ]
   },
   {
+    "id": 5579436,
+    "gameId": 432,
+    "modId": 910766,
+    "displayName": "0.1.13-mc1.20.1",
+    "fileName": "MaFgLib-0.1.13-mc1.20.1.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "a5621373968f02cbe4cb5b2687d9fbea31e3d85e",
+        "algo": 1
+      },
+      {
+        "value": "36866875120ec3ed767aedb3050aed2e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-30T03:31:56.297Z",
+    "fileLength": 521351,
+    "downloadUrl": "https://edge.forgecdn.net/files/5579/436/MaFgLib-0.1.13-mc1.20.1.jar",
+    "dependencies": [],
+    "alternateFileId": 5579437,
+    "isServerPack": false,
+    "fileFingerprint": 1672835482,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4228866776
+      },
+      {
+        "name": "MaFgLib-refmap.json",
+        "fingerprint": 3124359814
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3300100395
+      },
+      {
+        "name": "fi",
+        "fingerprint": 3443370438
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 405110570
+      },
+      {
+        "name": "mafglib.forge.mixins.json",
+        "fingerprint": 3656370887
+      },
+      {
+        "name": "mafglib.mixins.json",
+        "fingerprint": 3790038027
+      },
+      {
+        "name": "org",
+        "fingerprint": 2737747452
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 3351337671
+      }
+    ]
+  },
+  {
     "id": 4744757,
     "gameId": 432,
     "modId": 911145,
@@ -12297,6 +12321,70 @@
       {
         "name": "pack.mcmeta",
         "fingerprint": 783704392
+      }
+    ]
+  },
+  {
+    "id": 5492423,
+    "gameId": 432,
+    "modId": 916504,
+    "displayName": "0.1.7-mc1.20.1",
+    "fileName": "BoccHUD-0.1.7-mc1.20.1.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "b6cc974dc985a41be8abdf5a171eecdf1f2e0c4a",
+        "algo": 1
+      },
+      {
+        "value": "bec197ef85af023b835ee4f5a8a80ef2",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-01T14:14:22.11Z",
+    "fileLength": 379010,
+    "downloadUrl": "https://edge.forgecdn.net/files/5492/423/BoccHUD-0.1.7-mc1.20.1.jar",
+    "dependencies": [
+      {
+        "modId": 910766,
+        "relationType": 3
+      }
+    ],
+    "alternateFileId": 5492424,
+    "isServerPack": false,
+    "fileFingerprint": 1849252252,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4146981564
+      },
+      {
+        "name": "BoccHUD-refmap.json",
+        "fingerprint": 3390455356
+      },
+      {
+        "name": "assets",
+        "fingerprint": 739618990
+      },
+      {
+        "name": "bocchud.mixins.json",
+        "fingerprint": 982180937
+      },
+      {
+        "name": "fi",
+        "fingerprint": 1511439574
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 356382989
+      },
+      {
+        "name": "org",
+        "fingerprint": 1529618142
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 404619975
       }
     ]
   },

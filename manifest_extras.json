@@ -83,6 +83,12 @@
       "projectID": 548115
     },
     {
+      "description": "BoccHUD",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/bocchud",
+      "fileID": 5492423,
+      "projectID": 916504
+    },
+    {
       "description": "Capable Cauldrons",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/capable-cauldrons",
       "fileID": 5372761,
@@ -107,6 +113,12 @@
       "projectID": 227657
     },
     {
+      "description": "MaFgLib",
+      "URL": "https://www.curseforge.com/minecraft/mc-mods/mafglib",
+      "fileID": 5579436,
+      "projectID": 910766
+    },
+    {
       "description": "Observable",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/observable",
       "fileID": 5643037,
@@ -117,12 +129,6 @@
       "URL": "https://www.curseforge.com/minecraft/mc-mods/portable-hole",
       "fileID": 4612371,
       "projectID": 682568
-    },
-    {
-      "description": "Speedometer and more",
-      "URL": "https://www.curseforge.com/minecraft/mc-mods/speedometer-and-more",
-      "fileID": 4694780,
-      "projectID": 854813
     },
     {
       "description": "Squake Reforged",
