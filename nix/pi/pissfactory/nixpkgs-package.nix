@@ -34,20 +34,25 @@ lib.makeScope newScope (
       }:
       writeShellApplication {
         name = "lock_mods";
-        text = ''
-          if [[ -z "''${CFCORE_API_TOKEN+x}" ]]; then
-            # shellcheck disable=SC2016
-            printf '%s\n' 'Please set $CFCORE_API_TOKEN (https://console.curseforge.com/#/api-keys)'
-            exit 1
-          fi
+        text =
+          let
+            manifest = "${escapeStorePath pack.src}/manifest.json";
+            manifest_extras = "${escapeStorePath ../../../manifest_extras.json}";
+          in
+          ''
+            if [[ -z "''${CFCORE_API_TOKEN+x}" ]]; then
+              # shellcheck disable=SC2016
+              printf '%s\n' 'Please set $CFCORE_API_TOKEN (https://console.curseforge.com/#/api-keys)'
+              exit 1
+            fi
 
-          curl 'https://api.curseforge.com/v1/mods/files' \
-            --header "X-Api-Key: $CFCORE_API_TOKEN" \
-            --header 'Content-Type: application/json' \
-            --data "$(jq -n '{"fileIds": [inputs.files[].fileID]}' ${escapeStorePath pack.src}/manifest.json ${escapeStorePath ../../../manifest_extras.json})" \
-            | jq '.data | unique | sort_by(.modId) | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)")) | map(del(.downloadCount, .fileStatus, .gameVersions, .isAvailable, .sortableGameVersions))' \
-            > mods.json
-        '';
+            curl 'https://api.curseforge.com/v1/mods/files' \
+              --header "X-Api-Key: $CFCORE_API_TOKEN" \
+              --header 'Content-Type: application/json' \
+              --data "$(jq -n '{"fileIds": [(inputs.files[] | select(has("fileID"))).fileID]}' ${manifest} ${manifest_extras})" \
+              | jq '.data | unique | sort_by(.modId) + [$extras[].files[] | select(has("downloadUrl"))] | map(.downloadUrl = (.downloadUrl // "https://edge.forgecdn.net/files/\(.id / 1000 | trunc)/\(.id % 1000)/\(.fileName)")) | map(del(.downloadCount, .fileStatus, .gameVersions, .isAvailable, .sortableGameVersions))' --slurpfile extras ${manifest_extras} \
+              > mods.json
+          '';
         runtimeInputs = [
           curl
           jq

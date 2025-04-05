@@ -77,6 +77,18 @@
     },
 
     {
+      "displayName": "AE2 EMI Crafting Integration",
+      "URL": "https://gitlab.com/talchas/ae2-emi-crafting-forge",
+      "fileName": "ae2-emi-crafting-forge-1.3.1.jar",
+      "downloadUrl": "https://gitlab.com/talchas/ae2-emi-crafting-forge/-/package_files/169558228/download",
+      "hashes": [
+        {
+          "value": "f7ab876581c48b9843de1d8499dc133ef0a64f0a",
+          "algo": 1
+        }
+      ]
+    },
+    {
       "description": "Alternate Current",
       "URL": "https://www.curseforge.com/minecraft/mc-mods/alternate-current",
       "fileID": 4721662,
