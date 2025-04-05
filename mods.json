@@ -12932,6 +12932,83 @@
     ]
   },
   {
+    "id": 6368136,
+    "gameId": 432,
+    "modId": 961802,
+    "displayName": "Scholar - Forge 1.20.1 - 1.1.5",
+    "fileName": "scholar-1.20.1-1.1.5-forge.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "8c524282e96b54c0596c35ff579ad55948bdd4c1",
+        "algo": 1
+      },
+      {
+        "value": "fa72217e3ee75eabde243fa262ab81ff",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-03-30T19:49:33.84Z",
+    "fileLength": 680182,
+    "fileSizeOnDisk": 891364,
+    "downloadUrl": "https://edge.forgecdn.net/files/6368/136/scholar-1.20.1-1.1.5-forge.jar",
+    "dependencies": [
+      {
+        "modId": 543610,
+        "relationType": 2
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3281145399,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1441725536
+      },
+      {
+        "name": "architectury_inject_Scholar_common_4cbd613bdccf4c939b2d0865f1970d76_99491876ffec7eff7a6ebacf5fad437b45eb6eceb51a05f0ea5041d19558e765scholar1201115devjar",
+        "fingerprint": 733431276
+      },
+      {
+        "name": "assets",
+        "fingerprint": 275993344
+      },
+      {
+        "name": "io",
+        "fingerprint": 788315145
+      },
+      {
+        "name": "logo.png",
+        "fingerprint": 2294288641
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 220894148
+      },
+      {
+        "name": "resourcepacks",
+        "fingerprint": 3828085795
+      },
+      {
+        "name": "scholar-1.20.1-common-refmap.json",
+        "fingerprint": 609764648
+      },
+      {
+        "name": "scholar-1.20.1-forge-refmap.json",
+        "fingerprint": 1493072104
+      },
+      {
+        "name": "scholar-common.mixins.json",
+        "fingerprint": 2682023123
+      },
+      {
+        "name": "scholar-forge.mixins.json",
+        "fingerprint": 3549017747
+      }
+    ]
+  },
+  {
     "id": 5597406,
     "gameId": 432,
     "modId": 968868,
