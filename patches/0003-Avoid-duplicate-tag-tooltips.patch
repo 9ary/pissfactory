@@ -1,7 +1,7 @@
 From 7f76d6370560906915281d8335bc2e1bd49f8a23 Mon Sep 17 00:00:00 2001
 From: Dusk Banks <me@bb010g.com>
 Date: Fri, 21 Mar 2025 02:19:58 -0700
-Subject: [PATCH 3/5] Avoid duplicate tag tooltips
+Subject: [PATCH 3/6] Avoid duplicate tag tooltips
 
 ---
  .gitignore                   |  4 +++-
@@ -69,5 +69,5 @@ index 00000000..ee9484a1
 +	nbtTooltips = false
 +
 -- 
-2.47.2
+2.47.0
 

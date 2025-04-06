@@ -33,6 +33,10 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
+		containerClass = "appeng.client.gui.me.common.*Screen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
 		containerClass = "appeng.client.gui.me.items.*Screen"
 		sortRange = ""
 

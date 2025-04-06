@@ -105,7 +105,8 @@ lib.makeScope newScope (
             ../../../patches/0002-Add-missing-tags-to-Greg-stripped-rubber-woods.patch
             ../../../patches/0003-Avoid-duplicate-tag-tooltips.patch
             ../../../patches/0004-Enable-NBT-tooltips-by-default.patch
-            ../../../patches/0005-pissfactory-rehooked-tuning.patch
+            ../../../patches/0005-Disable-Inventory-Tweaks-sort-in-ME-Terminal.patch
+            ../../../patches/0006-pissfactory-rehooked-tuning.patch
           ];
         };
 

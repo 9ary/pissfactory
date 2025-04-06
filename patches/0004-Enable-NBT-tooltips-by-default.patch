@@ -1,7 +1,7 @@
 From 7f1c8a0e96b99ec8e1780fee875a20d41935564c Mon Sep 17 00:00:00 2001
 From: Dusk Banks <me@bb010g.com>
 Date: Fri, 21 Mar 2025 02:19:58 -0700
-Subject: [PATCH 4/5] Enable NBT tooltips by default
+Subject: [PATCH 4/6] Enable NBT tooltips by default
 
 ---
  config/cucumber-client.toml | 2 +-
@@ -19,5 +19,5 @@ index ee9484a1..5564a851 100644
 +	nbtTooltips = true
  
 -- 
-2.47.2
+2.47.0
 
