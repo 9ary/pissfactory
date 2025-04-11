@@ -1524,7 +1524,7 @@
     "modId": 238222,
     "displayName": "15.20.0.106 for Forge 1.20.1",
     "fileName": "jei-1.20.1-forge-15.20.0.106.jar",
-    "releaseType": 2,
+    "releaseType": 1,
     "hashes": [
       {
         "value": "77928d15d797663846cba44de8f79e4e4c5fdbb7",
@@ -5750,6 +5750,75 @@
       {
         "name": "ears.refmap.json",
         "fingerprint": 877629126
+      }
+    ]
+  },
+  {
+    "id": 6374606,
+    "gameId": 432,
+    "modId": 416089,
+    "displayName": "[FORGE][1.20.1] Simple Voice Chat 1.20.1-2.5.29",
+    "fileName": "voicechat-forge-1.20.1-2.5.29.jar",
+    "releaseType": 1,
+    "hashes": [
+      {
+        "value": "e8a9fefdf4d01034c77fff8353f64d73cf9055f1",
+        "algo": 1
+      },
+      {
+        "value": "8dc60923a9f8d0e355a768b339589d14",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-04-01T14:47:55.163Z",
+    "fileLength": 7747148,
+    "fileSizeOnDisk": 14749402,
+    "downloadUrl": "https://edge.forgecdn.net/files/6374/606/voicechat-forge-1.20.1-2.5.29.jar",
+    "dependencies": [
+      {
+        "modId": 348521,
+        "relationType": 2
+      },
+      {
+        "modId": 535489,
+        "relationType": 2
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 613192563,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 945219306
+      },
+      {
+        "name": "LAME_LICENSE",
+        "fingerprint": 1633161558
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1368933266
+      },
+      {
+        "name": "de",
+        "fingerprint": 1623450934
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 3253926469
+      },
+      {
+        "name": "natives",
+        "fingerprint": 3173273800
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 1224346914
+      },
+      {
+        "name": "packs",
+        "fingerprint": 1894465216
       }
     ]
   },
