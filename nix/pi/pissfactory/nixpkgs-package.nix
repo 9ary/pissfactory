@@ -229,6 +229,7 @@ lib.makeScope newScope (
       {
         writeShellApplication,
         coreutils,
+        gnused,
         jre,
         unsup,
       }:
@@ -245,6 +246,9 @@ lib.makeScope newScope (
             [[ ! -a user_jvm_args.txt ]] && cp forge-server/user_jvm_args.txt .
             touch -r forge-installer.jar forge-server/.timestamp
           fi
+          if [[ ! -e forge-server/run.sh.bak ]]; then
+            sed -i.bak -e '$ s/^java /exec &/' forge-server/run.sh
+          fi
 
           if [[ -n "''${PISSFACTORY_PRODUCTION_OVERLAY-}" ]]; then
             printf '%s\n' "Declarative config overlay in use, copying $PISSFACTORY_PRODUCTION_OVERLAY over CWD!"
@@ -257,6 +261,7 @@ lib.makeScope newScope (
         '';
         runtimeInputs = [
           coreutils
+          gnused
           jre
         ];
       }
