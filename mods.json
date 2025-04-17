@@ -7851,6 +7851,83 @@
     ]
   },
   {
+    "id": 6399601,
+    "gameId": 432,
+    "modId": 535489,
+    "displayName": "[FORGE][1.20.1] Sound Physics Remastered 1.20.1-1.4.13",
+    "fileName": "sound-physics-remastered-forge-1.20.1-1.4.13.jar",
+    "releaseType": 3,
+    "hashes": [
+      {
+        "value": "0851097c159a0498620e8cd307ab7d26c6fcc57b",
+        "algo": 1
+      },
+      {
+        "value": "60f4782d630d473a4bc6547369c286db",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2025-04-08T16:04:46.963Z",
+    "fileLength": 204480,
+    "fileSizeOnDisk": 452024,
+    "downloadUrl": "https://edge.forgecdn.net/files/6399/601/sound-physics-remastered-forge-1.20.1-1.4.13.jar",
+    "dependencies": [
+      {
+        "modId": 348521,
+        "relationType": 2
+      },
+      {
+        "modId": 416089,
+        "relationType": 2
+      }
+    ],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1478808266,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4253199342
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2004311083
+      },
+      {
+        "name": "com",
+        "fingerprint": 4062208647
+      },
+      {
+        "name": "de",
+        "fingerprint": 2285137511
+      },
+      {
+        "name": "icon.png",
+        "fingerprint": 4226171891
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 136565753
+      },
+      {
+        "name": "sound-physics-remastered-fabric-refmap.json",
+        "fingerprint": 3916323897
+      },
+      {
+        "name": "sound_physics_remastered.accesswidener",
+        "fingerprint": 3831105509
+      },
+      {
+        "name": "sound_physics_remastered.mixins.json",
+        "fingerprint": 2517006917
+      },
+      {
+        "name": "sound_physics_remastered.refmap.json",
+        "fingerprint": 2433777241
+      }
+    ]
+  },
+  {
     "id": 6015618,
     "gameId": 432,
     "modId": 538092,
