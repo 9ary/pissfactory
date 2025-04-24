@@ -1,12 +1,12 @@
 { ... }:
 {
   stdenv,
-  jdk17_headless,
+  jdk21_headless,
   lib,
   callPackage,
 }:
 let
-  jdk = jdk17_headless;
+  jdk = jdk21_headless;
 in
 stdenv.mkDerivation {
   pname = "${jdk.pname}-minimal-jre";
