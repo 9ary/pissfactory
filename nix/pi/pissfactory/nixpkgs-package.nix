@@ -107,6 +107,7 @@ lib.makeScope newScope (
             ../../../patches/0004-Enable-NBT-tooltips-by-default.patch
             ../../../patches/0005-Disable-Inventory-Tweaks-sort-in-ME-Terminal.patch
             ../../../patches/0006-pissfactory-rehooked-tuning.patch
+            ../../../patches/0007-Restore-Thermal-s-Insightful-Condenser.patch
           ];
         };
 
