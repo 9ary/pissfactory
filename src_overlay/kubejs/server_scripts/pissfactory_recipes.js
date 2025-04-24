@@ -15,17 +15,4 @@ ServerEvents.recipes(event => {
         .outputFluids("enderio:xp_juice 20")
         .duration(1)
         .EUt(8)
-
-    event.shaped(
-        "portablehole:portable_hole",
-        [
-            ' C ',
-            'CEC',
-            ' C ',
-        ],
-        {
-            E: "minecraft:ender_pearl",
-            C: "enderio:pulsating_crystal",
-        },
-    )
 })
