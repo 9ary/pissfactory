@@ -204,7 +204,7 @@
     "infoLookingAtBlock": false,
     "infoLookingAtBlockInChunk": false,
     "infoLookingAtEntity": false,
-    "infoMemoryUsage": true,
+    "infoMemoryUsage": false,
     "infoMobCaps": false,
     "infoLoadedChunksCount": false,
     "infoParticleCount": false,
@@ -230,10 +230,10 @@
       "keys": ""
     },
     "infoBiome": {
-      "keys": ""
+      "keys": "X,H,B"
     },
     "infoBiomeRegistryName": {
-      "keys": ""
+      "keys": "X,H,B"
     },
     "infoBlockBreakSpeed": {
       "keys": ""
@@ -403,7 +403,7 @@
       "keys": ""
     },
     "overlayBiomeBorder": {
-      "keys": ""
+      "keys": "X,H,B"
     },
     "overlayBlockGrid": {
       "keys": ""

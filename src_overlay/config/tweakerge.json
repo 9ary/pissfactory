@@ -111,13 +111,13 @@
       "keys": ""
     },
     "flexibleBlockPlacementAdjacent": {
-      "keys": ""
+      "keys": "LEFT_ALT"
     },
     "flexibleBlockPlacementOffset": {
       "keys": "LEFT_CONTROL"
     },
     "flexibleBlockPlacementRotation": {
-      "keys": "LEFT_ALT"
+      "keys": ""
     },
     "flyPreset1": {
       "keys": ""
@@ -717,7 +717,7 @@
     "tweakBreakingRestriction": false,
     "tweakChatBackgroundColor": false,
     "tweakChatPersistentText": false,
-    "tweakChatTimestamp": false,
+    "tweakChatTimestamp": true,
     "tweakCommandBlockExtraFields": false,
     "tweakCustomFlyDeceleration": false,
     "tweakCustomInventoryScreenScale": false,
@@ -734,7 +734,7 @@
     "tweakFastRightClick": false,
     "tweakFillCloneLimit": false,
     "tweakFlySpeed": false,
-    "tweakFlexibleBlockPlacement": false,
+    "tweakFlexibleBlockPlacement": true,
     "tweakFreeCamera": false,
     "tweakGammaOverride": false,
     "tweakHandRestock": false,
@@ -766,7 +766,7 @@
     "tweakPrintDeathCoordinates": false,
     "tweakPickBeforePlace": false,
     "tweakPlayerListAlwaysVisible": false,
-    "tweakRenderEdgeChunks": false,
+    "tweakRenderEdgeChunks": true,
     "tweakRenderInvisibleEntities": false,
     "tweakRenderLimitEntities": false,
     "tweakRepairMode": false,
@@ -871,13 +871,13 @@
       "keys": ""
     },
     "tweakFlexibleBlockPlacement": {
-      "keys": ""
+      "keys": "X,P"
     },
     "tweakFreeCamera": {
-      "keys": ""
+      "keys": "X,F"
     },
     "tweakGammaOverride": {
-      "keys": ""
+      "keys": "X,G"
     },
     "tweakHandRestock": {
       "keys": ""
