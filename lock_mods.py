@@ -109,6 +109,9 @@ cf_extras = {
     # https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero
     1028108: 6069384,
 }
+for id in cf_extras.keys():
+    if id in cf_files:
+        print(f"Overriding upstream mod with project ID {id}!")
 cf_files.update(cf_extras)
 
 other_extras = [
