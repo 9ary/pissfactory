@@ -42,7 +42,6 @@ for mod in mods:
         side = "server"
     else:
         side = "both"
-    hash = next(h["value"] for h in mod["hashes"] if h["algo"] == 1)
     pw = f"""name = "{mod["displayName"]}"
 filename = "{mod["fileName"]}"
 side = "{side}"
@@ -50,7 +49,7 @@ side = "{side}"
 [download]
 url = "{mod["downloadUrl"]}"
 hash-format = "sha1"
-hash = "{hash}"
+hash = "{mod["sha1"]}"
 """
     with open(f"mods/{mod["fileName"]}.pw.toml", "w") as f:
         f.write(pw)

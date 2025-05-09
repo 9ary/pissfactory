@@ -113,14 +113,12 @@ cf_files.update(cf_extras)
 
 other_extras = [
     {
+        # https://gitlab.com/talchas/ae2-emi-crafting-forge
         "displayName": "AE2 EMI Crafting Integration",
-        "URL": "https://gitlab.com/talchas/ae2-emi-crafting-forge",
         "fileName": "ae2-emi-crafting-forge-1.3.1.jar",
         "downloadUrl": "https://gitlab.com/talchas/ae2-emi-crafting-forge/-/package_files/169558228/download", # noqa: 501
-        "hashes": [
-            {"value": "f7ab876581c48b9843de1d8499dc133ef0a64f0a", "algo": 1},
-        ]
-    }
+        "sha1": "f7ab876581c48b9843de1d8499dc133ef0a64f0a",
+    },
 ]
 
 r = requests.post(
@@ -134,26 +132,26 @@ r = requests.post(
     },
 )
 cf_mods = {m["modId"]: m for m in r.json()["data"]}
-bad_keys = [
-    "downloadCount",
-    "fileStatus",
-    "gameVersions",
-    "isAvailable",
-    "sortableGameVersions",
+kept_keys = [
+    "id",
+    "modId",
+    "displayName",
+    "fileName",
+    "downloadUrl",
 ]
 
 
 def normalize_cf_mod(mod):
-    for k in bad_keys:
-        mod.pop(k, None)
+    ret = {k: mod[k] for k in kept_keys}
+    ret["sha1"] = next(h["value"] for h in mod["hashes"] if h["algo"] == 1)
     if mod.get("downloadUrl") is None:
         id = mod["id"]
         upper = int(id / 1000)
         lower = id % 1000
         filename = mod["fileName"]
-        mod["downloadUrl"] = \
+        ret["downloadUrl"] = \
             f"https://edge.forgecdn.net/files/{upper}/{lower}/{filename}"
-    return mod
+    return ret
 
 
 cf_mods = sorted(
