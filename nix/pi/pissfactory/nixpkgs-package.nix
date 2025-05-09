@@ -255,7 +255,7 @@ makeScopeWithSplicing' {
         in
         fetchurl {
           url = "https://git.sleeping.town/unascribed/unsup/releases/download/v${version}/unsup-${version}.jar";
-          hash = "sha256-DU0DKqzfuE6p4whFkSbQcHJJGvfA75eDg3jnzsHGlnI=";
+          hash = "sha256-uxxN771PCqf8d3Vm/MFMqDdwTRsfJOOmGUZtQTk/43w=";
           passthru = {
             inherit version;
           };
