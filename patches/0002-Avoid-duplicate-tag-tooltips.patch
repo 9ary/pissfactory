@@ -1,31 +1,22 @@
-From 7f76d6370560906915281d8335bc2e1bd49f8a23 Mon Sep 17 00:00:00 2001
+From ac2d079bbcc6bc7307a2ea86801babfdfd239e2b Mon Sep 17 00:00:00 2001
 From: Dusk Banks <me@bb010g.com>
 Date: Fri, 21 Mar 2025 02:19:58 -0700
-Subject: [PATCH 3/6] Avoid duplicate tag tooltips
+Subject: [PATCH 2/5] Avoid duplicate tag tooltips
 
 ---
- .gitignore                   |  4 +++-
+ .gitignore                   |  2 +-
  config/cofh_core-client.toml | 17 +++++++++++++++++
  config/cucumber-client.toml  |  8 ++++++++
- 3 files changed, 28 insertions(+), 1 deletion(-)
+ 3 files changed, 26 insertions(+), 1 deletion(-)
  create mode 100644 config/cofh_core-client.toml
  create mode 100644 config/cucumber-client.toml
 
 diff --git a/.gitignore b/.gitignore
-index 0ccde34e..fa7a7f2e 100644
+index 477dd6fa..4f4574be 100644
 --- a/.gitignore
 +++ b/.gitignore
-@@ -75,6 +75,8 @@ config/fancymenu/customization/pack_credit_screen_layout.txt
- #Hide all client-only files
- /config/**/*client.*
- #Except these
-+!/config/cofh_core-client.toml
-+!/config/cucumber-client.toml
- !/config/sophisticatedstorage-client.toml
- !/config/**/darkmodeeverywhere-client.toml
- 
-@@ -127,4 +129,4 @@ config/darkmodeeverywhereshaders.json
- !/config/create-client.toml
+@@ -81,4 +81,4 @@ $RECYCLE.BIN/
+ kubejs/assets/gtceu/textures/item/material_sets/infinity/infinity_plate.xcf
  
  # Downloadable dependencies
 -**/node_modules
@@ -69,5 +60,5 @@ index 00000000..ee9484a1
 +	nbtTooltips = false
 +
 -- 
-2.47.0
+2.47.2
 

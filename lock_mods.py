@@ -14,6 +14,12 @@ if (token := os.getenv("CFCORE_API_TOKEN")) is None:
 with open(sys.argv[1]) as f:
     manifest = json.load(f)
 removed_projects = [
+    # Corpse x Curios API Compat
+    # We run a newer version
+    1138130,
+    # Crafting Station JEI edition
+    # We run the upstream version because this is just worse
+    956084,
 ]
 cf_files = {
     m["projectID"]: m["fileID"] for m in manifest["files"]
@@ -24,6 +30,9 @@ cf_extras = {
     # Corpse x Curios API Compat
     # https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat
     1138130: 6235713,
+    # Crafting Station
+    # https://www.curseforge.com/minecraft/mc-mods/crafting-station
+    318551: 4770683,
     # Custom FoV
     # https://www.curseforge.com/minecraft/mc-mods/custom-fov
     303938: 4600447,

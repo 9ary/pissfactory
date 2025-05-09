@@ -1,0 +1,63 @@
+From 0bec4613695a93c041bdbd5687a4627f39df9acf Mon Sep 17 00:00:00 2001
+From: novenary <novenary@kwak.zip>
+Date: Thu, 24 Apr 2025 23:09:46 +0300
+Subject: [PATCH 5/5] Restore Thermal's Insightful Condenser
+
+---
+ kubejs/client_scripts/JEI.js                                     | 1 -
+ .../gregtech_material_registry/missing_material_forms.js         | 1 +
+ kubejs/startup_scripts/nukeLists/fluid.js                        | 1 -
+ kubejs/startup_scripts/nukeLists/item.js                         | 1 -
+ 4 files changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/kubejs/client_scripts/JEI.js b/kubejs/client_scripts/JEI.js
+index b383aa17..c8b8ee2f 100644
+--- a/kubejs/client_scripts/JEI.js
++++ b/kubejs/client_scripts/JEI.js
+@@ -123,7 +123,6 @@ JEIEvents.hideFluids(event => {
+ 
+     // Hide Thermal fluids
+     event.hide("thermal:creosote")
+-    event.hide("cofh_core:experience")
+     event.hide("thermal:glowstone")
+     event.hide("thermal:redstone")
+ 
+diff --git a/kubejs/startup_scripts/gregtech_material_registry/missing_material_forms.js b/kubejs/startup_scripts/gregtech_material_registry/missing_material_forms.js
+index 169425a7..0db375e0 100644
+--- a/kubejs/startup_scripts/gregtech_material_registry/missing_material_forms.js
++++ b/kubejs/startup_scripts/gregtech_material_registry/missing_material_forms.js
+@@ -57,6 +57,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
+     GTMaterials.Copper.addFlags(GTMaterialFlags.GENERATE_GEAR)
+     GTMaterials.Silver.addFlags(GTMaterialFlags.GENERATE_GEAR)
+     GTMaterials.Lead.addFlags(GTMaterialFlags.GENERATE_GEAR)
++    GTMaterials.Lapis.addFlags(GTMaterialFlags.GENERATE_GEAR)
+ 
+     // Radioactive materials that get liquid forms and/or a new color
+     addFluid(GTMaterials.Einsteinium, $FluidStorageKeys.LIQUID, 1133);
+diff --git a/kubejs/startup_scripts/nukeLists/fluid.js b/kubejs/startup_scripts/nukeLists/fluid.js
+index 76cc10aa..a29199a8 100644
+--- a/kubejs/startup_scripts/nukeLists/fluid.js
++++ b/kubejs/startup_scripts/nukeLists/fluid.js
+@@ -29,7 +29,6 @@ global.fluidNukeList = [
+     "gtceu:molten_kanthal",
+ 
+     // Thermal Series
+-    "cofh_core:experience",
+     "thermal:creosote",
+     "thermal:glowstone",
+     "thermal:redstone",
+diff --git a/kubejs/startup_scripts/nukeLists/item.js b/kubejs/startup_scripts/nukeLists/item.js
+index a896d72c..ed2fdb55 100644
+--- a/kubejs/startup_scripts/nukeLists/item.js
++++ b/kubejs/startup_scripts/nukeLists/item.js
+@@ -278,7 +278,6 @@ global.itemNukeList = [
+     "thermal:machine_bottler",
+     "thermal:machine_brewer",
+     "thermal:machine_crystallizer",
+-    "thermal:device_xp_condenser",
+ 
+     // Wireless Chargers
+     "wirelesschargers:basic_wireless_block_charger",
+-- 
+2.47.2
+
