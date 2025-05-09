@@ -13,7 +13,12 @@ if (token := os.getenv("CFCORE_API_TOKEN")) is None:
 
 with open(sys.argv[1]) as f:
     manifest = json.load(f)
-file_ids = [m["fileID"] for m in manifest["files"]]
+removed_projects = [
+]
+file_ids = [
+    m["fileID"] for m in manifest["files"]
+    if m["projectID"] not in removed_projects
+]
 
 cf_extras = [
     # Corpse x Curios API Compat
