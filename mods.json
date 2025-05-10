@@ -88,20 +88,20 @@
     "sha1": "e1ad2f5480453aed8059aeddd5964694116a9fc8"
   },
   {
-    "id": 6107610,
+    "id": 6332076,
     "modId": 228702,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/610/ProjectRed-1.20.1-4.20.1-beta%2b4-core.jar",
-    "sha1": "d7c5190e1729deaf266dcc7274a7127fb43b9474"
+    "displayName": "ProjectRed-1.20.1-4.21.0-core.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-core.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/76/ProjectRed-1.20.1-4.21.0-core.jar",
+    "sha1": "2820c03addb16a3a51f2879b942f76911423bf3a"
   },
   {
-    "id": 6107616,
+    "id": 6332086,
     "modId": 229045,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/616/ProjectRed-1.20.1-4.20.1-beta%2b4-integration.jar",
-    "sha1": "ccfb284290046d1e97734fe189ad0d9e2a42780d"
+    "displayName": "ProjectRed-1.20.1-4.21.0-integration.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-integration.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/86/ProjectRed-1.20.1-4.21.0-integration.jar",
+    "sha1": "c8f4be2822c87c200e21db571b5b0c7d63eac145"
   },
   {
     "id": 6000481,
@@ -112,12 +112,12 @@
     "sha1": "6e7f110cb4ef9c22bf557cd54248546548d56c66"
   },
   {
-    "id": 6107614,
+    "id": 6332079,
     "modId": 230111,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/614/ProjectRed-1.20.1-4.20.1-beta%2b4-fabrication.jar",
-    "sha1": "7f5526dc7d8c8556f8ec58317f3dd1c872ef9d70"
+    "displayName": "ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/79/ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "sha1": "cf6eecd75ea61708fabc52cda2de5e0e68f3009c"
   },
   {
     "id": 5375681,
@@ -744,12 +744,12 @@
     "sha1": "cbfdee60bbe65076fc0d0e293631aeb377c23e2a"
   },
   {
-    "id": 6374606,
+    "id": 6439524,
     "modId": 416089,
-    "displayName": "[FORGE][1.20.1] Simple Voice Chat 1.20.1-2.5.29",
-    "fileName": "voicechat-forge-1.20.1-2.5.29.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6374/606/voicechat-forge-1.20.1-2.5.29.jar",
-    "sha1": "e8a9fefdf4d01034c77fff8353f64d73cf9055f1"
+    "displayName": "[FORGE][1.20.1] Simple Voice Chat 1.20.1-2.5.30",
+    "fileName": "voicechat-forge-1.20.1-2.5.30.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6439/524/voicechat-forge-1.20.1-2.5.30.jar",
+    "sha1": "680078f43dc11b579cd36acba10613476640d164"
   },
   {
     "id": 6186971,
@@ -904,12 +904,12 @@
     "sha1": "c418caa1eea74e9f05b4a20862ebc665019250c8"
   },
   {
-    "id": 6107617,
+    "id": 6332088,
     "modId": 478939,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/617/ProjectRed-1.20.1-4.20.1-beta%2b4-transmission.jar",
-    "sha1": "d0478356172e015c4827f068ee9727bd7d3600ff"
+    "displayName": "ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/88/ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "sha1": "d7645694b8b8f4adc62449c89661cfe5bb400531"
   },
   {
     "id": 5259004,
@@ -1440,12 +1440,12 @@
     "sha1": "2acee24454af859988a691f0506271a465f68f7b"
   },
   {
-    "id": 6052639,
+    "id": 6396807,
     "modId": 850410,
-    "displayName": "Create: Estrogen 4.3.2+1.20.1 Forge",
-    "fileName": "Estrogen-4.3.2+1.20.1-forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6052/639/Estrogen-4.3.2%2b1.20.1-forge.jar",
-    "sha1": "ddea573fe3e57f2fd24aa371ea167ef9b0bec8d3"
+    "displayName": "Create: Estrogen 4.3.4+1.20.1 Forge",
+    "fileName": "Estrogen-4.3.4+1.20.1-forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6396/807/Estrogen-4.3.4%2b1.20.1-forge.jar",
+    "sha1": "4d6ccf3d22de78ef2f34b2bf66456d466a2aa44a"
   },
   {
     "id": 4710223,
@@ -1840,20 +1840,20 @@
     "sha1": "1b9990601b09c529ddd499563b1255cf7147cac1"
   },
   {
-    "id": 5763195,
+    "id": 6368373,
     "modId": 1100654,
-    "displayName": "Squake Reforged 1.0",
-    "fileName": "squakereforged-1.0-SNAPSHOT.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5763/195/squakereforged-1.0-SNAPSHOT.jar",
-    "sha1": "db4000458e8a4865e8827849ab0c9a97d73bad03"
+    "displayName": "Squake 1.3.0",
+    "fileName": "squakereforged-1.3.0F.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6368/373/squakereforged-1.3.0F.jar",
+    "sha1": "8cd3fdad60571039fd20f3305ed3b541b192abee"
   },
   {
-    "id": 6235713,
+    "id": 6327919,
     "modId": 1138130,
-    "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6235/713/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "sha1": "e2162553deb2fb1f8b2473e5c8adb060f30a39d4"
+    "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6327/919/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "sha1": "1e00db91b74287eb63f389c6c8cb5a70df41f8e0"
   },
   {
     "id": 5967957,
@@ -1872,12 +1872,12 @@
     "sha1": "93b267cfbf136cc1a9bdf070ab3ea9c56a409736"
   },
   {
-    "id": 6122719,
+    "id": 6455346,
     "modId": 1172594,
-    "displayName": "keybindbundles-1.20.1-1.0.0.jar",
-    "fileName": "keybindbundles-1.20.1-1.0.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6122/719/keybindbundles-1.20.1-1.0.0.jar",
-    "sha1": "979ae085a0fe75f90222a6e063d98ac9aa37cbf1"
+    "displayName": "keybindbundles-1.20.1-1.1.0.jar",
+    "fileName": "keybindbundles-1.20.1-1.1.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6455/346/keybindbundles-1.20.1-1.1.0.jar",
+    "sha1": "3c1879e3cb0f6647f7ef352cb7c72a858c444a33"
   },
   {
     "id": 6127958,
