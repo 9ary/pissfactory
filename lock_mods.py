@@ -4,12 +4,14 @@ import sys
 
 import requests
 
+cf_api = "https://api.curseforge.com/v1"
 if (token := os.getenv("CFCORE_API_TOKEN")) is None:
+    print("$CFCORE_API_TOKEN is unset, falling back to curse.tools proxy.")
     print(
-        "Please set $CFCORE_API_TOKEN "
-        "(https://console.curseforge.com/#/api-keys)"
+        "To use the CurseForge API directly, get a token from "
+        "https://console.curseforge.com/#/api-keys"
     )
-    sys.exit(1)
+    cf_api = "https://api.curse.tools/v1/cf"
 
 with open(sys.argv[1]) as f:
     manifest = json.load(f)
@@ -134,7 +136,7 @@ other_extras = [
 ]
 
 r = requests.post(
-    "https://api.curseforge.com/v1/mods/files",
+    f"{cf_api}/mods/files",
     headers={
         "X-Api-Key": token,
         "Content-Type": "application/json",
