@@ -24,12 +24,12 @@
     "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c"
   },
   {
-    "id": 6035212,
+    "id": 6213370,
     "modId": 64578,
-    "displayName": "Ender IO - 6.2.7-beta",
-    "fileName": "EnderIO-1.20.1-6.2.7-beta-all.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6035/212/EnderIO-1.20.1-6.2.7-beta-all.jar",
-    "sha1": "8f2743fab6f73b14176eb8fe62072ac4273901e3"
+    "displayName": "Ender IO - 6.2.10-beta",
+    "fileName": "EnderIO-1.20.1-6.2.10-beta-all.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6213/370/EnderIO-1.20.1-6.2.10-beta-all.jar",
+    "sha1": "86740cc3fbcdf613e1d7a7ecfa29d296c7e7e7b8"
   },
   {
     "id": 5374122,
@@ -72,12 +72,12 @@
     "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f"
   },
   {
-    "id": 6014947,
+    "id": 6091401,
     "modId": 223794,
-    "displayName": "AE2 15.3.2-beta [NEOFORGE]",
-    "fileName": "appliedenergistics2-forge-15.3.2-beta.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6014/947/appliedenergistics2-forge-15.3.2-beta.jar",
-    "sha1": "32e8e3f67229b0433c3779e09bd7a2c9e3a8fb84"
+    "displayName": "AE2 15.3.3 [NEOFORGE]",
+    "fileName": "appliedenergistics2-forge-15.3.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6091/401/appliedenergistics2-forge-15.3.3.jar",
+    "sha1": "37ba16fa86aeab788d7b916bb45c25638df5cfb0"
   },
   {
     "id": 4587490,
@@ -88,20 +88,20 @@
     "sha1": "e1ad2f5480453aed8059aeddd5964694116a9fc8"
   },
   {
-    "id": 6107610,
+    "id": 6332076,
     "modId": 228702,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-core.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/610/ProjectRed-1.20.1-4.20.1-beta%2b4-core.jar",
-    "sha1": "d7c5190e1729deaf266dcc7274a7127fb43b9474"
+    "displayName": "ProjectRed-1.20.1-4.21.0-core.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-core.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/76/ProjectRed-1.20.1-4.21.0-core.jar",
+    "sha1": "2820c03addb16a3a51f2879b942f76911423bf3a"
   },
   {
-    "id": 6107616,
+    "id": 6332086,
     "modId": 229045,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-integration.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/616/ProjectRed-1.20.1-4.20.1-beta%2b4-integration.jar",
-    "sha1": "ccfb284290046d1e97734fe189ad0d9e2a42780d"
+    "displayName": "ProjectRed-1.20.1-4.21.0-integration.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-integration.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/86/ProjectRed-1.20.1-4.21.0-integration.jar",
+    "sha1": "c8f4be2822c87c200e21db571b5b0c7d63eac145"
   },
   {
     "id": 6000481,
@@ -112,12 +112,12 @@
     "sha1": "6e7f110cb4ef9c22bf557cd54248546548d56c66"
   },
   {
-    "id": 6107614,
+    "id": 6332079,
     "modId": 230111,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-fabrication.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/614/ProjectRed-1.20.1-4.20.1-beta%2b4-fabrication.jar",
-    "sha1": "7f5526dc7d8c8556f8ec58317f3dd1c872ef9d70"
+    "displayName": "ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/79/ProjectRed-1.20.1-4.21.0-fabrication.jar",
+    "sha1": "cf6eecd75ea61708fabc52cda2de5e0e68f3009c"
   },
   {
     "id": 5375681,
@@ -224,12 +224,12 @@
     "sha1": "3aef3c60a7f77e17c630df05cbb9da72d274b683"
   },
   {
-    "id": 5841750,
+    "id": 6225085,
     "modId": 245755,
-    "displayName": "waystones-forge-1.20-14.1.6.jar",
-    "fileName": "waystones-forge-1.20-14.1.6.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5841/750/waystones-forge-1.20-14.1.6.jar",
-    "sha1": "39fd81849da768e5a1ea5331856b6e5d74e3fcdd"
+    "displayName": "waystones-forge-1.20.1-14.1.10.jar",
+    "fileName": "waystones-forge-1.20.1-14.1.10.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6225/85/waystones-forge-1.20.1-14.1.10.jar",
+    "sha1": "8668ded6607e0ae8659ce1a07b8a64806b6e9364"
   },
   {
     "id": 5303143,
@@ -272,12 +272,12 @@
     "sha1": "04f3ee97d8881f4dd6b4e2c8c5ba4e1785e2f2c7"
   },
   {
-    "id": 4751740,
+    "id": 6224941,
     "modId": 251407,
-    "displayName": "clienttweaks-forge-1.20-11.1.0.jar",
-    "fileName": "clienttweaks-forge-1.20-11.1.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/4751/740/clienttweaks-forge-1.20-11.1.0.jar",
-    "sha1": "8a117dbbb376360c34d6ba56ce03ce2837bbccc2"
+    "displayName": "clienttweaks-forge-1.20.1-11.1.3.jar",
+    "fileName": "clienttweaks-forge-1.20.1-11.1.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6224/941/clienttweaks-forge-1.20.1-11.1.3.jar",
+    "sha1": "911754379bb80b21ee02fdb974cd99d7eb759998"
   },
   {
     "id": 4712189,
@@ -304,12 +304,12 @@
     "sha1": "97cc669f68dbe812cb77cc3631339334fc28b877"
   },
   {
-    "id": 6048918,
+    "id": 6109933,
     "modId": 257814,
-    "displayName": "CreativeCore_FORGE_v2.12.28_mc1.20.1.jar",
-    "fileName": "CreativeCore_FORGE_v2.12.28_mc1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6048/918/CreativeCore_FORGE_v2.12.28_mc1.20.1.jar",
-    "sha1": "1df4be91a66108003d71c1e5118b34327da83f57"
+    "displayName": "CreativeCore_FORGE_v2.12.31_mc1.20.1.jar",
+    "fileName": "CreativeCore_FORGE_v2.12.31_mc1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6109/933/CreativeCore_FORGE_v2.12.31_mc1.20.1.jar",
+    "sha1": "0a4331b9670a3ad2467aac1d766d12cb9c0d4629"
   },
   {
     "id": 5311521,
@@ -328,12 +328,12 @@
     "sha1": "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92"
   },
   {
-    "id": 5884329,
+    "id": 6174986,
     "modId": 269024,
-    "displayName": "LostCities - 1.20-7.3.5",
-    "fileName": "lostcities-1.20-7.3.5.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5884/329/lostcities-1.20-7.3.5.jar",
-    "sha1": "b2eea98efde5a824816af54d86d8a422991ee76b"
+    "displayName": "LostCities - 1.20-7.3.6",
+    "fileName": "lostcities-1.20-7.3.6.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6174/986/lostcities-1.20-7.3.6.jar",
+    "sha1": "772e8b4f7cc09e22dece55ee532b27a24a974b99"
   },
   {
     "id": 5478647,
@@ -400,12 +400,12 @@
     "sha1": "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
   },
   {
-    "id": 5816794,
+    "id": 6167056,
     "modId": 289412,
-    "displayName": "ftb-quests-forge-2001.4.9.jar",
-    "fileName": "ftb-quests-forge-2001.4.9.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5816/794/ftb-quests-forge-2001.4.9.jar",
-    "sha1": "8304908d8a236cd3ba4ebbf758d40f70868e71bc"
+    "displayName": "ftb-quests-forge-2001.4.11.jar",
+    "fileName": "ftb-quests-forge-2001.4.11.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6167/56/ftb-quests-forge-2001.4.11.jar",
+    "sha1": "8d128193018b64efec3a6dda14c7cffbca7d20ec"
   },
   {
     "id": 5372751,
@@ -456,12 +456,12 @@
     "sha1": "5863cef0a132f4337ccbeb9acdf88ce3a942d5da"
   },
   {
-    "id": 4966125,
+    "id": 6164575,
     "modId": 306770,
-    "displayName": "Patchouli-1.20.1-84-FORGE.jar",
-    "fileName": "Patchouli-1.20.1-84-FORGE.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/4966/125/Patchouli-1.20.1-84-FORGE.jar",
-    "sha1": "b6b7267f3669c10c167d5d375d0274d40e3eb756"
+    "displayName": "Patchouli-1.20.1-84.1-FORGE.jar",
+    "fileName": "Patchouli-1.20.1-84.1-FORGE.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6164/575/Patchouli-1.20.1-84.1-FORGE.jar",
+    "sha1": "e91d2e2f251375d647d592b670ea6f310c2554eb"
   },
   {
     "id": 5955879,
@@ -496,28 +496,28 @@
     "sha1": "55a7f032c59489eca96069a7841601de2ff97590"
   },
   {
-    "id": 6058834,
+    "id": 6216710,
     "modId": 309927,
-    "displayName": "curios-forge-5.11.1+1.20.1.jar",
-    "fileName": "curios-forge-5.11.1+1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6058/834/curios-forge-5.11.1%2b1.20.1.jar",
-    "sha1": "73c11645c983180f0b0de7c0325caeba28a056d7"
+    "displayName": "curios-forge-5.12.0+1.20.1.jar",
+    "fileName": "curios-forge-5.12.0+1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6216/710/curios-forge-5.12.0%2b1.20.1.jar",
+    "sha1": "90b08ee6b0d1187550260ff9869c66a2ef854125"
   },
   {
-    "id": 5956390,
+    "id": 6160246,
     "modId": 314906,
-    "displayName": "ftb-chunks-forge-2001.3.4.jar",
-    "fileName": "ftb-chunks-forge-2001.3.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5956/390/ftb-chunks-forge-2001.3.4.jar",
-    "sha1": "546d1ac90d42626d080502b79e8821c5086797a5"
+    "displayName": "ftb-chunks-forge-2001.3.5.jar",
+    "fileName": "ftb-chunks-forge-2001.3.5.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6160/246/ftb-chunks-forge-2001.3.5.jar",
+    "sha1": "9bdd61b79dde43a063f9807e1c3437bd8077843a"
   },
   {
-    "id": 5985511,
+    "id": 6121243,
     "modId": 316582,
-    "displayName": "[FORGE][1.20.1] Corpse 1.20.1-1.0.19",
-    "fileName": "corpse-forge-1.20.1-1.0.19.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5985/511/corpse-forge-1.20.1-1.0.19.jar",
-    "sha1": "db1348bf38522cdac460cf203b9b72d66cf742d9"
+    "displayName": "[FORGE][1.20.1] Corpse 1.20.1-1.0.20",
+    "fileName": "corpse-forge-1.20.1-1.0.20.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6121/243/corpse-forge-1.20.1-1.0.20.jar",
+    "sha1": "fc5cd03dd52f24467c879b44296ddc70b85398f4"
   },
   {
     "id": 4770683,
@@ -536,14 +536,6 @@
     "sha1": "11b167c70aa94c1937546a2108d96d13ed56118b"
   },
   {
-    "id": 5524615,
-    "modId": 321996,
-    "displayName": "[NeoForge] Traveller's Boots v2.1.2 for MC 1.20.1",
-    "fileName": "TravellersBootsReloaded-1.20.1-2.1.2-neoforge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5524/615/TravellersBootsReloaded-1.20.1-2.1.2-neoforge.jar",
-    "sha1": "f32b169349f03b63520504fcc5799b9c8d50b297"
-  },
-  {
     "id": 6039028,
     "modId": 322861,
     "displayName": "1.20.1-3.4.0.14",
@@ -552,12 +544,12 @@
     "sha1": "9d563e32048b0d352e7e3b6f7b1f89a83d2ed490"
   },
   {
-    "id": 5876199,
+    "id": 6106101,
     "modId": 324717,
-    "displayName": "[Forge 1.20.1] 11.12.2",
-    "fileName": "Jade-1.20.1-Forge-11.12.2.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5876/199/Jade-1.20.1-Forge-11.12.2.jar",
-    "sha1": "364c39334b7f7c842eecc839de2730a2899e580b"
+    "displayName": "[Forge 1.20.1] 11.12.3",
+    "fileName": "Jade-1.20.1-Forge-11.12.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6106/101/Jade-1.20.1-Forge-11.12.3.jar",
+    "sha1": "54de1eda95387ad10114e9a0f1bcd99a921ca6f9"
   },
   {
     "id": 5470032,
@@ -584,12 +576,12 @@
     "sha1": "f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4"
   },
   {
-    "id": 5840216,
+    "id": 6224948,
     "modId": 342584,
-    "displayName": "[Fabric/Forge/Neo] 1.20.1-7.87 | Collective",
-    "fileName": "collective-1.20.1-7.87.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5840/216/collective-1.20.1-7.87.jar",
-    "sha1": "6b30430c4737fddf0ee1913a198bcce0f5230a21"
+    "displayName": "[Fabric/Forge/Neo] 1.20.1-7.93 | Collective",
+    "fileName": "collective-1.20.1-7.93.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6224/948/collective-1.20.1-7.93.jar",
+    "sha1": "c4feddd2423d2b512d9aa9bf1d09907f0939d484"
   },
   {
     "id": 5729105,
@@ -656,12 +648,12 @@
     "sha1": "345e0e63d063a632d340c5b9d259e6d517dc989d"
   },
   {
-    "id": 5823943,
+    "id": 6231136,
     "modId": 367706,
-    "displayName": "[Forge] v3.3.2 MC 1.20.1",
-    "fileName": "fancymenu_forge_3.3.2_MC_1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5823/943/fancymenu_forge_3.3.2_MC_1.20.1.jar",
-    "sha1": "bed01849853308ec9ed23c9a0b493adc93f1ef2e"
+    "displayName": "[Forge] v3.4.6 MC 1.20.1",
+    "fileName": "fancymenu_forge_3.4.6_MC_1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6231/136/fancymenu_forge_3.4.6_MC_1.20.1.jar",
+    "sha1": "9e7fc73dacca36b8b93fc5e67ed919dd295ae9c9"
   },
   {
     "id": 4803995,
@@ -688,12 +680,12 @@
     "sha1": "60be345312d425fc1cff5af7ae1acd46d941dc62"
   },
   {
-    "id": 5572725,
+    "id": 6186182,
     "modId": 390886,
-    "displayName": "[Fabric/Forge/Neo] 1.20.1-4.6 | Difficulty Lock",
-    "fileName": "difficultylock-1.20.1-4.6.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5572/725/difficultylock-1.20.1-4.6.jar",
-    "sha1": "dfdab1661292c47f86706333d67ecf65eaffad63"
+    "displayName": "[Fabric/Forge/Neo] 1.20.1-4.7 | Difficulty Lock",
+    "fileName": "difficultylock-1.20.1-4.7.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6186/182/difficultylock-1.20.1-4.7.jar",
+    "sha1": "99bf8e0f4dce30384d9aa2094a750f7aadb548c3"
   },
   {
     "id": 4712179,
@@ -712,20 +704,20 @@
     "sha1": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a"
   },
   {
-    "id": 6016763,
+    "id": 6164053,
     "modId": 404465,
-    "displayName": "ftb-library-forge-2001.2.7.jar",
-    "fileName": "ftb-library-forge-2001.2.7.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6016/763/ftb-library-forge-2001.2.7.jar",
-    "sha1": "3a8836959ab3dd2a10afba192f174050efb37bc0"
+    "displayName": "ftb-library-forge-2001.2.9.jar",
+    "fileName": "ftb-library-forge-2001.2.9.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6164/53/ftb-library-forge-2001.2.9.jar",
+    "sha1": "42639a90f91c79d6b323ede5e229a79c050f4dc7"
   },
   {
-    "id": 5267190,
+    "id": 6130786,
     "modId": 404468,
-    "displayName": "ftb-teams-forge-2001.3.0.jar",
-    "fileName": "ftb-teams-forge-2001.3.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5267/190/ftb-teams-forge-2001.3.0.jar",
-    "sha1": "bb5a1f3ac9d44c5e9b319768e7166e877879aaaa"
+    "displayName": "ftb-teams-forge-2001.3.1.jar",
+    "fileName": "ftb-teams-forge-2001.3.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6130/786/ftb-teams-forge-2001.3.1.jar",
+    "sha1": "c2af94e0b86631cb75daa8de2377ff72527651ca"
   },
   {
     "id": 5028413,
@@ -752,20 +744,20 @@
     "sha1": "cbfdee60bbe65076fc0d0e293631aeb377c23e2a"
   },
   {
-    "id": 6374606,
+    "id": 6439524,
     "modId": 416089,
-    "displayName": "[FORGE][1.20.1] Simple Voice Chat 1.20.1-2.5.29",
-    "fileName": "voicechat-forge-1.20.1-2.5.29.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6374/606/voicechat-forge-1.20.1-2.5.29.jar",
-    "sha1": "e8a9fefdf4d01034c77fff8353f64d73cf9055f1"
+    "displayName": "[FORGE][1.20.1] Simple Voice Chat 1.20.1-2.5.30",
+    "fileName": "voicechat-forge-1.20.1-2.5.30.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6439/524/voicechat-forge-1.20.1-2.5.30.jar",
+    "sha1": "680078f43dc11b579cd36acba10613476640d164"
   },
   {
-    "id": 5655836,
+    "id": 6186971,
     "modId": 416294,
-    "displayName": "Rhino Forge 2001.2.3-build.6",
-    "fileName": "rhino-forge-2001.2.3-build.6.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5655/836/rhino-forge-2001.2.3-build.6.jar",
-    "sha1": "0c91c1710d7338f139b7cb3465f00590e210139e"
+    "displayName": "Rhino Forge 2001.2.3-build.10",
+    "fileName": "rhino-forge-2001.2.3-build.10.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6186/971/rhino-forge-2001.2.3-build.10.jar",
+    "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
   },
   {
     "id": 5137938,
@@ -784,12 +776,12 @@
     "sha1": "bace9e49302c3ef2a23b4522ea37b9c78ccf8770"
   },
   {
-    "id": 6078400,
+    "id": 6230202,
     "modId": 422301,
-    "displayName": "sophisticatedbackpacks-1.20.1-3.22.1.1167.jar",
-    "fileName": "sophisticatedbackpacks-1.20.1-3.22.1.1167.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6078/400/sophisticatedbackpacks-1.20.1-3.22.1.1167.jar",
-    "sha1": "5725ea9d0d32ce14e08b8f2d8896c071d35e4ac1"
+    "displayName": "sophisticatedbackpacks-1.20.1-3.23.5.1205.jar",
+    "fileName": "sophisticatedbackpacks-1.20.1-3.23.5.1205.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6230/202/sophisticatedbackpacks-1.20.1-3.23.5.1205.jar",
+    "sha1": "b77d64c96feca036121a080ec7901cadf20e35d0"
   },
   {
     "id": 4863339,
@@ -896,12 +888,12 @@
     "sha1": "9a35bc25ba2daade63db76ff4012eb68b0392b08"
   },
   {
-    "id": 6050417,
+    "id": 6229159,
     "modId": 470193,
-    "displayName": "connectivity-1.20.1-6.5.jar",
-    "fileName": "connectivity-1.20.1-6.5.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6050/417/connectivity-1.20.1-6.5.jar",
-    "sha1": "17e7e57e7c5974bffddadd36c234979859d18ad0"
+    "displayName": "connectivity-1.20.1-7.1.jar",
+    "fileName": "connectivity-1.20.1-7.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6229/159/connectivity-1.20.1-7.1.jar",
+    "sha1": "d4f2165b6c34439d110111c71d774f19d6947261"
   },
   {
     "id": 4711435,
@@ -912,12 +904,12 @@
     "sha1": "c418caa1eea74e9f05b4a20862ebc665019250c8"
   },
   {
-    "id": 6107617,
+    "id": 6332088,
     "modId": 478939,
-    "displayName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
-    "fileName": "ProjectRed-1.20.1-4.20.1-beta+4-transmission.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6107/617/ProjectRed-1.20.1-4.20.1-beta%2b4-transmission.jar",
-    "sha1": "d0478356172e015c4827f068ee9727bd7d3600ff"
+    "displayName": "ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "fileName": "ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6332/88/ProjectRed-1.20.1-4.21.0-transmission.jar",
+    "sha1": "d7645694b8b8f4adc62449c89661cfe5bb400531"
   },
   {
     "id": 5259004,
@@ -968,12 +960,12 @@
     "sha1": "e3f1efc1260c67c77eadb105a4ee36403becbdb5"
   },
   {
-    "id": 5796441,
+    "id": 6172518,
     "modId": 511770,
-    "displayName": "[Forge] v3.0.9 MC 1.20.1",
-    "fileName": "drippyloadingscreen_forge_3.0.9_MC_1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5796/441/drippyloadingscreen_forge_3.0.9_MC_1.20.1.jar",
-    "sha1": "b3d5cf518445c0f567b3dc6de8cede6bc3c2a283"
+    "displayName": "[Forge] v3.0.11 MC 1.20.1",
+    "fileName": "drippyloadingscreen_forge_3.0.11_MC_1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6172/518/drippyloadingscreen_forge_3.0.11_MC_1.20.1.jar",
+    "sha1": "04a0dacd153d8809877f663057004bba04668bee"
   },
   {
     "id": 5838149,
@@ -992,20 +984,20 @@
     "sha1": "f2be323d589b953eaa303f8b74913831a5a9b77b"
   },
   {
-    "id": 4955753,
+    "id": 6201294,
     "modId": 530816,
-    "displayName": "1.8.0",
-    "fileName": "no-telemetry-1.8.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/4955/753/no-telemetry-1.8.0.jar",
-    "sha1": "238b8ebc95100368951e0ff5ef2b16a1406e32f2"
+    "displayName": "1.9.0",
+    "fileName": "no-telemetry-1.9.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6201/294/no-telemetry-1.9.0.jar",
+    "sha1": "19545f40c8231fafdc183ea1c675ecbf3ecf025d"
   },
   {
-    "id": 6077684,
+    "id": 6224877,
     "modId": 531761,
-    "displayName": "balm-forge-1.20.1-7.3.11-all.jar",
-    "fileName": "balm-forge-1.20.1-7.3.11-all.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6077/684/balm-forge-1.20.1-7.3.11-all.jar",
-    "sha1": "55e98bd34d43210f492d3aababe6583db96e3077"
+    "displayName": "balm-forge-1.20.1-7.3.18-all.jar",
+    "fileName": "balm-forge-1.20.1-7.3.18-all.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6224/877/balm-forge-1.20.1-7.3.18-all.jar",
+    "sha1": "7357358c762ca4d1148f958060ce599075e59f47"
   },
   {
     "id": 4662781,
@@ -1128,12 +1120,12 @@
     "sha1": "5531e149477b9e540684a296fb196238bf1d85e8"
   },
   {
-    "id": 6075448,
+    "id": 6205514,
     "modId": 580555,
-    "displayName": "emi-1.1.19+1.20.1+forge",
-    "fileName": "emi-1.1.19+1.20.1+forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6075/448/emi-1.1.19%2b1.20.1%2bforge.jar",
-    "sha1": "c5a7df35be2b8a04eb8f305646e9d7f209dc65ba"
+    "displayName": "emi-1.1.20+1.20.1+forge",
+    "fileName": "emi-1.1.20+1.20.1+forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6205/514/emi-1.1.20%2b1.20.1%2bforge.jar",
+    "sha1": "f6ee97d1f49e106b2dc887df3c238bb06b84bada"
   },
   {
     "id": 6020952,
@@ -1144,12 +1136,12 @@
     "sha1": "984f774e71790deaec674c7587bd24e0711871b2"
   },
   {
-    "id": 6070477,
+    "id": 6118213,
     "modId": 582327,
-    "displayName": "smoothchunk-1.20.1-3.9.jar",
-    "fileName": "smoothchunk-1.20.1-3.9.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6070/477/smoothchunk-1.20.1-3.9.jar",
-    "sha1": "e87f9312a68472690141660667978ab1d06eede8"
+    "displayName": "smoothchunk-1.20.1-4.0.jar",
+    "fileName": "smoothchunk-1.20.1-4.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6118/213/smoothchunk-1.20.1-4.0.jar",
+    "sha1": "7449b406723228b3fda3bcd0db5635288030dee5"
   },
   {
     "id": 5693124,
@@ -1168,28 +1160,28 @@
     "sha1": "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e"
   },
   {
-    "id": 6077068,
+    "id": 6226747,
     "modId": 618298,
-    "displayName": "sophisticatedcore-1.20.1-1.1.2.834.jar",
-    "fileName": "sophisticatedcore-1.20.1-1.1.2.834.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6077/68/sophisticatedcore-1.20.1-1.1.2.834.jar",
-    "sha1": "d9dc5fa6678bfe9886820d312af31b925404dced"
+    "displayName": "sophisticatedcore-1.20.1-1.2.20.894.jar",
+    "fileName": "sophisticatedcore-1.20.1-1.2.20.894.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6226/747/sophisticatedcore-1.20.1-1.2.20.894.jar",
+    "sha1": "37b456020bfd51148f971ae200a60a2a12f64218"
   },
   {
-    "id": 6078405,
+    "id": 6217888,
     "modId": 619320,
-    "displayName": "sophisticatedstorage-1.20.1-1.1.4.1021.jar",
-    "fileName": "sophisticatedstorage-1.20.1-1.1.4.1021.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6078/405/sophisticatedstorage-1.20.1-1.1.4.1021.jar",
-    "sha1": "618a2b29ae41b3b66ba0aba0da6621588c295d93"
+    "displayName": "sophisticatedstorage-1.20.1-1.3.9.1075.jar",
+    "fileName": "sophisticatedstorage-1.20.1-1.3.9.1075.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6217/888/sophisticatedstorage-1.20.1-1.3.9.1075.jar",
+    "sha1": "bc9a1b8b7e0e4df830940134d35a476637284b99"
   },
   {
-    "id": 5881252,
+    "id": 6175008,
     "modId": 622112,
-    "displayName": "2.4.5 (Forge 1.20.1)",
-    "fileName": "megacells-forge-2.4.5-1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5881/252/megacells-forge-2.4.5-1.20.1.jar",
-    "sha1": "534f34f2d634f969e8897e04aab84da5eb9d9df4"
+    "displayName": "2.4.6 (Forge 1.20.1)",
+    "fileName": "megacells-forge-2.4.6-1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6175/8/megacells-forge-2.4.6-1.20.1.jar",
+    "sha1": "ed6fd5eb0c782529be03f199d66d9a7c9eb2a518"
   },
   {
     "id": 4834403,
@@ -1208,12 +1200,12 @@
     "sha1": "3b9f1c7fea5e0bdbc6f06429e147bd0a7c08663d"
   },
   {
-    "id": 5927130,
+    "id": 6203898,
     "modId": 626676,
-    "displayName": "LDLib 1.20.1-1.0.33.b-forge",
-    "fileName": "ldlib-forge-1.20.1-1.0.33.b.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5927/130/ldlib-forge-1.20.1-1.0.33.b.jar",
-    "sha1": "3a15e25a0faeb841e94d708807babbf8926daf2d"
+    "displayName": "LDLib 1.20.1-1.0.35-forge",
+    "fileName": "ldlib-forge-1.20.1-1.0.35.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6203/898/ldlib-forge-1.20.1-1.0.35.jar",
+    "sha1": "80d7046b25011d56d0fefa3acdd7afa8042a58c7"
   },
   {
     "id": 4654671,
@@ -1288,12 +1280,12 @@
     "sha1": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
   {
-    "id": 5760210,
+    "id": 6157014,
     "modId": 681783,
-    "displayName": "emi_loot-0.7.4+1.20.1+forge.jar",
-    "fileName": "emi_loot-0.7.4+1.20.1+forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5760/210/emi_loot-0.7.4%2b1.20.1%2bforge.jar",
-    "sha1": "07ae3bd3fe084f0a895cbeaec625a9d8e66a3812"
+    "displayName": "emi_loot-0.7.5+1.20.1+fix1+forge.jar",
+    "fileName": "emi_loot-0.7.5+1.20.1+fix1+forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6157/14/emi_loot-0.7.5%2b1.20.1%2bfix1%2bforge.jar",
+    "sha1": "4ffcd5c3626eeb95a0be8c65cda1e51328aad6bf"
   },
   {
     "id": 5156621,
@@ -1312,12 +1304,12 @@
     "sha1": "0ada7638153d3915046c01cdd793638bdec96a11"
   },
   {
-    "id": 5959896,
+    "id": 6124841,
     "modId": 686911,
-    "displayName": "ImmediatelyFast 1.3.3",
-    "fileName": "ImmediatelyFast-Forge-1.3.3+1.20.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5959/896/ImmediatelyFast-Forge-1.3.3%2b1.20.4.jar",
-    "sha1": "f3a9a180b6cb062bc6604fe2ec27e11b38c990e5"
+    "displayName": "ImmediatelyFast 1.3.4",
+    "fileName": "ImmediatelyFast-Forge-1.3.4+1.20.4.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6124/841/ImmediatelyFast-Forge-1.3.4%2b1.20.4.jar",
+    "sha1": "b9304ba321c3c841043773c5cc91c90dcc8eb2c1"
   },
   {
     "id": 5840017,
@@ -1360,44 +1352,44 @@
     "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
   },
   {
-    "id": 5020441,
+    "id": 6231176,
     "modId": 714059,
-    "displayName": "[Forge] Resourceful Config 2.1.2",
-    "fileName": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5020/441/resourcefulconfig-forge-1.20.1-2.1.2.jar",
-    "sha1": "46825dc0adc36c4b19591bb99f7d856bc2953749"
+    "displayName": "[Forge] Resourceful Config 2.1.3",
+    "fileName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6231/176/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+    "sha1": "597d40920dcc935f963842c817dcc4901862ab14"
   },
   {
-    "id": 5642039,
+    "id": 6116668,
     "modId": 715567,
-    "displayName": "AntiBlocksReChiseled v0.4.4 - Forge - 1.20.1",
-    "fileName": "antiblocksrechiseled-0.4.4.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5642/39/antiblocksrechiseled-0.4.4.jar",
-    "sha1": "f8795d47fd4da393bc14f87f5ae86282d1a42c5a"
+    "displayName": "AntiBlocksReChiseled v0.4.6 - Forge - 1.20.1",
+    "fileName": "antiblocksrechiseled-0.4.6.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6116/668/antiblocksrechiseled-0.4.6.jar",
+    "sha1": "9e10c60c18fc2b258cb7c2af69caa65f3066e770"
   },
   {
-    "id": 4742680,
+    "id": 5760231,
     "modId": 738663,
-    "displayName": "nerb-1.20.1-0.3-FORGE.jar",
-    "fileName": "nerb-1.20.1-0.3-FORGE.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/4742/680/nerb-1.20.1-0.3-FORGE.jar",
-    "sha1": "eff45ae52235847c7fd2e65c381cdfc866d1da41"
+    "displayName": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+    "fileName": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/5760/231/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2b1.20.1.jar",
+    "sha1": "c0806369f4257149664904db44efc60bd1785c17"
   },
   {
-    "id": 5549521,
+    "id": 6088198,
     "modId": 776293,
-    "displayName": "1.7.2 (Forge 1.20.1)",
-    "fileName": "fulleng-forge-1.7.2-1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5549/521/fulleng-forge-1.7.2-1.20.1.jar",
-    "sha1": "b508f7ccd4195f6d34fb1cba9aa3399fc455998a"
+    "displayName": "1.7.3 (Forge 1.20.1)",
+    "fileName": "fulleng-forge-1.7.3-1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6088/198/fulleng-forge-1.7.3-1.20.1.jar",
+    "sha1": "100bd44fe1295dbaedba5744aec9f2e9c797bc7c"
   },
   {
-    "id": 6025611,
+    "id": 6125143,
     "modId": 790626,
-    "displayName": "modernfix-forge-5.20.0+mc1.20.1.jar",
-    "fileName": "modernfix-forge-5.20.0+mc1.20.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6025/611/modernfix-forge-5.20.0%2bmc1.20.1.jar",
-    "sha1": "89077671ba67dbf454d59bc9863e9548a5543fef"
+    "displayName": "modernfix-forge-5.20.2+mc1.20.1.jar",
+    "fileName": "modernfix-forge-5.20.2+mc1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6125/143/modernfix-forge-5.20.2%2bmc1.20.1.jar",
+    "sha1": "23d49f71d56de4fdb8ec046507a42c48594daadb"
   },
   {
     "id": 5372761,
@@ -1416,20 +1408,20 @@
     "sha1": "bb4eb7e0f65d8d8754e5d5b1139d82514647d4f4"
   },
   {
-    "id": 6000961,
+    "id": 6386145,
     "modId": 834607,
-    "displayName": "WATERFrAMES/Forge/mc1.20.1/v2.1.9",
-    "fileName": "waterframes-FORGE-mc1.20.1-v2.1.9.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6000/961/waterframes-FORGE-mc1.20.1-v2.1.9.jar",
-    "sha1": "80a7475b04948f126ceb5718eff24fe67d1e5ac7"
+    "displayName": "WF-FORGE/mc1.20.1/v2.1.14",
+    "fileName": "waterframes-FORGE-mc1.20.1-v2.1.14.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6386/145/waterframes-FORGE-mc1.20.1-v2.1.14.jar",
+    "sha1": "61a47fdd76e8c0dbe374b4462809f7530e452f86"
   },
   {
-    "id": 6045292,
+    "id": 6155730,
     "modId": 840010,
-    "displayName": "NuclearCraft-1.20.1-1.1.5.jar",
-    "fileName": "NuclearCraft-1.20.1-1.1.5.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6045/292/NuclearCraft-1.20.1-1.1.5.jar",
-    "sha1": "ba733edf159b9ed0bc1ba0f9700d5cba84274565"
+    "displayName": "NuclearCraft-1.20.1-1.1.6.jar",
+    "fileName": "NuclearCraft-1.20.1-1.1.6.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6155/730/NuclearCraft-1.20.1-1.1.6.jar",
+    "sha1": "f611772d663ce16ab318f07b63011e52f4746d13"
   },
   {
     "id": 4917082,
@@ -1448,12 +1440,12 @@
     "sha1": "2acee24454af859988a691f0506271a465f68f7b"
   },
   {
-    "id": 6052639,
+    "id": 6396807,
     "modId": 850410,
-    "displayName": "Create: Estrogen 4.3.2+1.20.1 Forge",
-    "fileName": "Estrogen-4.3.2+1.20.1-forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6052/639/Estrogen-4.3.2%2b1.20.1-forge.jar",
-    "sha1": "ddea573fe3e57f2fd24aa371ea167ef9b0bec8d3"
+    "displayName": "Create: Estrogen 4.3.4+1.20.1 Forge",
+    "fileName": "Estrogen-4.3.4+1.20.1-forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6396/807/Estrogen-4.3.4%2b1.20.1-forge.jar",
+    "sha1": "4d6ccf3d22de78ef2f34b2bf66456d466a2aa44a"
   },
   {
     "id": 4710223,
@@ -1472,12 +1464,12 @@
     "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee"
   },
   {
-    "id": 6079412,
+    "id": 6349075,
     "modId": 869524,
-    "displayName": "WM/2.1.13",
-    "fileName": "watermedia-2.1.13.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6079/412/watermedia-2.1.13.jar",
-    "sha1": "26a2e45e3a9dc5cfcf9abd39d99c314bb712323a"
+    "displayName": "WM/2.1.23",
+    "fileName": "watermedia-2.1.23.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6349/75/watermedia-2.1.23.jar",
+    "sha1": "ea333b5c89935f3b1dbd20955f42b24bacf2b06e"
   },
   {
     "id": 4848244,
@@ -1504,20 +1496,20 @@
     "sha1": "68e497eadb936bf9e92591f9c2e34288a52b01f4"
   },
   {
-    "id": 6081505,
+    "id": 6254458,
     "modId": 890405,
-    "displayName": "GregTechCEu 1.20.1-1.6.3",
-    "fileName": "gtceu-1.20.1-1.6.3.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6081/505/gtceu-1.20.1-1.6.3.jar",
-    "sha1": "76218dc7c7f3adcdb250dd2304f16b8a99032443"
+    "displayName": "GregTechCEu 1.20.1-1.6.4",
+    "fileName": "gtceu-1.20.1-1.6.4.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6254/458/gtceu-1.20.1-1.6.4.jar",
+    "sha1": "8f9705cb309bc862f1abf684717bc6c87165604a"
   },
   {
-    "id": 5867594,
+    "id": 6167228,
     "modId": 892005,
-    "displayName": "ExtendedAE-1.20-1.2.1-forge.jar",
-    "fileName": "ExtendedAE-1.20-1.2.1-forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5867/594/ExtendedAE-1.20-1.2.1-forge.jar",
-    "sha1": "34ab7c4e6ae304539d06e0c85eaf50de2292e235"
+    "displayName": "ExtendedAE-1.20-1.3.5-forge.jar",
+    "fileName": "ExtendedAE-1.20-1.3.5-forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6167/228/ExtendedAE-1.20-1.3.5-forge.jar",
+    "sha1": "135265703fe0ba937f70fde9dd16bd33a1b84541"
   },
   {
     "id": 4801662,
@@ -1600,6 +1592,14 @@
     "sha1": "b6cc974dc985a41be8abdf5a171eecdf1f2e0c4a"
   },
   {
+    "id": 5644693,
+    "modId": 916747,
+    "displayName": "OctoLib-FORGE-0.4.2+1.20.1.jar",
+    "fileName": "OctoLib-FORGE-0.4.2+1.20.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/5644/693/OctoLib-FORGE-0.4.2%2b1.20.1.jar",
+    "sha1": "d39a7e4d7ebd4e6f427f5c0958b7e2080ba02800"
+  },
+  {
     "id": 4793728,
     "modId": 921022,
     "displayName": "WWOO-2.0.0",
@@ -1672,6 +1672,14 @@
     "sha1": "8c524282e96b54c0596c35ff579ad55948bdd4c1"
   },
   {
+    "id": 5107131,
+    "modId": 961856,
+    "displayName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "fileName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/5107/131/AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "sha1": "7616ab6cf999f1844edc87433f60dfe45d829ce8"
+  },
+  {
     "id": 5597406,
     "modId": 968868,
     "displayName": "Zeta-1.0-24.jar",
@@ -1720,12 +1728,12 @@
     "sha1": "92f0ee2cbdd6801889b8664d3fa4a71d86175083"
   },
   {
-    "id": 6061547,
+    "id": 6144527,
     "modId": 1005914,
-    "displayName": "fzzy_config-0.6.0+1.20.1+forge",
-    "fileName": "fzzy_config-0.6.0+1.20.1+forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6061/547/fzzy_config-0.6.0%2b1.20.1%2bforge.jar",
-    "sha1": "843dfce61f91071f11a8f7ae9909e33cd60bd180"
+    "displayName": "fzzy_config-0.6.4+1.20.1+forge",
+    "fileName": "fzzy_config-0.6.4+1.20.1+forge.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6144/527/fzzy_config-0.6.4%2b1.20.1%2bforge.jar",
+    "sha1": "df08036cc393ed93cca77f4b4f947b91c429ae68"
   },
   {
     "id": 6011591,
@@ -1768,12 +1776,12 @@
     "sha1": "10ceb7bd999c46e03816aacc6dd313c5e68b6bd1"
   },
   {
-    "id": 6014535,
+    "id": 6342203,
     "modId": 1028068,
-    "displayName": "mae2-1.5.0-beta.a.jar",
-    "fileName": "mae2-1.5.0-beta.a.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6014/535/mae2-1.5.0-beta.a.jar",
-    "sha1": "f2ee530f25e5b50a85f513568a54f455a30ec321"
+    "displayName": "mae2-1.5.0.jar",
+    "fileName": "mae2-1.5.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6342/203/mae2-1.5.0.jar",
+    "sha1": "8ee944400e11c6cff61efd33b54d76b5a74071ed"
   },
   {
     "id": 6069384,
@@ -1832,20 +1840,20 @@
     "sha1": "1b9990601b09c529ddd499563b1255cf7147cac1"
   },
   {
-    "id": 5763195,
+    "id": 6368373,
     "modId": 1100654,
-    "displayName": "Squake Reforged 1.0",
-    "fileName": "squakereforged-1.0-SNAPSHOT.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/5763/195/squakereforged-1.0-SNAPSHOT.jar",
-    "sha1": "db4000458e8a4865e8827849ab0c9a97d73bad03"
+    "displayName": "Squake 1.3.0",
+    "fileName": "squakereforged-1.3.0F.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6368/373/squakereforged-1.3.0F.jar",
+    "sha1": "8cd3fdad60571039fd20f3305ed3b541b192abee"
   },
   {
-    "id": 6235713,
+    "id": 6327919,
     "modId": 1138130,
-    "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6235/713/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
-    "sha1": "e2162553deb2fb1f8b2473e5c8adb060f30a39d4"
+    "displayName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "fileName": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6327/919/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar",
+    "sha1": "1e00db91b74287eb63f389c6c8cb5a70df41f8e0"
   },
   {
     "id": 5967957,
@@ -1856,20 +1864,20 @@
     "sha1": "152595e77b58669a66aeea2888e2f704c9987b0a"
   },
   {
-    "id": 6137551,
+    "id": 6310241,
     "modId": 1168178,
-    "displayName": "LaserIO UEL - 1.3.1",
-    "fileName": "laserio-uel-1.3.1.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6137/551/laserio-uel-1.3.1.jar",
-    "sha1": "cf5cdb48fa1afa535a1aadaf8194deae11f3fc3c"
+    "displayName": "LaserIO UEL - 1.4.1",
+    "fileName": "laserio-uel-1.4.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6310/241/laserio-uel-1.4.1.jar",
+    "sha1": "93b267cfbf136cc1a9bdf070ab3ea9c56a409736"
   },
   {
-    "id": 6122719,
+    "id": 6455346,
     "modId": 1172594,
-    "displayName": "keybindbundles-1.20.1-1.0.0.jar",
-    "fileName": "keybindbundles-1.20.1-1.0.0.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6122/719/keybindbundles-1.20.1-1.0.0.jar",
-    "sha1": "979ae085a0fe75f90222a6e063d98ac9aa37cbf1"
+    "displayName": "keybindbundles-1.20.1-1.1.0.jar",
+    "fileName": "keybindbundles-1.20.1-1.1.0.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6455/346/keybindbundles-1.20.1-1.1.0.jar",
+    "sha1": "3c1879e3cb0f6647f7ef352cb7c72a858c444a33"
   },
   {
     "id": 6127958,
@@ -1878,6 +1886,22 @@
     "fileName": "EIO Texture Backport.zip",
     "downloadUrl": "https://edge.forgecdn.net/files/6127/958/EIO%20Texture%20Backport.zip",
     "sha1": "22e8dc100705a795c08335dcddad2874c2444b97"
+  },
+  {
+    "id": 6415897,
+    "modId": 1220030,
+    "displayName": "Version 1.0.1 Hotfix",
+    "fileName": "gtexolegs-1.0.1.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6415/897/gtexolegs-1.0.1.jar",
+    "sha1": "6574262097c859ed593b62c1ac43902482cf6f4e"
+  },
+  {
+    "id": 6478617,
+    "modId": 1235020,
+    "displayName": "GregTech Modern Utilities 1.1.11",
+    "fileName": "gtmutils-1.1.11.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/6478/617/gtmutils-1.1.11.jar",
+    "sha1": "cb20124759e77a8275d2ab1b57655cc67a27f73a"
   },
   {
     "displayName": "AE2 EMI Crafting Integration",

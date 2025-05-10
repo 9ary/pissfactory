@@ -4,16 +4,24 @@ import sys
 
 import requests
 
+cf_api = "https://api.curseforge.com/v1"
 if (token := os.getenv("CFCORE_API_TOKEN")) is None:
+    print("$CFCORE_API_TOKEN is unset, falling back to curse.tools proxy.")
     print(
-        "Please set $CFCORE_API_TOKEN "
-        "(https://console.curseforge.com/#/api-keys)"
+        "To use the CurseForge API directly, get a token from "
+        "https://console.curseforge.com/#/api-keys"
     )
-    sys.exit(1)
+    cf_api = "https://api.curse.tools/v1/cf"
 
 with open(sys.argv[1]) as f:
     manifest = json.load(f)
 removed_projects = [
+    # Corpse x Curios API Compat
+    # We run a newer version
+    1138130,
+    # Crafting Station JEI edition
+    # We run the upstream version because this is just worse
+    956084,
 ]
 cf_files = {
     m["projectID"]: m["fileID"] for m in manifest["files"]
@@ -23,7 +31,10 @@ cf_files = {
 cf_extras = {
     # Corpse x Curios API Compat
     # https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat
-    1138130: 6235713,
+    1138130: 6327919,
+    # Crafting Station
+    # https://www.curseforge.com/minecraft/mc-mods/crafting-station
+    318551: 4770683,
     # Custom FoV
     # https://www.curseforge.com/minecraft/mc-mods/custom-fov
     303938: 4600447,
@@ -39,20 +50,20 @@ cf_extras = {
     688231: 5840017,
     # Create: Estrogen
     # https://www.curseforge.com/minecraft/mc-mods/estrogen
-    850410: 6052639,
+    850410: 6396807,
 
     # Project Red - Core
     # https://www.curseforge.com/minecraft/mc-mods/project-red-core
-    228702: 6107610,
+    228702: 6332076,
     # Project Red - Integration
     # https://www.curseforge.com/minecraft/mc-mods/project-red-integration
-    229045: 6107616,
+    229045: 6332086,
     # Project Red - Transmission
     # https://www.curseforge.com/minecraft/mc-mods/project-red-transmission
-    478939: 6107617,
+    478939: 6332088,
     # Project Red - Fabrication
     # https://www.curseforge.com/minecraft/mc-mods/project-red-fabrication
-    230111: 6107614,
+    230111: 6332079,
     # CodeChicken Lib
     # https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8
     242818: 5753868,
@@ -80,7 +91,7 @@ cf_extras = {
     227657: 4587490,
     # KeyBind Bundles
     # https://www.curseforge.com/minecraft/mc-mods/keybind-bundles
-    1172594: 6122719,
+    1172594: 6455346,
     # MaFgLib
     # https://www.curseforge.com/minecraft/mc-mods/mafglib
     910766: 5579436,
@@ -95,13 +106,13 @@ cf_extras = {
     961802: 6368136,
     # Simple Voice Chat
     # https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat
-    416089: 6374606,
+    416089: 6439524,
     # Sound Physics Remastered
     # https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered
     535489: 6399601,
     # Squake Reforged
     # https://www.curseforge.com/minecraft/mc-mods/squake-reforged
-    1100654: 5763195,
+    1100654: 6368373,
     # Tweakerge
     # https://www.curseforge.com/minecraft/mc-mods/tweakerge
     915857: 5633999,
@@ -125,7 +136,7 @@ other_extras = [
 ]
 
 r = requests.post(
-    "https://api.curseforge.com/v1/mods/files",
+    f"{cf_api}/mods/files",
     headers={
         "X-Api-Key": token,
         "Content-Type": "application/json",

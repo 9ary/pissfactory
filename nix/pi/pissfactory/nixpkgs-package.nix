@@ -120,23 +120,21 @@ makeScopeWithSplicing' {
         }:
         stdenvNoCC.mkDerivation (finalAttrs: {
           pname = "Monifactory-${difficulty}";
-          version = "0.11.5";
+          version = "0.12.6";
           # Patched source derivation allows patching npm lockfiles
           src = applyPatches {
             src = fetchFromGitHub {
               owner = "ThePansmith";
               repo = "Monifactory";
               rev = finalAttrs.version;
-              hash = "sha256-ZcWO35/x012FO1cXe3XJ8pTxQpp2Sw4Emwtnec4da6w=";
+              hash = "sha256-sXt6dBjT2eB5iiaHM+mFkXHIXGAV03cEzVPxso38ATw=";
             };
             patches = [
-              ../../../patches/0001-Generate-UUIDs-deterministically.patch
-              ../../../patches/0002-Add-missing-tags-to-Greg-stripped-rubber-woods.patch
-              ../../../patches/0003-Avoid-duplicate-tag-tooltips.patch
-              ../../../patches/0004-Enable-NBT-tooltips-by-default.patch
-              ../../../patches/0005-Disable-Inventory-Tweaks-sort-in-ME-Terminal.patch
-              ../../../patches/0006-pissfactory-rehooked-tuning.patch
-              ../../../patches/0007-Restore-Thermal-s-Insightful-Condenser.patch
+              ../../../patches/0001-Add-missing-tags-to-Greg-stripped-rubber-woods.patch
+              ../../../patches/0002-Avoid-duplicate-tag-tooltips.patch
+              ../../../patches/0003-Enable-NBT-tooltips-by-default.patch
+              ../../../patches/0004-pissfactory-rehooked-tuning.patch
+              ../../../patches/0005-Restore-Thermal-s-Insightful-Condenser.patch
             ];
           };
 
@@ -153,20 +151,17 @@ makeScopeWithSplicing' {
             python3
           ];
 
-          env = {
-            CFCORE_API_TOKEN = "dummy";
-          };
-
           postPatch = ''
             patchShebangs --build .
-            cp -r --no-preserve=mode ${escapeStorePath ../../../src_overlay}/. .
             rm config-overrides/*/difficultylock.json5
+            cp -r --no-preserve=mode ${escapeStorePath ../../../src_overlay}/. .
             cp -r "$npmDeps"/. tools/build
           '';
           dontConfigure = true;
           buildPhase = ''
             runHook preBuild
             (
+              ./pack-mode-switcher.sh ${difficulty}
               cd tools/build
               export HOME="$TMPDIR"
               npm install
@@ -183,7 +178,6 @@ makeScopeWithSplicing' {
               cd "$out"
               (shopt -s dotglob; mv overrides/* .)
               rmdir overrides
-              "$srcroot/pack-mode-switcher.sh" ${difficulty}
               rm -r config-overrides manifest.json modlist.html
 
               # `packwiz init` tries to go online so we have to do this

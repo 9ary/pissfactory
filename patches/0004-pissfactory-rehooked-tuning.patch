@@ -1,7 +1,7 @@
-From e4b3f6c075b977866a3623d1e4ab819e744ad836 Mon Sep 17 00:00:00 2001
+From ea235835899084015bc1f60ed5eca6addafbb72a Mon Sep 17 00:00:00 2001
 From: Dusk Banks <me@bb010g.com>
 Date: Fri, 21 Mar 2025 02:19:58 -0700
-Subject: [PATCH 6/6] [pissfactory] rehooked tuning
+Subject: [PATCH 4/5] [pissfactory] rehooked tuning
 
 ---
  defaultconfigs/rehooked-server.toml | 105 ++++++++++++++++++++++++++++
@@ -120,5 +120,5 @@ index 00000000..7c0b57a6
 +		creativeFlight = false
 +
 -- 
-2.47.0
+2.47.2
 
