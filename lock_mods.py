@@ -174,3 +174,4 @@ cf_mods = sorted(
 )
 with open("mods.json", "w") as f:
     json.dump(cf_mods + other_extras, f, indent=2)
+    f.write("\n")
