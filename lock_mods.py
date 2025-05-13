@@ -98,6 +98,9 @@ cf_extras = {
     # Observable
     # https://www.curseforge.com/minecraft/mc-mods/observable
     509575: 5643037,
+    # Ping
+    # https://www.curseforge.com/minecraft/mc-mods/ping
+    222967: 5658772,
     # Portable Hole
     # https://www.curseforge.com/minecraft/mc-mods/portable-hole
     682568: 4612371,
