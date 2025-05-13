@@ -1832,6 +1832,14 @@
     "sha1": "cdffeccce5b083242eb735a7e338aa30a665a429"
   },
   {
+    "id": 5785806,
+    "modId": 1094910,
+    "displayName": "[forge]teampin-1.20.1-v1.0.3",
+    "fileName": "teampinmod-1.20.1-v1.0.3.jar",
+    "downloadUrl": "https://edge.forgecdn.net/files/5785/806/teampinmod-1.20.1-v1.0.3.jar",
+    "sha1": "d2cbc2fbf2b30fd1bfd657d0676fe7751ccb8004"
+  },
+  {
     "id": 6013322,
     "modId": 1096531,
     "displayName": "1.8.1-1.20.1",

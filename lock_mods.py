@@ -113,6 +113,9 @@ cf_extras = {
     # Squake Reforged
     # https://www.curseforge.com/minecraft/mc-mods/squake-reforged
     1100654: 6368373,
+    # Team Pin
+    # https://www.curseforge.com/minecraft/mc-mods/team-pin
+    1094910: 5785806,
     # Tweakerge
     # https://www.curseforge.com/minecraft/mc-mods/tweakerge
     915857: 5633999,
