@@ -68,9 +68,9 @@ makeScopeWithSplicing' {
       lockMods = callPackage (
         {
           pack,
-          writers,
-          writePython3Bin ? writers.writePython3Bin,
           python3Packages,
+          writePython3Bin ? writers.writePython3Bin,
+          writers,
           ...
         }:
         writePython3Bin "lock_mods" {
@@ -103,19 +103,24 @@ makeScopeWithSplicing' {
 
       pack = callPackage (
         {
-          difficulty ? "normal",
-          forgeServer,
-          unsup,
-          stdenvNoCC,
-          fetchFromGitHub,
+          # support
           applyPatches,
-          nodejs,
+          fetchFromGitHub,
           importNpmLock,
-          zip,
-          unzip,
+          stdenvNoCC,
+          # nativeBuildInputs
           jq,
+          nodejs,
           packwiz,
           python3,
+          unzip,
+          zip,
+          # mod resources
+          emiPackages,
+          forgeServer,
+          unsup,
+          # arguments
+          difficulty ? "normal",
           ...
         }:
         stdenvNoCC.mkDerivation (finalAttrs: {
@@ -180,6 +185,8 @@ makeScopeWithSplicing' {
               rmdir overrides
               rm -r config-overrides manifest.json modlist.html
 
+              (shopt -s extglob; eval 'cp -t mods '${escapeStorePath (escapeStorePath emiPackages.emi-unstable)}'/share/emi/emi-+([[:digit:]])*(.+([[:digit:]]))?(-SNAPSHOT)+\1.20.1\+forge.jar')
+
               # `packwiz init` tries to go online so we have to do this
               substitute ${escapeStorePath ../../../packwiz/pack.toml.in} pack.toml \
                 --subst-var-by mc_version "$(jq -r '.minecraft.version' "$src/manifest.json")" \
@@ -208,9 +215,9 @@ makeScopeWithSplicing' {
 
       forgeServer = callPackage (
         {
-          stdenvNoCC,
           fetchurl,
           jre,
+          stdenvNoCC,
           ...
         }:
         stdenvNoCC.mkDerivation (finalAttrs: {
@@ -258,11 +265,11 @@ makeScopeWithSplicing' {
 
       runServer = callPackage (
         {
-          writeShellApplication,
           coreutils,
           gnused,
           jre,
           unsup,
+          writeShellApplication,
           ...
         }:
         writeShellApplication {

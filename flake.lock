@@ -20,6 +20,32 @@
         "type": "github"
       }
     },
+    "emi": {
+      "inputs": {
+        "flake-parts": [
+          "flake-parts"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "systems": "systems",
+        "treefmt-nix": "treefmt-nix"
+      },
+      "locked": {
+        "lastModified": 1747276446,
+        "narHash": "sha256-aiZyeRYklRzTvjwLhA0OHbVthKwCxLUhgNAG3jgCA2I=",
+        "owner": "catgirl-v",
+        "repo": "emi",
+        "rev": "76f8bf950e6eb9f674ea690448f909ae5b5c0cb5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "catgirl-v",
+        "ref": "1.20",
+        "repo": "emi",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": [
@@ -75,9 +101,47 @@
     "root": {
       "inputs": {
         "by-name": "by-name",
+        "emi": "emi",
         "flake-parts": "flake-parts",
         "nix2container": "nix2container",
         "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "treefmt-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "emi",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746989248,
+        "narHash": "sha256-uoQ21EWsAhyskNo8QxrTVZGjG/dV4x5NM1oSgrmNDJY=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "708ec80ca82e2bbafa93402ccb66a35ff87900c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
       }
     }
   },

@@ -1128,14 +1128,6 @@
     "sha1": "5531e149477b9e540684a296fb196238bf1d85e8"
   },
   {
-    "id": 6205514,
-    "modId": 580555,
-    "displayName": "emi-1.1.20+1.20.1+forge",
-    "fileName": "emi-1.1.20+1.20.1+forge.jar",
-    "downloadUrl": "https://edge.forgecdn.net/files/6205/514/emi-1.1.20%2b1.20.1%2bforge.jar",
-    "sha1": "f6ee97d1f49e106b2dc887df3c238bb06b84bada"
-  },
-  {
     "id": 6020952,
     "modId": 581495,
     "displayName": "Oculus mc1.20.1-1.8.0",

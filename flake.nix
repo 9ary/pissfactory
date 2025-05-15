@@ -4,6 +4,9 @@
   inputs = {
     by-name.inputs.nixpkgs-lib.follows = "nixpkgs";
     by-name.url = "github:bb010g/by-name.nix";
+    emi.inputs.flake-parts.follows = "flake-parts";
+    emi.inputs.nixpkgs.follows = "nixpkgs";
+    emi.url = "github:catgirl-v/emi/1.20";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
     flake-parts.url = "github:hercules-ci/flake-parts";
     nix2container.flake = false; # fuck the police

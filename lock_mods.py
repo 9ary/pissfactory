@@ -22,6 +22,9 @@ removed_projects = [
     # Crafting Station JEI edition
     # We run the upstream version because this is just worse
     956084,
+    # EMI
+    # We run catgirl-v/emi, distributed through Nix
+    580555,
 ]
 cf_files = {
     m["projectID"]: m["fileID"] for m in manifest["files"]
