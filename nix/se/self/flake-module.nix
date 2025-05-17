@@ -3,6 +3,7 @@
 let
   rootConfig = config;
   nixpkgsOverlays = config.flake.overlays;
+  pissfactoryLib = config.flake.libs.default;
 in
 {
   config.flake.flakeModules = columns.flakeModule;
@@ -43,6 +44,45 @@ in
           ];
         }
       ) { };
+      config.checks =
+        let
+          inherit (lib.attrsets)
+            concatMapAttrsToList
+            isDerivation
+            listToAttrs
+            mapAttrs
+            recurseIntoAttrs
+            ;
+          inherit (lib.lists) concatMap;
+          inherit (lib.strings) escapeNixIdentifier;
+          inherit (lib.trivial) isNull null;
+          flattenDerivationsToList =
+            namePrefix: attrs:
+            concatMapAttrsToList (
+              unescapedName: value:
+              let
+                name =
+                  let
+                    escapedName = escapeNixIdentifier unescapedName;
+                  in
+                  if isNull namePrefix then escapedName else "${namePrefix}.${escapedName}";
+              in
+              if isDerivation value then
+                [ { inherit name value; } ]
+              else if shouldRecurseIntoAttrs value then
+                flattenDerivationsToList name value
+              else
+                [ ]
+            ) attrs;
+          flattenDerivations = namePrefix: attrs: listToAttrs (flattenDerivationsToList namePrefix attrs);
+          lib = pissfactoryLib;
+          shouldRecurseIntoAttrs = value: value.recurseForDerivations or false;
+        in
+        flattenDerivations null (
+          mapAttrs (name: attrs: recurseIntoAttrs attrs) {
+            inherit (config) devShells legacyPackages packages;
+          }
+        );
       config.devShells.default = pkgs.callPackage (
         {
           nixfmt-rfc-style,
@@ -63,6 +103,7 @@ in
           inherit (lib.attrsets)
             attrNames
             attrValues
+            dontRecurseIntoAttrs
             intersectAttrs
             isDerivation
             removeAttrs
@@ -76,7 +117,7 @@ in
             "packages"
           ];
           extraLegacyPackages = {
-            nixpkgs = pkgs;
+            nixpkgs = dontRecurseIntoAttrs pkgs;
           };
           overriddenPissfactoryLegacyPackages = intersectAttrs extraLegacyPackages pissfactoryLegacyPackages;
           overriddenPissfactoryLegacyPackageNames = attrNames overriddenPissfactoryLegacyPackages;

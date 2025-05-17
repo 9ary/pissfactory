@@ -2,9 +2,46 @@
 finalLib: prevLib:
 let
   inherit (builtins) addErrorContext;
-  inherit (finalLib.attrsets) attrByPath defaultPackageArgTo;
+  inherit (finalLib.attrsets) attrByPath attrNames defaultPackageArgTo;
+  inherit (finalLib.lists) concatMap;
   inherit (finalLib.strings) showAttrPath;
   inherit (finalLib.trivial) isNull null throwIf;
+
+  /**
+    Call a function for each attribute in the given set and return
+    the concatenated results.
+
+    # Inputs
+
+    `f`
+
+    : A function, given an attribute's name and value, returns a list of new values.
+
+    `attrs`
+
+    : Attribute set to map over.
+
+    # Type
+
+    ```
+    # FIXME
+    concatMapAttrsToList :: (String -> a -> b) -> AttrSet -> [b]
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.attrsets.concatMapAttrsToList` usage example
+
+    ```nix
+    concatMapAttrsToList (name: value: [ name (name + value) ])
+       { x = "a"; y = "b"; }
+    => [ "x" "xa" "y" "yb" ]
+    ```
+
+    :::
+  */
+  lib.attrsets.concatMapAttrsToList =
+    f: attrs: concatMap (name: f name attrs.${name}) (attrNames attrs);
 
   /**
     Return the value of a package argument, or a default value if the argument
