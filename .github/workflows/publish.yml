@@ -24,7 +24,7 @@ jobs:
         env:
           CFCORE_API_TOKEN: ${{ secrets.CFCORE_API_TOKEN }}
         run: |
-          nix run .#lockMods
+          nix run .#pack-lock-mods
           git diff --exit-code
       - name: Build modpack
         run: nix build -L --show-trace .
@@ -35,8 +35,8 @@ jobs:
           path: result/
       - name: Build server container
         run: |
-          nix build -L --show-trace .#container
-          nix run .#container.copyTo -- oci-archive:server.tar
+          nix build -L --show-trace .#pack-server-container
+          nix run .#pack-server-container.copyTo -- oci-archive:server.tar
       - name: Upload container archive
         id: container
         uses: actions/upload-artifact@v4

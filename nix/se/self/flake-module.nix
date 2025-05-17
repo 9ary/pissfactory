@@ -56,7 +56,7 @@ in
           ];
         }
       ) { };
-      config.packages.default = pkgs.pissfactory.pack-hardmode;
+      config.packages.default = pkgs.pissfactory.pack_hardmode;
       config.legacyPackages =
         let
           inherit (lib.lists) all;

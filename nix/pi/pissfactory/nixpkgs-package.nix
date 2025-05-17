@@ -65,7 +65,7 @@ makeScopeWithSplicing' {
       callPackage nixpkgsPissfactoryPackage { attrPathForPackage = attrPathForPackage ++ [ name ]; }
     )
     // {
-      lockMods = callPackage (
+      pack-lock-mods = callPackage (
         {
           pack,
           python3Packages,
@@ -86,11 +86,11 @@ makeScopeWithSplicing' {
             "${pack.src}/manifest.json"
           ];
         } ../../../lock_mods.py
-      ) { attrPathForPackage = attrPathForPackage ++ [ "lockMods" ]; };
+      ) { attrPathForPackage = attrPathForPackage ++ [ "pack-lock-mods" ]; };
 
-      modcache = callPackage (
+      pack-modcache = callPackage (
         { linkFarmFromDrvs, fetchurl, ... }:
-        (linkFarmFromDrvs "modcache" (
+        (linkFarmFromDrvs "pack-modcache" (
           map (
             mod:
             fetchurl {
@@ -99,7 +99,7 @@ makeScopeWithSplicing' {
             }
           ) (fromJSON (readFile ../../../mods.json))
         ))
-      ) { attrPathForPackage = attrPathForPackage ++ [ "modcache" ]; };
+      ) { attrPathForPackage = attrPathForPackage ++ [ "pack-modcache" ]; };
 
       pack = callPackage (
         {
@@ -117,7 +117,7 @@ makeScopeWithSplicing' {
           zip,
           # mod resources
           emiPackages,
-          forgeServer,
+          forge-server,
           unsup,
           # arguments
           difficulty ? "normal",
@@ -195,8 +195,8 @@ makeScopeWithSplicing' {
               : > index.toml
               python3 ${escapeStorePath ../../../packwiz/gen_pw_mods.py} ${escapeStorePath ../../../mods.json}
               substitute ${escapeStorePath ../../../packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
-                --subst-var-by url ${escapeShellArg forgeServer.src.url} \
-                --subst-var-by hash ${escapeShellArg forgeServer.src.outputHash}
+                --subst-var-by url ${escapeShellArg forge-server.src.url} \
+                --subst-var-by hash ${escapeShellArg forge-server.src.outputHash}
               packwiz refresh
             )
             (cd ${escapeStorePath ../../../bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
@@ -204,16 +204,16 @@ makeScopeWithSplicing' {
           '';
         })
       ) { attrPathForPackage = attrPathForPackage ++ [ "pack" ]; };
-      pack-hardmode = finalPissfactory.pack.override {
-        attrPathForPackage = attrPathForPackage ++ [ "pack-hardmode" ];
+      pack_hardmode = finalPissfactory.pack.override {
+        attrPathForPackage = attrPathForPackage ++ [ "pack_hardmode" ];
         difficulty = "hardmode";
       };
-      pack-expert = finalPissfactory.pack.override {
-        attrPathForPackage = attrPathForPackage ++ [ "pack-expert" ];
+      pack_expert = finalPissfactory.pack.override {
+        attrPathForPackage = attrPathForPackage ++ [ "pack_expert" ];
         difficulty = "expert";
       };
 
-      forgeServer = callPackage (
+      forge-server = callPackage (
         {
           fetchurl,
           jre,
@@ -246,7 +246,7 @@ makeScopeWithSplicing' {
           '';
           dontPatchShebangs = true;
         })
-      ) { attrPathForPackage = attrPathForPackage ++ [ "forgeServer" ]; };
+      ) { attrPathForPackage = attrPathForPackage ++ [ "forge-server" ]; };
 
       unsup = callPackage (
         { fetchurl, ... }:
@@ -263,7 +263,7 @@ makeScopeWithSplicing' {
         }
       ) { attrPathForPackage = attrPathForPackage ++ [ "unsup" ]; };
 
-      runServer = callPackage (
+      pack-server = callPackage (
         {
           coreutils,
           gnused,
@@ -273,7 +273,7 @@ makeScopeWithSplicing' {
           ...
         }:
         writeShellApplication {
-          name = "pissfactory_server";
+          name = "pissfactory-server";
           text = ''
             cp -f ${escapeStorePath ../../../bootstrap/minecraft/unsup.ini} unsup.ini
             java -jar ${escapeStorePath unsup} server
@@ -304,16 +304,18 @@ makeScopeWithSplicing' {
             jre
           ];
         }
-      ) { attrPathForPackage = attrPathForPackage ++ [ "runServer" ]; };
+      ) { attrPathForPackage = attrPathForPackage ++ [ "pack-server" ]; };
 
-      container = callPackage (
+      pack-server-container = callPackage (
         {
+          lib,
           nix2container,
+          pack-server,
           runCommand,
-          runServer,
           ...
         }:
         let
+          inherit (lib.meta) getExe;
           tmp =
             runCommand "tmp"
               {
@@ -336,7 +338,7 @@ makeScopeWithSplicing' {
             }
           ];
           config = rec {
-            entrypoint = [ "${runServer}/bin/${runServer.name}" ];
+            entrypoint = [ (getExe pack-server) ];
             WorkingDir = "/var/lib/pissfactory";
             Env = [
               "PISSFACTORY_PRODUCTION_OVERLAY=${../../../server_cfg}"
@@ -351,6 +353,6 @@ makeScopeWithSplicing' {
           };
           maxLayers = 120;
         }
-      ) { attrPathForPackage = attrPathForPackage ++ [ "container" ]; };
+      ) { attrPathForPackage = attrPathForPackage ++ [ "pack-server-container" ]; };
     };
 }
