@@ -13,9 +13,7 @@ jobs:
       contents: "read"
     steps:
       - uses: actions/checkout@v4
-      - uses: canidae-solutions/lix-quick-install-action@v3
-        with:
-          lix_version: 2.93.0
+      - uses: catgirl-v/lix-quick-install-action@v3
       - uses: cachix/cachix-action@v14
         with:
           name: catgirl-v
@@ -28,6 +26,8 @@ jobs:
         run: |
           nix run .#pack-lock-mods
           git diff --exit-code
+      - name: Build checks
+        run: nix-fast-build --skip-cached --no-nom --flake ".#checks.$(nix eval --raw --impure --expr builtins.currentSystem)"
       - name: Build modpack
         run: nix build -L --show-trace .
       - name: Upload static files as artifact

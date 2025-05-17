@@ -66,6 +66,23 @@
         "type": "github"
       }
     },
+    "lix-quick-install-action": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1747119692,
+        "narHash": "sha256-y731wCJNl1Zu9F5VEkCkFsftdp0y0H85xluDw7Ad61w=",
+        "owner": "canidae-solutions",
+        "repo": "lix-quick-install-action",
+        "rev": "19a6294e090ac1e9f84a2adaef11fd86a9ea5de1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "canidae-solutions",
+        "ref": "v3",
+        "repo": "lix-quick-install-action",
+        "type": "github"
+      }
+    },
     "nix2container": {
       "flake": false,
       "locked": {
@@ -103,6 +120,7 @@
         "by-name": "by-name",
         "emi": "emi",
         "flake-parts": "flake-parts",
+        "lix-quick-install-action": "lix-quick-install-action",
         "nix2container": "nix2container",
         "nixpkgs": "nixpkgs"
       }

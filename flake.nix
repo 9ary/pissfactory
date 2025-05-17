@@ -9,6 +9,8 @@
     emi.url = "github:catgirl-v/emi/1.20";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    lix-quick-install-action.flake = false;
+    lix-quick-install-action.url = "github:canidae-solutions/lix-quick-install-action/v3";
     nix2container.flake = false; # fuck the police
     nix2container.url = "github:nlewo/nix2container";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
