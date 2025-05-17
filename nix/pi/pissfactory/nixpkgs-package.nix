@@ -43,11 +43,11 @@ makeScopeWithSplicing' {
     lib = pissfactoryLib;
   };
   # TODO(<me@bb010g.com>): upstream a proper fix for this to Nixpkgs
-  keep = self: {
-    makeScopeWithSplicing = lib.customisation.makeScopeWithSplicing splicePackages self.newScope;
+  keep = finalPissfactory: {
+    makeScopeWithSplicing = lib.customisation.makeScopeWithSplicing splicePackages finalPissfactory.newScope;
     makeScopeWithSplicing' = lib.customisation.makeScopeWithSplicing' {
       inherit splicePackages;
-      inherit (self) newScope;
+      inherit (finalPissfactory) newScope;
     };
   };
   f =
@@ -58,15 +58,5 @@ makeScopeWithSplicing' {
     mapNixpkgsPissfactoryPackages (
       name: nixpkgsPissfactoryPackage:
       callPackage nixpkgsPissfactoryPackage { attrPathForPackage = attrPathForPackage ++ [ name ]; }
-    )
-    // {
-      pack_hardmode = finalPissfactory.pack.override {
-        attrPathForPackage = attrPathForPackage ++ [ "pack_hardmode" ];
-        withPackMode = "hardmode";
-      };
-      pack_expert = finalPissfactory.pack.override {
-        attrPathForPackage = attrPathForPackage ++ [ "pack_expert" ];
-        withPackMode = "expert";
-      };
-    };
+    );
 }
