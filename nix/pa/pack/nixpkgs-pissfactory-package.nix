@@ -18,19 +18,21 @@ args@{
   forge-server,
   unsup,
   # arguments
-  difficulty ? null,
+  withPackMode ? null,
   ...
 }:
 let
   inherit (lib.attrsets) defaultPackageArgTo;
   inherit (lib.strings) escapeShellArg;
   defaultPackageArgTo' = defaultPackageArgTo args.attrPathForPackage or null args;
-  difficulty = defaultPackageArgTo' "normal" [ "difficulty" ];
   escapeStorePath = p: escapeShellArg "${p}";
+  withPackMode = defaultPackageArgTo' "normal" [ "withPackMode" ];
 in
 stdenvNoCC.mkDerivation (finalAttrs: {
-  pname = "Monifactory-${difficulty}";
+  pname = "Monifactory-${finalAttrs.packMode}";
   version = "0.12.6";
+  packMode = withPackMode;
+
   # Patched source derivation allows patching npm lockfiles
   src = applyPatches {
     src = fetchFromGitHub {
@@ -71,7 +73,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   buildPhase = ''
     runHook preBuild
     (
-      ./pack-mode-switcher.sh ${difficulty}
+      ./pack-mode-switcher.sh "$packMode"
       cd tools/build
       export HOME="$TMPDIR"
       npm install

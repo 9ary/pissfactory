@@ -62,11 +62,11 @@ makeScopeWithSplicing' {
     // {
       pack_hardmode = finalPissfactory.pack.override {
         attrPathForPackage = attrPathForPackage ++ [ "pack_hardmode" ];
-        difficulty = "hardmode";
+        withPackMode = "hardmode";
       };
       pack_expert = finalPissfactory.pack.override {
         attrPathForPackage = attrPathForPackage ++ [ "pack_expert" ];
-        difficulty = "expert";
+        withPackMode = "expert";
       };
     };
 }
