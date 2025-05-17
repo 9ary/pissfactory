@@ -1,2 +1,5 @@
-/result
 /mods
+
+# Nix
+/repl-result*
+/result*
