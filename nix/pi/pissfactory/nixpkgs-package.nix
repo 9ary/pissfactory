@@ -1,9 +1,12 @@
 { columns, rows, ... }:
 let
-  lib = rows.by-name.input.libs.default;
-  mapNixpkgsPissfactoryPackages = f: lib.attrsets.mapAttrs f nixpkgsPissfactoryPackages;
+  mapNixpkgsPissfactoryPackages =
+    let
+      inherit (lib.attrsets) mapAttrs;
+      lib = rows.by-name.input.libs.default;
+    in
+    f: mapAttrs f nixpkgsPissfactoryPackages;
   nixpkgsPissfactoryPackages = columns.nixpkgsPissfactoryPackage;
-  pissfactoryLibsOverlay = rows.default.libsOverlays.default;
 in
 args@{
   attrPathForPackage ? null,
@@ -36,6 +39,9 @@ let
 in
 makeScopeWithSplicing' {
   inherit otherSplices;
+  extra = splicedPissfactory: {
+    lib = pissfactoryLib;
+  };
   # TODO(<me@bb010g.com>): upstream a proper fix for this to Nixpkgs
   keep = self: {
     makeScopeWithSplicing = lib.customisation.makeScopeWithSplicing splicePackages self.newScope;

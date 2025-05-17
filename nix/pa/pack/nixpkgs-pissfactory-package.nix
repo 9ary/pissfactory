@@ -1,5 +1,5 @@
 { ... }:
-{
+args@{
   # support
   applyPatches,
   fetchFromGitHub,
@@ -18,11 +18,14 @@
   forge-server,
   unsup,
   # arguments
-  difficulty ? "normal",
+  difficulty ? null,
   ...
 }:
 let
+  inherit (lib.attrsets) defaultPackageArgTo;
   inherit (lib.strings) escapeShellArg;
+  defaultPackageArgTo' = defaultPackageArgTo args.attrPathForPackage or null args;
+  difficulty = defaultPackageArgTo' "normal" [ "difficulty" ];
   escapeStorePath = p: escapeShellArg "${p}";
 in
 stdenvNoCC.mkDerivation (finalAttrs: {
