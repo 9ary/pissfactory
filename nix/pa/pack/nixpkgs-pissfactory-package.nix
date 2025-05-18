@@ -47,6 +47,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
       ../../../patches/0003-Enable-NBT-tooltips-by-default.patch
       ../../../patches/0004-pissfactory-rehooked-tuning.patch
       ../../../patches/0005-Restore-Thermal-s-Insightful-Condenser.patch
+      ../../../patches/0006-Quest-book-fix-quantum-coolant-stage-reset-commands.patch
     ];
   };
 

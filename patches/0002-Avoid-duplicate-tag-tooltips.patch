@@ -1,7 +1,7 @@
 From ac2d079bbcc6bc7307a2ea86801babfdfd239e2b Mon Sep 17 00:00:00 2001
 From: Dusk Banks <me@bb010g.com>
 Date: Fri, 21 Mar 2025 02:19:58 -0700
-Subject: [PATCH 2/5] Avoid duplicate tag tooltips
+Subject: [PATCH 2/6] Avoid duplicate tag tooltips
 
 ---
  .gitignore                   |  2 +-
