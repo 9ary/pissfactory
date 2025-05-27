@@ -22,8 +22,10 @@ args@{
   ...
 }:
 let
-  inherit (lib.attrsets) defaultPackageArgTo;
-  inherit (lib.strings) escapeShellArg;
+  inherit (lib.attrsets) concatMapAttrsToList defaultPackageArgTo;
+  inherit (lib.filesystem) readDirectory;
+  inherit (lib.lists) optional;
+  inherit (lib.strings) escapeShellArg hasSuffix;
   defaultPackageArgTo' = defaultPackageArgTo args.attrPathForPackage or null args;
   escapeStorePath = p: escapeShellArg "${p}";
   withPackMode = defaultPackageArgTo' "normal" [ "withPackMode" ];
@@ -41,14 +43,9 @@ stdenvNoCC.mkDerivation (finalAttrs: {
       rev = finalAttrs.version;
       hash = "sha256-sXt6dBjT2eB5iiaHM+mFkXHIXGAV03cEzVPxso38ATw=";
     };
-    patches = [
-      ../../../patches/0001-Add-missing-tags-to-Greg-stripped-rubber-woods.patch
-      ../../../patches/0002-Avoid-duplicate-tag-tooltips.patch
-      ../../../patches/0003-Enable-NBT-tooltips-by-default.patch
-      ../../../patches/0004-pissfactory-rehooked-tuning.patch
-      ../../../patches/0005-Restore-Thermal-s-Insightful-Condenser.patch
-      ../../../patches/0006-Quest-book-fix-quantum-coolant-stage-reset-commands.patch
-    ];
+    patches = concatMapAttrsToList (
+      name: directory: optional (hasSuffix ".patch" name) directory.path
+    ) (readDirectory ../../../patches);
   };
 
   npmDeps = importNpmLock {
