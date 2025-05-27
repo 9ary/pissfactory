@@ -6,6 +6,7 @@ let
     attrByPath
     attrNames
     defaultPackageArgTo
+    hasAttrByPath
     showAttrPath
     ;
   inherit (finalLib.lists) concatMap;
@@ -44,8 +45,9 @@ let
 
     :::
   */
-  lib.attrsets.concatMapAttrsToList =
-    f: attrs: concatMap (name: f name attrs.${name}) (attrNames attrs);
+  lib.attrsets.concatMapAttrsToList = throwIfPrevLibDefines [ "attrsets" "concatMapAttrsToList" ] (
+    f: attrs: concatMap (name: f name attrs.${name}) (attrNames attrs)
+  );
 
   /**
     Return the value of a package argument, or a default value if the argument
@@ -93,7 +95,7 @@ let
 
     :::
   */
-  lib.attrsets.defaultPackageArgTo =
+  lib.attrsets.defaultPackageArgTo = throwIfPrevLibDefines [ "attrsets" "defaultPackageArgTo" ] (
     attrPathForPackage: packageArgs: default: attrPathForPackageArg:
     let
       contextMsgSuffixForPackage =
@@ -108,7 +110,8 @@ let
           addErrorContext "while evaluating the default value of package argument `${shownAttrPathForPackageArg}`${contextMsgSuffixForPackage}" default
         else
           packageArg
-      );
+      )
+  );
 
   /**
     Return the value of a package argument, or throw if the argument is missing
@@ -138,7 +141,7 @@ let
 
     :::
   */
-  lib.attrsets.requirePackageArg =
+  lib.attrsets.requirePackageArg = throwIfPrevLibDefines [ "attrsets" "requirePackageArg" ] (
     attrPathForPackage: packageArgs:
     let
       defaultPackageArgTo' = defaultPackageArgTo attrPathForPackage packageArgs;
@@ -146,7 +149,8 @@ let
     defaultPackageArgTo': attrPathForPackageArg:
     throw "the value of package argument `${showAttrPath attrPathForPackageArg}`${
       if isNull attrPathForPackage then "" else " for package `${showAttrPath attrPathForPackage}`"
-    } must not be null";
+    } must not be null"
+  );
 
   lib.trivial.isNull = prevTrivial.isNull or builtins.isNull;
 
@@ -187,8 +191,14 @@ let
 
     :::
   */
-  lib.trivial.throwIfNull = msg: maybeValue: throwIf (isNull maybeValue) msg;
+  lib.trivial.throwIfNull = throwIfPrevLibDefines [ "trivial" "throwIfNull" ] (
+    msg: maybeValue: throwIf (isNull maybeValue) msg
+  );
 
   prevTrivial = prevLib.trivial;
+
+  throwIfPrevLibDefines =
+    attrPath:
+    throwIf (hasAttrByPath attrPath prevLib) "`lib.${showAttrPath attrPath}` is already defined";
 in
 builtins.mapAttrs (libModuleName: libModuleUpdate: prevLib.${libModuleName} // libModuleUpdate) lib
