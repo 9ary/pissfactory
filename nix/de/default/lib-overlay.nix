@@ -7,8 +7,10 @@ let
     attrNames
     defaultPackageArgTo
     hasAttrByPath
+    mapAttrs
     showAttrPath
     ;
+  inherit (finalLib.filesystem) dirToDirectory readDir;
   inherit (finalLib.lists) concatMap;
   inherit (finalLib.trivial) isNull null throwIf;
 
@@ -152,6 +154,24 @@ let
     } must not be null"
   );
 
+  lib.filesystem.dirToDirectory = throwIfPrevLibDefines [ "filesystem" "dirToDirectory" ] (
+    throwIfPrevLibDefines [ "path" "dirToDirectory" ] (
+      path: dir:
+      mapAttrs (name: type: {
+        inherit type;
+        path = path + "/${name}";
+      }) dir
+    )
+  );
+
+  lib.filesystem.readDir = throwIfPrevLibDefines [ "filesystem" "readDir" ] (
+    prevFilesystem.readDir or builtins.readDir
+  );
+
+  lib.filesystem.readDirectory = throwIfPrevLibDefines [ "filesystem" "readDirectory" ] (
+    path: dirToDirectory path (readDir path)
+  );
+
   lib.trivial.isNull = prevTrivial.isNull or builtins.isNull;
 
   lib.trivial.null = prevTrivial.null or builtins.null;
@@ -195,6 +215,7 @@ let
     msg: maybeValue: throwIf (isNull maybeValue) msg
   );
 
+  prevFilesystem = prevLib.filesystem;
   prevTrivial = prevLib.trivial;
 
   throwIfPrevLibDefines =
