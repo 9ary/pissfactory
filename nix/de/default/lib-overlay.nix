@@ -2,9 +2,13 @@
 finalLib: prevLib:
 let
   inherit (builtins) addErrorContext;
-  inherit (finalLib.attrsets) attrByPath attrNames defaultPackageArgTo;
+  inherit (finalLib.attrsets)
+    attrByPath
+    attrNames
+    defaultPackageArgTo
+    showAttrPath
+    ;
   inherit (finalLib.lists) concatMap;
-  inherit (finalLib.strings) showAttrPath;
   inherit (finalLib.trivial) isNull null throwIf;
 
   /**
