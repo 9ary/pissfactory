@@ -30,6 +30,7 @@
       lib = inputs.by-name.libs.default;
       pissfactoryLib = lib.extend table.rows.default.libOverlay;
       table = lib.filesystem.readNameBasedTableDirectory {
+        readRowsDirectory = lib.filesystem.readDirectory;
         rowFromFile."flake-module.nix" = table: { flakeModule = importModuleCell table; };
         rowFromFile."lib-overlay.nix" = table: { libOverlay = importCell table; };
         rowFromFile."nixpkgs-overlay.nix" = table: { nixpkgsOverlay = importCell table; };

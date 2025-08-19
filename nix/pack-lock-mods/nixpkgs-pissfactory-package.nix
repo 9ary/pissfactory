@@ -24,4 +24,4 @@ writePython3Bin "lock_mods" {
     "--add-flags"
     "${pack.src}/manifest.json"
   ];
-} ../../../lock_mods.py
+} ../../lock_mods.py

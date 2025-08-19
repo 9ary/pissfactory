@@ -29,5 +29,5 @@ linkFarmFromDrvs "pack-modcache" (
       url = mod.downloadUrl;
       sha1 = (elemAt (filter (v: v.algo == 1) hashes) 0).value;
     }
-  ) (fromJSON (readFile ../../../mods.json))
+  ) (fromJSON (readFile ../../mods.json))
 )

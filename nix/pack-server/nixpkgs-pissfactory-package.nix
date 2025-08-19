@@ -15,7 +15,7 @@ in
 writeShellApplication {
   name = "pissfactory-server";
   text = ''
-    cp -f ${escapeStorePath ../../../bootstrap/minecraft/unsup.ini} unsup.ini
+    cp -f ${escapeStorePath ../../bootstrap/minecraft/unsup.ini} unsup.ini
     java -jar ${escapeStorePath unsup} server
 
     if [[ forge-installer.jar -nt forge-server/.timestamp ]]; then

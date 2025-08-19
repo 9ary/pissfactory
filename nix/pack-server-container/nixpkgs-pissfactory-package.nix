@@ -33,7 +33,7 @@ nix2container.buildImage {
     entrypoint = [ (getExe pack-server) ];
     WorkingDir = "/var/lib/pissfactory";
     Env = [
-      "PISSFACTORY_PRODUCTION_OVERLAY=${../../../server_cfg}"
+      "PISSFACTORY_PRODUCTION_OVERLAY=${../../server_cfg}"
     ];
     Volumes = {
       ${WorkingDir} = { };
