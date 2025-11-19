@@ -98,14 +98,15 @@ stdenvNoCC.mkDerivation (finalAttrs: {
         --subst-var-by forge_version "$(jq -r '.minecraft.modLoaders[0].id | sub("^forge-"; "")' "$src/manifest.json")" \
         --subst-var-by unsup_version ${escapeShellArg unsup.version}
       : > index.toml
-      cp ${escapeStorePath ../../bootstrap/minecraft/unsup.ini} unsup.ini
+      cp ${escapeStorePath (finalAttrs.passthru.bootstrap + "/minecraft/unsup.ini")} unsup.ini
       python3 ${escapeStorePath ../../packwiz/gen_pw_mods.py} ${escapeStorePath ../../mods.json}
       substitute ${escapeStorePath ../../packwiz/forge-installer.pw.toml.in} forge-installer.pw.toml \
         --subst-var-by url ${escapeShellArg forge-server.src.url} \
         --subst-var-by hash ${escapeShellArg forge-server.src.outputHash}
       packwiz refresh
     )
-    (cd ${escapeStorePath ../../bootstrap}; zip -r "$out/pissfactory.zip" {,.}*)
     runHook postInstall
   '';
+
+  passthru.bootstrap = ../../bootstrap;
 })
