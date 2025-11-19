@@ -96,7 +96,7 @@ in
           ];
         }
       ) { };
-      config.packages.default = pkgs.pissfactory.pack_hardmode;
+      config.packages.default = pkgs.pissfactory.minecraft-site-static-root;
       config.legacyPackages =
         let
           inherit (lib.lists) all;
