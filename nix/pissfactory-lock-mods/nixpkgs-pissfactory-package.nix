@@ -1,7 +1,7 @@
 { ... }:
 args@{
   lib,
-  pack,
+  pissfactory,
   python3Packages,
   writePython3Bin ? null,
   writers,
@@ -22,6 +22,6 @@ writePython3Bin "lock_mods" {
     ];
   makeWrapperArgs = [
     "--add-flags"
-    "${pack.src}/manifest.json"
+    "${pissfactory.src}/manifest.json"
   ];
-} ../../lock_mods.py
+} ../../packs/pissfactory/lock_mods.py

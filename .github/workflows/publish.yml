@@ -24,7 +24,9 @@ jobs:
         env:
           CFCORE_API_TOKEN: ${{ secrets.CFCORE_API_TOKEN }}
         run: |
-          nix run .#pack-lock-mods
+          cd packs/pissfactory
+          nix run ../..#pissfactory-lock-mods
+          cd ../..
           git diff --exit-code
       - name: Build checks
         run: nix-fast-build --skip-cached --no-nom --flake ".#checks.$(nix eval --raw --impure --expr builtins.currentSystem)"
@@ -37,8 +39,8 @@ jobs:
           path: result/
       - name: Build server container
         run: |
-          nix build -L --show-trace .#pack-server-container
-          nix run .#pack-server-container.copyTo -- oci-archive:server.tar
+          nix build -L --show-trace .#pissfactory-server-container
+          nix run .#pissfactory-server-container.copyTo -- oci-archive:server.tar
       - name: Upload container archive
         id: container
         uses: actions/upload-artifact@v4

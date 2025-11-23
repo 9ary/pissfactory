@@ -1,7 +1,7 @@
 { ... }:
 {
   fetchurl,
-  jre,
+  jre21,
   stdenvNoCC,
   ...
 }:
@@ -12,7 +12,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   outputHashMode = "recursive";
   outputHash = "sha256-kZlxL54b/PZGdrxnN3U4NrgixRKN1eqwZ4TeRKvSpYw=";
 
-  nativeBuildInputs = [ jre ];
+  nativeBuildInputs = [ jre21 ];
 
   src = fetchurl {
     url = "https://maven.minecraftforge.net/net/minecraftforge/forge/${finalAttrs.version}/forge-${finalAttrs.version}-installer.jar";

@@ -2,9 +2,9 @@
 {
   coreutils,
   gnused,
-  jre,
+  jre21,
   lib,
-  unsup,
+  unsup_pissfactory,
   writeShellApplication,
   ...
 }:
@@ -15,8 +15,8 @@ in
 writeShellApplication {
   name = "pissfactory-server";
   text = ''
-    cp -f ${escapeStorePath ../../bootstrap/minecraft/unsup.ini} unsup.ini
-    java -jar ${escapeStorePath unsup} server
+    cp -f ${escapeStorePath ../../packs/pissfactory/bootstrap/minecraft/unsup.ini} unsup.ini
+    java -jar ${escapeStorePath unsup_pissfactory} server
 
     if [[ forge-installer.jar -nt forge-server/.timestamp ]]; then
       rm -rf forge-server
@@ -41,6 +41,6 @@ writeShellApplication {
   runtimeInputs = [
     coreutils
     gnused
-    jre
+    jre21
   ];
 }

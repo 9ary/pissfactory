@@ -1,10 +1,10 @@
 { ... }:
 {
   attrPathForPackage,
-  pack,
+  pissfactory,
   ...
 }:
-pack.override {
+pissfactory.override {
   inherit attrPathForPackage;
-  withPackMode = "expert";
+  withPackMode = "normal";
 }

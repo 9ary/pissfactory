@@ -3,7 +3,7 @@
   buildEnv,
   lib,
   linkFarm,
-  pack_hardmode,
+  pissfactory_hardmode,
   runCommand,
   zip,
   ...
@@ -57,10 +57,10 @@ in
 buildEnv {
   name = "minecraft-site-static-root";
   paths = [
-    pack_hardmode
+    pissfactory_hardmode
     (minecraft-site-static-root-pack {
-      bootstrap = pack_hardmode.bootstrap;
-      minecraft = pack_hardmode;
+      bootstrap = pissfactory_hardmode.bootstrap;
+      minecraft = pissfactory_hardmode;
       name = "pissfactory";
     })
   ];

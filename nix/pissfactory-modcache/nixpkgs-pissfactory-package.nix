@@ -14,7 +14,7 @@ let
     ;
   inherit (lib.strings) fromJSON readFile;
 in
-linkFarmFromDrvs "pack-modcache" (
+linkFarmFromDrvs "pissfactory-modcache" (
   map (
     mod:
     let
@@ -29,5 +29,5 @@ linkFarmFromDrvs "pack-modcache" (
       url = mod.downloadUrl;
       sha1 = (elemAt (filter (v: v.algo == 1) hashes) 0).value;
     }
-  ) (fromJSON (readFile ../../mods.json))
+  ) (fromJSON (readFile ../../packs/pissfactory/mods.json))
 )
