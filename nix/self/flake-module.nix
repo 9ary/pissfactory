@@ -3,7 +3,7 @@
 let
   rootConfig = config;
   nixpkgsOverlays = config.flake.overlays;
-  pissfactoryLib = config.flake.libs.default;
+  catgirlVLib = config.flake.libs.default;
 in
 {
   config.flake.flakeModules = columns.flakeModule;
@@ -75,7 +75,7 @@ in
                 [ ]
             ) attrs;
           flattenDerivations = namePrefix: attrs: listToAttrs (flattenDerivationsToList namePrefix attrs);
-          lib = pissfactoryLib;
+          lib = catgirlVLib;
           shouldRecurseIntoAttrs = value: value.recurseForDerivations or false;
         in
         flattenDerivations null (
@@ -96,7 +96,7 @@ in
           ];
         }
       ) { };
-      config.packages.default = pkgs.pissfactory.minecraft-site-static-root;
+      config.packages.default = pkgs.catgirlV.minecraft-site-static-root;
       config.legacyPackages =
         let
           inherit (lib.lists) all;
@@ -108,7 +108,7 @@ in
             isDerivation
             removeAttrs
             ;
-          pissfactoryLegacyPackages = removeAttrs pkgs.pissfactory [
+          catgirlVLegacyPackages = removeAttrs pkgs.catgirlV [
             "callPackage"
             "newScope"
             "override"
@@ -119,12 +119,12 @@ in
           extraLegacyPackages = {
             nixpkgs = dontRecurseIntoAttrs pkgs;
           };
-          overriddenPissfactoryLegacyPackages = intersectAttrs extraLegacyPackages pissfactoryLegacyPackages;
-          overriddenPissfactoryLegacyPackageNames = attrNames overriddenPissfactoryLegacyPackages;
+          overriddenCatgirlVLegacyPackages = intersectAttrs extraLegacyPackages catgirlVLegacyPackages;
+          overriddenCatgirlVLegacyPackageNames = attrNames overriddenCatgirlVLegacyPackages;
         in
-        assert all isDerivation (attrValues pissfactoryLegacyPackages);
-        assert overriddenPissfactoryLegacyPackageNames == [ ];
-        pissfactoryLegacyPackages // extraLegacyPackages;
+        assert all isDerivation (attrValues catgirlVLegacyPackages);
+        assert overriddenCatgirlVLegacyPackageNames == [ ];
+        catgirlVLegacyPackages // extraLegacyPackages;
     };
   config.systems = lib.systems.flakeExposed;
 }

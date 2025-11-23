@@ -28,19 +28,19 @@
         in
         setDefaultModuleLocation path (import path table);
       lib = inputs.by-name.libs.default;
-      pissfactoryLib = lib.extend table.rows.default.libOverlay;
+      catgirlVLib = lib.extend table.rows.default.libOverlay;
       table = lib.filesystem.readNameBasedTableDirectory {
         readRowsDirectory = lib.filesystem.readDirectory;
         rowFromFile."flake-module.nix" = table: { flakeModule = importModuleCell table; };
         rowFromFile."lib-overlay.nix" = table: { libOverlay = importCell table; };
         rowFromFile."nixpkgs-overlay.nix" = table: { nixpkgsOverlay = importCell table; };
         rowFromFile."nixpkgs-package.nix" = table: { nixpkgsPackage = importCell table; };
-        rowFromFile."nixpkgs-pissfactory-package.nix" = table: {
-          nixpkgsPissfactoryPackage = importCell table;
+        rowFromFile."nixpkgs-catgirl-v-package.nix" = table: {
+          nixpkgsCatgirlVPackage = importCell table;
         };
         rowsPath = ./nix;
         specialColumns.input = inputs;
-        specialColumns.lib.default = pissfactoryLib;
+        specialColumns.lib.default = catgirlVLib;
       };
     in
     inputs.flake-parts.lib.mkFlake {
