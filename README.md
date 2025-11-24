@@ -9,5 +9,5 @@ revel in the glory
   bad anyway)
 - point the instance at your java17+ runtime (21+ recommended)
 - ensure 6-8GiB memory is allocated to the game
-- optionally check recommended JVM flags: https://garden.unascribed.com/jvm-args/
+- optionally check recommended JVM flags: <https://exa.y2k.diy/garden/jvm-args/>
 - launch
